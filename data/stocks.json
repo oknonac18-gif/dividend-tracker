@@ -1,8 +1,4135 @@
 {
   "meta": {
-    "updated": "2026-05-03T00:00:00+09:00",
-    "vix": null,
-    "vix_updated": null
+    "updated": "2026-05-03T19:56:31+09:00",
+    "vix": 16.99,
+    "vix_updated": "2026-05-03T19:53:51+09:00"
   },
-  "stocks": []
+  "stocks": [
+    {
+      "code": "9364",
+      "name_ja": "上組",
+      "sector_ja": "産業・機械",
+      "price": 5267.0,
+      "prev_close": 5195.0,
+      "day_change_pct": 1.39,
+      "yield": 351.0,
+      "yield_error": true,
+      "annual_dividend": 185.0,
+      "market_cap": 519963213824,
+      "per": 18.726444,
+      "pbr": 1.3508984,
+      "op_margin": 12.51,
+      "payout_ratio": 60.4,
+      "equity_ratio": 77.97,
+      "revenue_trend": [
+        100,
+        97,
+        102
+      ],
+      "eps_trend": [
+        100,
+        106,
+        117
+      ],
+      "cash_trend": [
+        100,
+        121,
+        114
+      ],
+      "op_cashflow": 40409000000.0,
+      "dividend_history": [
+        105.0,
+        170.0,
+        95.0
+      ],
+      "high_52w": 5818.0,
+      "low_52w": 3493.0,
+      "ma25": 5393.5,
+      "ma75": 5428.7,
+      "error": null
+    },
+    {
+      "code": "4097",
+      "name_ja": "高圧ガス工業",
+      "sector_ja": "素材・化学",
+      "price": 1100.0,
+      "prev_close": 1100.0,
+      "day_change_pct": 0.0,
+      "yield": 364.0,
+      "yield_error": true,
+      "annual_dividend": 40.0,
+      "market_cap": 60723752960,
+      "per": 12.4532995,
+      "pbr": 0.7429435,
+      "op_margin": 6.29,
+      "payout_ratio": 33.96,
+      "equity_ratio": 64.16,
+      "revenue_trend": [
+        100,
+        102,
+        108
+      ],
+      "eps_trend": [
+        100,
+        114,
+        121
+      ],
+      "cash_trend": [
+        100,
+        111,
+        114
+      ],
+      "op_cashflow": 6421000000.0,
+      "dividend_history": [
+        21.0,
+        30.0,
+        20.0
+      ],
+      "high_52w": 1198.0,
+      "low_52w": 931.0,
+      "ma25": 1101.2,
+      "ma75": 1106.4,
+      "error": null
+    },
+    {
+      "code": "7269",
+      "name_ja": "鈴木",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 1753.0,
+      "prev_close": 1748.5,
+      "day_change_pct": 0.26,
+      "yield": 262.0,
+      "yield_error": true,
+      "annual_dividend": 46.0,
+      "market_cap": 3382017261568,
+      "per": 8.643131,
+      "pbr": 1.0238338,
+      "op_margin": 9.24,
+      "payout_ratio": 21.2,
+      "equity_ratio": 49.56,
+      "revenue_trend": [
+        100,
+        115,
+        125
+      ],
+      "eps_trend": [
+        100,
+        144,
+        190
+      ],
+      "cash_trend": [
+        100,
+        97,
+        97
+      ],
+      "op_cashflow": 669784000000.0,
+      "dividend_history": [
+        36.8,
+        43.0,
+        24.0
+      ],
+      "high_52w": 2473.0,
+      "low_52w": 1609.5,
+      "ma25": 1836.6,
+      "ma75": 2046.7,
+      "error": null
+    },
+    {
+      "code": "2659",
+      "name_ja": "サンエー",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 3250.0,
+      "prev_close": 3290.0,
+      "day_change_pct": -1.22,
+      "yield": 338.0,
+      "yield_error": true,
+      "annual_dividend": 110.0,
+      "market_cap": 201004875776,
+      "per": 18.831846,
+      "pbr": 1.2850894,
+      "op_margin": 5.69,
+      "payout_ratio": 57.91,
+      "equity_ratio": 78.71,
+      "revenue_trend": [
+        100,
+        107,
+        111
+      ],
+      "eps_trend": [
+        100,
+        107,
+        100
+      ],
+      "cash_trend": [
+        100,
+        140,
+        152
+      ],
+      "op_cashflow": 14980000000.0,
+      "dividend_history": [
+        55.0,
+        80.0,
+        125.0
+      ],
+      "high_52w": 3485.0,
+      "low_52w": 2632.0,
+      "ma25": 3253.4,
+      "ma75": 3052.7,
+      "error": null
+    },
+    {
+      "code": "4719",
+      "name_ja": "アルファシステムズ",
+      "sector_ja": "情報技術",
+      "price": 3300.0,
+      "prev_close": 3310.0,
+      "day_change_pct": -0.3,
+      "yield": 394.0,
+      "yield_error": true,
+      "annual_dividend": 130.0,
+      "market_cap": 46327619584,
+      "per": 13.5318,
+      "pbr": 1.0430644,
+      "op_margin": 15.29,
+      "payout_ratio": 45.13,
+      "equity_ratio": 83.57,
+      "revenue_trend": [
+        100,
+        102,
+        108
+      ],
+      "eps_trend": [
+        100,
+        104,
+        110
+      ],
+      "cash_trend": [
+        100,
+        111,
+        105
+      ],
+      "op_cashflow": 1568352000.0,
+      "dividend_history": [
+        115.0,
+        135.0,
+        65.0
+      ],
+      "high_52w": 4240.0,
+      "low_52w": 3145.0,
+      "ma25": 3408.6,
+      "ma75": 3567.2,
+      "error": null
+    },
+    {
+      "code": "1414",
+      "name_ja": "ショーボンドホールディングス",
+      "sector_ja": "産業・機械",
+      "price": 1320.5,
+      "prev_close": 1325.0,
+      "day_change_pct": -0.34,
+      "yield": 345.0,
+      "yield_error": true,
+      "annual_dividend": 45.5,
+      "market_cap": 265923657728,
+      "per": 18.31484,
+      "pbr": 2.530823,
+      "op_margin": 23.37,
+      "payout_ratio": 67.12,
+      "equity_ratio": 81.38,
+      "revenue_trend": [
+        100,
+        102,
+        108
+      ],
+      "eps_trend": [
+        100,
+        112,
+        120
+      ],
+      "cash_trend": [
+        100,
+        155,
+        185
+      ],
+      "op_cashflow": 9473000000.0,
+      "dividend_history": [
+        32.5,
+        37.0,
+        48.4
+      ],
+      "high_52w": 1537.0,
+      "low_52w": 1152.25,
+      "ma25": 1392.5,
+      "ma75": 1410.6,
+      "error": null
+    },
+    {
+      "code": "9687",
+      "name_ja": "KSK",
+      "sector_ja": "情報技術",
+      "price": 4360.0,
+      "prev_close": 4440.0,
+      "day_change_pct": -1.8,
+      "yield": 436.0,
+      "yield_error": true,
+      "annual_dividend": 190.0,
+      "market_cap": 26436511744,
+      "per": 10.25641,
+      "pbr": 1.420692,
+      "op_margin": 8.56,
+      "payout_ratio": 29.16,
+      "equity_ratio": 72.86,
+      "revenue_trend": [
+        100,
+        107,
+        116
+      ],
+      "eps_trend": [
+        100,
+        107,
+        116
+      ],
+      "cash_trend": [
+        100,
+        121,
+        113
+      ],
+      "op_cashflow": 1825000000.0,
+      "dividend_history": [
+        226.0,
+        124.0,
+        181.0
+      ],
+      "high_52w": 5810.0,
+      "low_52w": 3250.0,
+      "ma25": 4366.6,
+      "ma75": 4361.7,
+      "error": null
+    },
+    {
+      "code": "9381",
+      "name_ja": "エーアイテイー",
+      "sector_ja": "産業・機械",
+      "price": 2203.0,
+      "prev_close": 2210.0,
+      "day_change_pct": -0.32,
+      "yield": 499.0,
+      "yield_error": true,
+      "annual_dividend": 110.0,
+      "market_cap": 51756384256,
+      "per": 16.287151,
+      "pbr": 2.5253162,
+      "op_margin": 6.37,
+      "payout_ratio": 73.98,
+      "equity_ratio": 74.58,
+      "revenue_trend": [
+        100,
+        74,
+        80
+      ],
+      "eps_trend": [
+        100,
+        81,
+        83
+      ],
+      "cash_trend": [
+        100,
+        94,
+        92
+      ],
+      "op_cashflow": 3228000000.0,
+      "dividend_history": [
+        80.0,
+        85.0,
+        55.0
+      ],
+      "high_52w": 2329.0,
+      "low_52w": 1701.0,
+      "ma25": 2224.5,
+      "ma75": 2221.2,
+      "error": null
+    },
+    {
+      "code": "7723",
+      "name_ja": "愛知時計電機",
+      "sector_ja": "情報技術",
+      "price": 2915.0,
+      "prev_close": 2891.0,
+      "day_change_pct": 0.83,
+      "yield": 388.0,
+      "yield_error": true,
+      "annual_dividend": 113.0,
+      "market_cap": 44720918528,
+      "per": 11.480898,
+      "pbr": 0.9018845,
+      "op_margin": 12.15,
+      "payout_ratio": 33.48,
+      "equity_ratio": 74.6,
+      "revenue_trend": [
+        100,
+        102,
+        108
+      ],
+      "eps_trend": [
+        100,
+        92,
+        102
+      ],
+      "cash_trend": [
+        100,
+        96,
+        91
+      ],
+      "op_cashflow": 1856000000.0,
+      "dividend_history": [
+        68.0,
+        85.0,
+        68.0
+      ],
+      "high_52w": 3340.0,
+      "low_52w": 1995.0,
+      "ma25": 2949.8,
+      "ma75": 2970.7,
+      "error": null
+    },
+    {
+      "code": "3333",
+      "name_ja": "あさひ",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 1268.0,
+      "prev_close": 1286.0,
+      "day_change_pct": -1.4,
+      "yield": 394.0,
+      "yield_error": true,
+      "annual_dividend": 50.0,
+      "market_cap": 33021155328,
+      "per": 14.556308,
+      "pbr": 0.8222596,
+      "op_margin": -2.33,
+      "payout_ratio": 57.39,
+      "equity_ratio": 71.84,
+      "revenue_trend": [
+        100,
+        105,
+        109
+      ],
+      "eps_trend": [
+        100,
+        92,
+        106
+      ],
+      "cash_trend": [
+        100,
+        179,
+        178
+      ],
+      "op_cashflow": 4293272000.0,
+      "dividend_history": [
+        47.5,
+        50.0,
+        25.0
+      ],
+      "high_52w": 1457.0,
+      "low_52w": 1249.0,
+      "ma25": 1338.8,
+      "ma75": 1301.2,
+      "error": null
+    },
+    {
+      "code": "4540",
+      "name_ja": "ツムラ",
+      "sector_ja": "医薬品・医療",
+      "price": 3630.0,
+      "prev_close": 3651.0,
+      "day_change_pct": -0.58,
+      "yield": 397.0,
+      "yield_error": true,
+      "annual_dividend": 144.0,
+      "market_cap": 270598029312,
+      "per": 9.990093,
+      "pbr": 0.8862391,
+      "op_margin": 21.24,
+      "payout_ratio": 37.44,
+      "equity_ratio": 64.72,
+      "revenue_trend": [
+        100,
+        108,
+        129
+      ],
+      "eps_trend": [
+        100,
+        102,
+        198
+      ],
+      "cash_trend": [
+        100,
+        82,
+        77
+      ],
+      "op_cashflow": 33823000000.0,
+      "dividend_history": [
+        118.0,
+        136.0,
+        76.0
+      ],
+      "high_52w": 4403.0,
+      "low_52w": 3306.0,
+      "ma25": 3756.4,
+      "ma75": 3884.0,
+      "error": null
+    },
+    {
+      "code": "7989",
+      "name_ja": "立川ブラインド工業",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 2535.0,
+      "prev_close": 2544.0,
+      "day_change_pct": -0.35,
+      "yield": 552.0,
+      "yield_error": true,
+      "annual_dividend": 140.0,
+      "market_cap": 50956406784,
+      "per": 15.72288,
+      "pbr": 0.904252,
+      "op_margin": 10.9,
+      "payout_ratio": 43.43,
+      "equity_ratio": 83.2,
+      "revenue_trend": [
+        100,
+        100,
+        103
+      ],
+      "eps_trend": [
+        100,
+        110,
+        124
+      ],
+      "cash_trend": [
+        100,
+        100,
+        114
+      ],
+      "op_cashflow": 4522933000.0,
+      "dividend_history": [
+        36.0,
+        46.0,
+        70.0
+      ],
+      "high_52w": 2674.0,
+      "low_52w": 1450.0,
+      "ma25": 2575.2,
+      "ma75": 2403.3,
+      "error": null
+    },
+    {
+      "code": "4345",
+      "name_ja": "シーティーエス",
+      "sector_ja": "産業・機械",
+      "price": 835.0,
+      "prev_close": 865.0,
+      "day_change_pct": -3.47,
+      "yield": 359.0,
+      "yield_error": true,
+      "annual_dividend": 30.0,
+      "market_cap": 34456379392,
+      "per": 12.836279,
+      "pbr": 2.1939735,
+      "op_margin": 27.36,
+      "payout_ratio": 44.57,
+      "equity_ratio": 75.36,
+      "revenue_trend": [
+        100,
+        103,
+        109
+      ],
+      "eps_trend": [
+        100,
+        106,
+        126
+      ],
+      "cash_trend": [
+        100,
+        111,
+        72
+      ],
+      "op_cashflow": 2842000000.0,
+      "dividend_history": [
+        25.0,
+        26.5,
+        15.0
+      ],
+      "high_52w": 1112.0,
+      "low_52w": 781.0,
+      "ma25": 905.4,
+      "ma75": 951.6,
+      "error": null
+    },
+    {
+      "code": "6432",
+      "name_ja": "竹内製作所",
+      "sector_ja": "産業・機械",
+      "price": 7020.0,
+      "prev_close": 7020.0,
+      "day_change_pct": 0.0,
+      "yield": 313.0,
+      "yield_error": true,
+      "annual_dividend": 220.0,
+      "market_cap": 324274257920,
+      "per": 11.467964,
+      "pbr": 1.7346898,
+      "op_margin": 11.92,
+      "payout_ratio": 34.32,
+      "equity_ratio": 76.7,
+      "revenue_trend": [
+        100,
+        119,
+        119
+      ],
+      "eps_trend": [
+        100,
+        164,
+        165
+      ],
+      "cash_trend": [
+        100,
+        125,
+        106
+      ],
+      "op_cashflow": 8283000000.0,
+      "dividend_history": [
+        158.0,
+        200.0,
+        210.0
+      ],
+      "high_52w": 7760.0,
+      "low_52w": 4380.0,
+      "ma25": 6700.4,
+      "ma75": 6677.6,
+      "error": null
+    },
+    {
+      "code": "3003",
+      "name_ja": "ヒューリック",
+      "sector_ja": "不動産",
+      "price": 1799.0,
+      "prev_close": 1766.0,
+      "day_change_pct": 1.87,
+      "yield": 372.0,
+      "yield_error": true,
+      "annual_dividend": 67.0,
+      "market_cap": 1366016262144,
+      "per": 11.947138,
+      "pbr": 1.5027596,
+      "op_margin": 13.74,
+      "payout_ratio": 41.2,
+      "equity_ratio": 26.05,
+      "revenue_trend": [
+        100,
+        133,
+        163
+      ],
+      "eps_trend": [
+        100,
+        108,
+        121
+      ],
+      "cash_trend": [
+        100,
+        162,
+        158
+      ],
+      "op_cashflow": 269239000000.0,
+      "dividend_history": [
+        50.0,
+        54.0,
+        62.0
+      ],
+      "high_52w": 2094.0,
+      "low_52w": 1414.5,
+      "ma25": 1858.0,
+      "ma75": 1890.3,
+      "error": null
+    },
+    {
+      "code": "8725",
+      "name_ja": "MS&ADインシュアランスHD",
+      "sector_ja": "金融サービス",
+      "price": 3996.0,
+      "prev_close": 4034.0,
+      "day_change_pct": -0.94,
+      "yield": 300.0,
+      "yield_error": true,
+      "annual_dividend": 120.0,
+      "market_cap": 5797954191360,
+      "per": 8.284956,
+      "pbr": 1.2794716,
+      "op_margin": 13.98,
+      "payout_ratio": 22.81,
+      "equity_ratio": 15.25,
+      "revenue_trend": [
+        100,
+        125,
+        126
+      ],
+      "eps_trend": [
+        100,
+        178,
+        1024
+      ],
+      "cash_trend": [
+        100,
+        105,
+        77
+      ],
+      "op_cashflow": 660188000000.0,
+      "dividend_history": [
+        122.5,
+        150.0,
+        77.5
+      ],
+      "high_52w": 4401.0,
+      "low_52w": 3069.0,
+      "ma25": 4058.2,
+      "ma75": 4027.7,
+      "error": null
+    },
+    {
+      "code": "4752",
+      "name_ja": "昭和システムエンジニアリング",
+      "sector_ja": "情報技術",
+      "price": 1540.0,
+      "prev_close": 1565.0,
+      "day_change_pct": -1.6,
+      "yield": 357.0,
+      "yield_error": true,
+      "annual_dividend": 55.0,
+      "market_cap": 6592966144,
+      "per": 8.688293,
+      "pbr": 1.1403623,
+      "op_margin": 10.58,
+      "payout_ratio": 31.03,
+      "equity_ratio": 61.57,
+      "revenue_trend": [
+        100,
+        112,
+        117
+      ],
+      "eps_trend": [
+        100,
+        126,
+        137
+      ],
+      "cash_trend": [
+        100,
+        110,
+        110
+      ],
+      "op_cashflow": 624910000.0,
+      "dividend_history": [
+        50.0,
+        55.0,
+        55.0
+      ],
+      "high_52w": 1868.0,
+      "low_52w": 1344.0,
+      "ma25": 1578.4,
+      "ma75": 1570.5,
+      "error": null
+    },
+    {
+      "code": "7292",
+      "name_ja": "村上開明堂",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 6700.0,
+      "prev_close": 6790.0,
+      "day_change_pct": -1.33,
+      "yield": 313.0,
+      "yield_error": true,
+      "annual_dividend": 210.0,
+      "market_cap": 77621198848,
+      "per": 11.587485,
+      "pbr": 0.8508857,
+      "op_margin": 7.51,
+      "payout_ratio": 38.92,
+      "equity_ratio": 76.97,
+      "revenue_trend": [
+        100,
+        115,
+        120
+      ],
+      "eps_trend": [
+        100,
+        113,
+        117
+      ],
+      "cash_trend": [
+        100,
+        110,
+        121
+      ],
+      "op_cashflow": 9842000000.0,
+      "dividend_history": [
+        180.0,
+        225.0,
+        105.0
+      ],
+      "high_52w": 7310.0,
+      "low_52w": 5430.0,
+      "ma25": 6643.0,
+      "ma75": 6492.5,
+      "error": null
+    },
+    {
+      "code": "7438",
+      "name_ja": "コンドーテック",
+      "sector_ja": "産業・機械",
+      "price": 1458.0,
+      "prev_close": 1450.0,
+      "day_change_pct": 0.55,
+      "yield": 357.0,
+      "yield_error": true,
+      "annual_dividend": 52.0,
+      "market_cap": 37375975424,
+      "per": 11.627722,
+      "pbr": 0.99137884,
+      "op_margin": 6.05,
+      "payout_ratio": 39.1,
+      "equity_ratio": 55.68,
+      "revenue_trend": [
+        100,
+        102,
+        105
+      ],
+      "eps_trend": [
+        100,
+        135,
+        135
+      ],
+      "cash_trend": [
+        100,
+        110,
+        144
+      ],
+      "op_cashflow": 5840000000.0,
+      "dividend_history": [
+        43.0,
+        49.0,
+        26.0
+      ],
+      "high_52w": 1748.0,
+      "low_52w": 1382.0,
+      "ma25": 1502.1,
+      "ma75": 1490.0,
+      "error": null
+    },
+    {
+      "code": "6381",
+      "name_ja": "アネスト岩田",
+      "sector_ja": "産業・機械",
+      "price": 1591.0,
+      "prev_close": 1583.0,
+      "day_change_pct": 0.51,
+      "yield": 522.0,
+      "yield_error": true,
+      "annual_dividend": 83.0,
+      "market_cap": 62663471104,
+      "per": 14.771145,
+      "pbr": 1.3203429,
+      "op_margin": 9.76,
+      "payout_ratio": 59.4,
+      "equity_ratio": 67.7,
+      "revenue_trend": [
+        100,
+        110,
+        112
+      ],
+      "eps_trend": [
+        100,
+        113,
+        100
+      ],
+      "cash_trend": [
+        100,
+        117,
+        147
+      ],
+      "op_cashflow": 9746000000.0,
+      "dividend_history": [
+        49.0,
+        64.0,
+        42.0
+      ],
+      "high_52w": 1809.0,
+      "low_52w": 1084.0,
+      "ma25": 1618.3,
+      "ma75": 1639.7,
+      "error": null
+    },
+    {
+      "code": "8309",
+      "name_ja": "三井住友トラストグループ",
+      "sector_ja": "金融サービス",
+      "price": 5328.0,
+      "prev_close": 5178.0,
+      "day_change_pct": 2.9,
+      "yield": 347.0,
+      "yield_error": true,
+      "annual_dividend": 185.0,
+      "market_cap": 3713537933312,
+      "per": 12.594553,
+      "pbr": 1.1168784,
+      "op_margin": 32.85,
+      "payout_ratio": 37.22,
+      "equity_ratio": 3.96,
+      "revenue_trend": [
+        100,
+        107,
+        133
+      ],
+      "eps_trend": [
+        100,
+        42,
+        139
+      ],
+      "cash_trend": [
+        100,
+        106,
+        117
+      ],
+      "op_cashflow": 3976669000000.0,
+      "dividend_history": [
+        127.5,
+        162.5,
+        105.0
+      ],
+      "high_52w": 5808.0,
+      "low_52w": 3385.0,
+      "ma25": 5215.3,
+      "ma75": 5138.7,
+      "error": null
+    },
+    {
+      "code": "7994",
+      "name_ja": "オカムラ",
+      "sector_ja": "産業・機械",
+      "price": 2505.0,
+      "prev_close": 2502.0,
+      "day_change_pct": 0.12,
+      "yield": 387.0,
+      "yield_error": true,
+      "annual_dividend": 97.0,
+      "market_cap": 237163184128,
+      "per": 11.037674,
+      "pbr": 1.2383854,
+      "op_margin": 5.72,
+      "payout_ratio": 42.96,
+      "equity_ratio": 64.03,
+      "revenue_trend": [
+        100,
+        108,
+        114
+      ],
+      "eps_trend": [
+        100,
+        131,
+        143
+      ],
+      "cash_trend": [
+        100,
+        102,
+        68
+      ],
+      "op_cashflow": 983000000.0,
+      "dividend_history": [
+        88.0,
+        101.0,
+        52.0
+      ],
+      "high_52w": 2761.0,
+      "low_52w": 1973.0,
+      "ma25": 2540.0,
+      "ma75": 2492.5,
+      "error": null
+    },
+    {
+      "code": "7817",
+      "name_ja": "パラマウントベッドホールディングス",
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": null
+    },
+    {
+      "code": "2317",
+      "name_ja": "システナ",
+      "sector_ja": "情報技術",
+      "price": 420.0,
+      "prev_close": 426.0,
+      "day_change_pct": -1.41,
+      "yield": 167.0,
+      "yield_error": true,
+      "annual_dividend": 7.0,
+      "market_cap": 150131458048,
+      "per": 14.685314,
+      "pbr": 4.0696096,
+      "op_margin": 17.19,
+      "payout_ratio": 41.94,
+      "equity_ratio": 62.72,
+      "revenue_trend": [
+        100,
+        103,
+        112
+      ],
+      "eps_trend": [
+        100,
+        99,
+        123
+      ],
+      "cash_trend": [
+        100,
+        121,
+        87
+      ],
+      "op_cashflow": 7979000000.0,
+      "dividend_history": [
+        11.0,
+        12.0,
+        7.0
+      ],
+      "high_52w": 555.0,
+      "low_52w": 367.0,
+      "ma25": 426.0,
+      "ma75": 440.6,
+      "error": null
+    },
+    {
+      "code": "1928",
+      "name_ja": "積水ハウス",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 3417.0,
+      "prev_close": 3410.0,
+      "day_change_pct": 0.21,
+      "yield": 427.0,
+      "yield_error": true,
+      "annual_dividend": 146.0,
+      "market_cap": 2215027408896,
+      "per": 9.542027,
+      "pbr": 1.0352465,
+      "op_margin": 10.34,
+      "payout_ratio": 40.23,
+      "equity_ratio": 42.74,
+      "revenue_trend": [
+        100,
+        131,
+        135
+      ],
+      "eps_trend": [
+        100,
+        109,
+        116
+      ],
+      "cash_trend": [
+        100,
+        133,
+        148
+      ],
+      "op_cashflow": 216325000000.0,
+      "dividend_history": [
+        128.0,
+        143.0,
+        72.0
+      ],
+      "high_52w": 3832.0,
+      "low_52w": 3000.0,
+      "ma25": 3515.8,
+      "ma75": 3566.4,
+      "error": null
+    },
+    {
+      "code": "4042",
+      "name_ja": "東ソー",
+      "sector_ja": "素材・化学",
+      "price": 2443.5,
+      "prev_close": 2413.0,
+      "day_change_pct": 1.26,
+      "yield": 409.0,
+      "yield_error": true,
+      "annual_dividend": 100.0,
+      "market_cap": 752412000256,
+      "per": 19.231071,
+      "pbr": 0.94406724,
+      "op_margin": 9.79,
+      "payout_ratio": 78.74,
+      "equity_ratio": 62.32,
+      "revenue_trend": [
+        100,
+        94,
+        100
+      ],
+      "eps_trend": [
+        100,
+        114,
+        115
+      ],
+      "cash_trend": [
+        100,
+        125,
+        118
+      ],
+      "op_cashflow": 106244000000.0,
+      "dividend_history": [
+        95.0,
+        100.0,
+        50.0
+      ],
+      "high_52w": 2789.0,
+      "low_52w": 2002.5,
+      "ma25": 2382.9,
+      "ma75": 2448.0,
+      "error": null
+    },
+    {
+      "code": "4248",
+      "name_ja": "竹本容器",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 882.0,
+      "prev_close": 878.0,
+      "day_change_pct": 0.46,
+      "yield": 431.0,
+      "yield_error": true,
+      "annual_dividend": 38.0,
+      "market_cap": 10643090432,
+      "per": 13.850502,
+      "pbr": 0.8820732,
+      "op_margin": 7.82,
+      "payout_ratio": 56.51,
+      "equity_ratio": 71.71,
+      "revenue_trend": [
+        100,
+        109,
+        101
+      ],
+      "eps_trend": [
+        100,
+        83,
+        180
+      ],
+      "cash_trend": [
+        100,
+        110,
+        83
+      ],
+      "op_cashflow": 692899000.0,
+      "dividend_history": [
+        36.0,
+        36.0,
+        36.0
+      ],
+      "high_52w": 905.0,
+      "low_52w": 806.0,
+      "ma25": 885.4,
+      "ma75": 879.4,
+      "error": null
+    },
+    {
+      "code": "6345",
+      "name_ja": "アイチコーポレーション",
+      "sector_ja": "産業・機械",
+      "price": 1386.0,
+      "prev_close": 1393.0,
+      "day_change_pct": -0.5,
+      "yield": 469.0,
+      "yield_error": true,
+      "annual_dividend": 65.0,
+      "market_cap": 89479233536,
+      "per": 13.755458,
+      "pbr": 1.1867555,
+      "op_margin": 17.02,
+      "payout_ratio": 59.57,
+      "equity_ratio": 83.72,
+      "revenue_trend": [
+        100,
+        88,
+        98
+      ],
+      "eps_trend": [
+        100,
+        89,
+        107
+      ],
+      "cash_trend": [
+        100,
+        3625,
+        4033
+      ],
+      "op_cashflow": 9871654000.0,
+      "dividend_history": [
+        41.0,
+        65.0,
+        30.0
+      ],
+      "high_52w": 1475.0,
+      "low_52w": 1262.0,
+      "ma25": 1372.6,
+      "ma75": 1362.2,
+      "error": null
+    },
+    {
+      "code": "5388",
+      "name_ja": "クニミネ工業",
+      "sector_ja": "素材・化学",
+      "price": 1226.0,
+      "prev_close": 1231.0,
+      "day_change_pct": -0.41,
+      "yield": 326.0,
+      "yield_error": true,
+      "annual_dividend": 40.0,
+      "market_cap": 14930735104,
+      "per": 13.29718,
+      "pbr": 0.6889386,
+      "op_margin": 11.69,
+      "payout_ratio": 43.4,
+      "equity_ratio": 83.39,
+      "revenue_trend": [
+        100,
+        102,
+        102
+      ],
+      "eps_trend": [
+        100,
+        126,
+        133
+      ],
+      "cash_trend": [
+        100,
+        115,
+        110
+      ],
+      "op_cashflow": 1023944000.0,
+      "dividend_history": [
+        40.0,
+        40.0,
+        25.0
+      ],
+      "high_52w": 1400.0,
+      "low_52w": 1020.0,
+      "ma25": 1270.8,
+      "ma75": 1283.1,
+      "error": null
+    },
+    {
+      "code": "6539",
+      "name_ja": "MS-Japan",
+      "sector_ja": "産業・機械",
+      "price": 942.0,
+      "prev_close": 945.0,
+      "day_change_pct": -0.32,
+      "yield": 594.0,
+      "yield_error": true,
+      "annual_dividend": 56.0,
+      "market_cap": 23410063360,
+      "per": 22.676937,
+      "pbr": 2.5590386,
+      "op_margin": 39.36,
+      "payout_ratio": 134.78,
+      "equity_ratio": 89.21,
+      "revenue_trend": [
+        100,
+        107,
+        174
+      ],
+      "eps_trend": [
+        100,
+        93,
+        85
+      ],
+      "cash_trend": [
+        100,
+        54,
+        49
+      ],
+      "op_cashflow": 1495810000.0,
+      "dividend_history": [
+        56.0,
+        56.0,
+        56.0
+      ],
+      "high_52w": 1086.0,
+      "low_52w": 906.0,
+      "ma25": 972.2,
+      "ma75": 988.7,
+      "error": null
+    },
+    {
+      "code": "6957",
+      "name_ja": "芝浦電子",
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": null
+    },
+    {
+      "code": "8130",
+      "name_ja": "サンゲツ",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 2992.0,
+      "prev_close": 2987.0,
+      "day_change_pct": 0.17,
+      "yield": 518.0,
+      "yield_error": true,
+      "annual_dividend": 155.0,
+      "market_cap": 175904784384,
+      "per": 12.658121,
+      "pbr": 1.5242388,
+      "op_margin": 10.26,
+      "payout_ratio": 64.55,
+      "equity_ratio": 61.48,
+      "revenue_trend": [
+        100,
+        108,
+        114
+      ],
+      "eps_trend": [
+        100,
+        102,
+        90
+      ],
+      "cash_trend": [
+        100,
+        101,
+        136
+      ],
+      "op_cashflow": 19260000000.0,
+      "dividend_history": [
+        150.0,
+        152.5,
+        77.5
+      ],
+      "high_52w": 3370.0,
+      "low_52w": 2830.0,
+      "ma25": 3044.0,
+      "ma75": 3107.3,
+      "error": null
+    },
+    {
+      "code": "3231",
+      "name_ja": "野村不動産HD",
+      "sector_ja": "不動産",
+      "price": 998.8,
+      "prev_close": 1017.0,
+      "day_change_pct": -1.79,
+      "yield": 441.0,
+      "yield_error": true,
+      "annual_dividend": 44.0,
+      "market_cap": 853176745984,
+      "per": 10.330989,
+      "pbr": 1.0650879,
+      "op_margin": 16.05,
+      "payout_ratio": 41.38,
+      "equity_ratio": 27.92,
+      "revenue_trend": [
+        100,
+        112,
+        116
+      ],
+      "eps_trend": [
+        100,
+        111,
+        123
+      ],
+      "cash_trend": [
+        100,
+        189,
+        128
+      ],
+      "op_cashflow": -133793000000.0,
+      "dividend_history": [
+        31.5,
+        35.5,
+        22.0
+      ],
+      "high_52w": 1166.0,
+      "low_52w": 821.7,
+      "ma25": 1027.9,
+      "ma75": 1041.5,
+      "error": null
+    },
+    {
+      "code": "9368",
+      "name_ja": "キムラユニティー",
+      "sector_ja": "産業・機械",
+      "price": 895.0,
+      "prev_close": 898.0,
+      "day_change_pct": -0.33,
+      "yield": 425.0,
+      "yield_error": true,
+      "annual_dividend": 38.0,
+      "market_cap": 36807839744,
+      "per": 11.48172,
+      "pbr": 0.87869924,
+      "op_margin": 5.49,
+      "payout_ratio": 43.63,
+      "equity_ratio": 60.74,
+      "revenue_trend": [
+        100,
+        104,
+        103
+      ],
+      "eps_trend": [
+        100,
+        132,
+        142
+      ],
+      "cash_trend": [
+        100,
+        128,
+        125
+      ],
+      "op_cashflow": 4844000000.0,
+      "dividend_history": [
+        30.0,
+        33.5,
+        17.0
+      ],
+      "high_52w": 983.0,
+      "low_52w": 764.0,
+      "ma25": 896.1,
+      "ma75": 906.1,
+      "error": null
+    },
+    {
+      "code": "9795",
+      "name_ja": "ステップ",
+      "sector_ja": "消費財（ディフェンシブ）",
+      "price": 2276.0,
+      "prev_close": 2298.0,
+      "day_change_pct": -0.96,
+      "yield": 387.0,
+      "yield_error": true,
+      "annual_dividend": 88.0,
+      "market_cap": 35274420224,
+      "per": 13.037749,
+      "pbr": 1.2714658,
+      "op_margin": 19.19,
+      "payout_ratio": 50.97,
+      "equity_ratio": 89.7,
+      "revenue_trend": [
+        100,
+        105,
+        110
+      ],
+      "eps_trend": [
+        100,
+        104,
+        97
+      ],
+      "cash_trend": [
+        100,
+        99,
+        81
+      ],
+      "op_cashflow": 3382978000.0,
+      "dividend_history": [
+        77.0,
+        85.0,
+        44.0
+      ],
+      "high_52w": 2620.0,
+      "low_52w": 2203.0,
+      "ma25": 2395.5,
+      "ma75": 2438.0,
+      "error": null
+    },
+    {
+      "code": "7931",
+      "name_ja": "未来工業",
+      "sector_ja": "産業・機械",
+      "price": 2982.0,
+      "prev_close": 2985.0,
+      "day_change_pct": -0.1,
+      "yield": 335.0,
+      "yield_error": true,
+      "annual_dividend": 100.0,
+      "market_cap": 48194428928,
+      "per": 10.256234,
+      "pbr": 0.89165896,
+      "op_margin": 15.68,
+      "payout_ratio": 49.87,
+      "equity_ratio": 79.17,
+      "revenue_trend": [
+        100,
+        111,
+        114
+      ],
+      "eps_trend": [
+        100,
+        191,
+        188
+      ],
+      "cash_trend": [
+        100,
+        86,
+        91
+      ],
+      "op_cashflow": 7531000000.0,
+      "dividend_history": [
+        150.0,
+        150.0,
+        95.0
+      ],
+      "high_52w": 4045.0,
+      "low_52w": 2800.0,
+      "ma25": 3147.0,
+      "ma75": 3224.0,
+      "error": null
+    },
+    {
+      "code": "3076",
+      "name_ja": "あいHD",
+      "sector_ja": "産業・機械",
+      "price": 2657.0,
+      "prev_close": 2688.0,
+      "day_change_pct": -1.15,
+      "yield": 414.0,
+      "yield_error": true,
+      "annual_dividend": 110.0,
+      "market_cap": 141547716608,
+      "per": 10.740995,
+      "pbr": 1.2491521,
+      "op_margin": 12.71,
+      "payout_ratio": 40.43,
+      "equity_ratio": 77.74,
+      "revenue_trend": [
+        100,
+        107,
+        143
+      ],
+      "eps_trend": [
+        100,
+        190,
+        234
+      ],
+      "cash_trend": [
+        100,
+        96,
+        120
+      ],
+      "op_cashflow": 7647000000.0,
+      "dividend_history": [
+        90.0,
+        90.0,
+        110.0
+      ],
+      "high_52w": 2966.0,
+      "low_52w": 2094.0,
+      "ma25": 2761.6,
+      "ma75": 2786.2,
+      "error": null
+    },
+    {
+      "code": "1343",
+      "name_ja": "NF・J-REIT ETF",
+      "sector_ja": null,
+      "price": 2038.0,
+      "prev_close": 2043.5,
+      "day_change_pct": -0.27,
+      "yield": 458.0,
+      "yield_error": true,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": 20.931139,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [
+        82.9,
+        87.6,
+        25.5
+      ],
+      "high_52w": 2249.5,
+      "low_52w": 1830.0,
+      "ma25": 2065.0,
+      "ma75": 2116.5,
+      "error": null
+    },
+    {
+      "code": "1489",
+      "name_ja": "NF・日経高配当50ETF",
+      "sector_ja": null,
+      "price": 3118.0,
+      "prev_close": 3108.0,
+      "day_change_pct": 0.32,
+      "yield": 300.0,
+      "yield_error": true,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": 14.619111,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [
+        116.0,
+        93.0,
+        46.0
+      ],
+      "high_52w": 3399.0,
+      "low_52w": 2187.0,
+      "ma25": 3141.7,
+      "ma75": 3122.7,
+      "error": null
+    },
+    {
+      "code": "1723",
+      "name_ja": "日本電技",
+      "sector_ja": "情報技術",
+      "price": 2512.0,
+      "prev_close": 2410.0,
+      "day_change_pct": 4.23,
+      "yield": 151.0,
+      "yield_error": true,
+      "annual_dividend": 38.0,
+      "market_cap": 160097337344,
+      "per": 20.703865,
+      "pbr": 3.6135201,
+      "op_margin": 33.68,
+      "payout_ratio": 29.23,
+      "equity_ratio": 74.68,
+      "revenue_trend": [
+        100,
+        113,
+        126
+      ],
+      "eps_trend": [
+        100,
+        148,
+        204
+      ],
+      "cash_trend": [
+        100,
+        97,
+        131
+      ],
+      "op_cashflow": 8135000000.0,
+      "dividend_history": [
+        23.8,
+        35.5,
+        22.8
+      ],
+      "high_52w": 3147.5,
+      "low_52w": 902.5,
+      "ma25": 2417.1,
+      "ma75": 2570.2,
+      "error": null
+    },
+    {
+      "code": "1951",
+      "name_ja": "エクシオグループ",
+      "sector_ja": "産業・機械",
+      "price": 2880.5,
+      "prev_close": 2874.0,
+      "day_change_pct": 0.23,
+      "yield": 229.0,
+      "yield_error": true,
+      "annual_dividend": 66.0,
+      "market_cap": 596481998848,
+      "per": 19.38034,
+      "pbr": 1.7999974,
+      "op_margin": 6.22,
+      "payout_ratio": 43.77,
+      "equity_ratio": 49.98,
+      "revenue_trend": [
+        100,
+        98,
+        107
+      ],
+      "eps_trend": [
+        100,
+        92,
+        126
+      ],
+      "cash_trend": [
+        100,
+        94,
+        78
+      ],
+      "op_cashflow": 6842000000.0,
+      "dividend_history": [
+        61.0,
+        65.0,
+        33.0
+      ],
+      "high_52w": 3003.0,
+      "low_52w": 1671.0,
+      "ma25": 2800.9,
+      "ma75": 2744.1,
+      "error": null
+    },
+    {
+      "code": "2003",
+      "name_ja": "日東富士製粉",
+      "sector_ja": "消費財（ディフェンシブ）",
+      "price": 1775.0,
+      "prev_close": 1755.0,
+      "day_change_pct": 1.14,
+      "yield": 394.0,
+      "yield_error": true,
+      "annual_dividend": 70.0,
+      "market_cap": 64644485120,
+      "per": 18.903088,
+      "pbr": 1.3241941,
+      "op_margin": 7.35,
+      "payout_ratio": 74.57,
+      "equity_ratio": 78.4,
+      "revenue_trend": [
+        100,
+        104,
+        104
+      ],
+      "eps_trend": [
+        100,
+        107,
+        90
+      ],
+      "cash_trend": [
+        100,
+        142,
+        109
+      ],
+      "op_cashflow": 5055000000.0,
+      "dividend_history": [
+        63.0,
+        70.0,
+        35.0
+      ],
+      "high_52w": 1942.5,
+      "low_52w": 1650.0,
+      "ma25": 1821.7,
+      "ma75": 1774.9,
+      "error": null
+    },
+    {
+      "code": "2296",
+      "name_ja": "伊藤ハム米久HLDGS",
+      "sector_ja": "消費財（ディフェンシブ）",
+      "price": 5190.0,
+      "prev_close": 5220.0,
+      "day_change_pct": -0.57,
+      "yield": 289.0,
+      "yield_error": true,
+      "annual_dividend": 150.0,
+      "market_cap": 294537035776,
+      "per": 18.017706,
+      "pbr": 0.9990748,
+      "op_margin": 2.69,
+      "payout_ratio": 50.36,
+      "equity_ratio": 61.16,
+      "revenue_trend": [
+        100,
+        104,
+        107
+      ],
+      "eps_trend": [
+        100,
+        90,
+        84
+      ],
+      "cash_trend": [
+        100,
+        102,
+        92
+      ],
+      "op_cashflow": 10016000000.0,
+      "dividend_history": [
+        195.0,
+        320.0,
+        75.0
+      ],
+      "high_52w": 6480.0,
+      "low_52w": 4820.0,
+      "ma25": 5566.2,
+      "ma75": 5853.0,
+      "error": null
+    },
+    {
+      "code": "3834",
+      "name_ja": "朝日ネット",
+      "sector_ja": "通信サービス",
+      "price": 623.0,
+      "prev_close": 627.0,
+      "day_change_pct": -0.64,
+      "yield": 401.0,
+      "yield_error": true,
+      "annual_dividend": 25.0,
+      "market_cap": 16143797248,
+      "per": 11.001236,
+      "pbr": 1.2547632,
+      "op_margin": 13.94,
+      "payout_ratio": 44.17,
+      "equity_ratio": 88.52,
+      "revenue_trend": [
+        100,
+        100,
+        107
+      ],
+      "eps_trend": [
+        100,
+        101,
+        142
+      ],
+      "cash_trend": [
+        100,
+        96,
+        114
+      ],
+      "op_cashflow": 2462000000.0,
+      "dividend_history": [
+        23.5,
+        25.0,
+        12.5
+      ],
+      "high_52w": 726.0,
+      "low_52w": 620.0,
+      "ma25": 643.7,
+      "ma75": 665.9,
+      "error": null
+    },
+    {
+      "code": "4008",
+      "name_ja": "住友精化",
+      "sector_ja": "素材・化学",
+      "price": 1186.0,
+      "prev_close": 1197.0,
+      "day_change_pct": -0.92,
+      "yield": 371.0,
+      "yield_error": true,
+      "annual_dividend": 44.0,
+      "market_cap": 76714967040,
+      "per": 13.17485,
+      "pbr": 0.77401453,
+      "op_margin": 10.38,
+      "payout_ratio": 44.43,
+      "equity_ratio": 66.64,
+      "revenue_trend": [
+        100,
+        100,
+        103
+      ],
+      "eps_trend": [
+        100,
+        72,
+        23
+      ],
+      "cash_trend": [
+        100,
+        92,
+        72
+      ],
+      "op_cashflow": 13681000000.0,
+      "dividend_history": [
+        40.0,
+        40.0,
+        24.0
+      ],
+      "high_52w": 1472.0,
+      "low_52w": 849.0,
+      "ma25": 1230.7,
+      "ma75": 1221.2,
+      "error": null
+    },
+    {
+      "code": "4641",
+      "name_ja": "アルプス技研",
+      "sector_ja": "産業・機械",
+      "price": 2504.0,
+      "prev_close": 2527.0,
+      "day_change_pct": -0.91,
+      "yield": 431.0,
+      "yield_error": true,
+      "annual_dividend": 108.0,
+      "market_cap": 49120788480,
+      "per": 12.345922,
+      "pbr": 2.410954,
+      "op_margin": 10.22,
+      "payout_ratio": 53.28,
+      "equity_ratio": 69.51,
+      "revenue_trend": [
+        100,
+        108,
+        114
+      ],
+      "eps_trend": [
+        100,
+        100,
+        109
+      ],
+      "cash_trend": [
+        100,
+        117,
+        124
+      ],
+      "op_cashflow": 3373943000.0,
+      "dividend_history": [
+        103.0,
+        93.0,
+        108.0
+      ],
+      "high_52w": 3170.0,
+      "low_52w": 2485.0,
+      "ma25": 2578.0,
+      "ma75": 2611.8,
+      "error": null
+    },
+    {
+      "code": "4832",
+      "name_ja": "JFEシステムズ",
+      "sector_ja": "情報技術",
+      "price": 1861.0,
+      "prev_close": 1891.0,
+      "day_change_pct": -1.59,
+      "yield": 376.0,
+      "yield_error": true,
+      "annual_dividend": 70.0,
+      "market_cap": 58453405696,
+      "per": 13.698932,
+      "pbr": 1.6481541,
+      "op_margin": 13.02,
+      "payout_ratio": 50.07,
+      "equity_ratio": 62.2,
+      "revenue_trend": [
+        100,
+        110,
+        113
+      ],
+      "eps_trend": [
+        100,
+        115,
+        126
+      ],
+      "cash_trend": [
+        100,
+        181,
+        595
+      ],
+      "op_cashflow": 8740897000.0,
+      "dividend_history": [
+        54.0,
+        63.5,
+        40.0
+      ],
+      "high_52w": 2469.0,
+      "low_52w": 1595.0,
+      "ma25": 2008.0,
+      "ma75": 2088.9,
+      "error": null
+    },
+    {
+      "code": "5011",
+      "name_ja": "ニチレキ",
+      "sector_ja": "産業・機械",
+      "price": 2032.0,
+      "prev_close": 2026.0,
+      "day_change_pct": 0.3,
+      "yield": 394.0,
+      "yield_error": true,
+      "annual_dividend": 80.0,
+      "market_cap": 57821429760,
+      "per": 11.933287,
+      "pbr": 0.7463912,
+      "op_margin": 11.56,
+      "payout_ratio": 46.98,
+      "equity_ratio": 68.81,
+      "revenue_trend": [
+        100,
+        94,
+        97
+      ],
+      "eps_trend": [
+        100,
+        74,
+        80
+      ],
+      "cash_trend": [
+        100,
+        94,
+        116
+      ],
+      "op_cashflow": 4895000000.0,
+      "dividend_history": [
+        70.0,
+        80.0,
+        40.0
+      ],
+      "high_52w": 3150.0,
+      "low_52w": 2006.0,
+      "ma25": 2114.6,
+      "ma75": 2253.7,
+      "error": null
+    },
+    {
+      "code": "5334",
+      "name_ja": "日本特殊陶業",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 7962.0,
+      "prev_close": 8411.0,
+      "day_change_pct": -5.34,
+      "yield": 264.0,
+      "yield_error": true,
+      "annual_dividend": 210.0,
+      "market_cap": 1562629505024,
+      "per": 16.47458,
+      "pbr": 2.1250231,
+      "op_margin": 13.09,
+      "payout_ratio": 37.85,
+      "equity_ratio": 68.07,
+      "revenue_trend": [
+        100,
+        109,
+        116
+      ],
+      "eps_trend": [
+        100,
+        126,
+        143
+      ],
+      "cash_trend": [
+        100,
+        90,
+        103
+      ],
+      "op_cashflow": 132921000000.0,
+      "dividend_history": [
+        172.0,
+        183.0,
+        112.0
+      ],
+      "high_52w": 8819.0,
+      "low_52w": 4443.0,
+      "ma25": 8040.0,
+      "ma75": 7458.7,
+      "error": null
+    },
+    {
+      "code": "9069",
+      "name_ja": "センコーグループHLDGS",
+      "sector_ja": "産業・機械",
+      "price": 1828.0,
+      "prev_close": 1845.5,
+      "day_change_pct": -0.95,
+      "yield": 274.0,
+      "yield_error": true,
+      "annual_dividend": 50.0,
+      "market_cap": 305744347136,
+      "per": 18.622656,
+      "pbr": 1.4047652,
+      "op_margin": 5.31,
+      "payout_ratio": 48.93,
+      "equity_ratio": 30.24,
+      "revenue_trend": [
+        100,
+        112,
+        123
+      ],
+      "eps_trend": [
+        100,
+        103,
+        116
+      ],
+      "cash_trend": [
+        100,
+        139,
+        120
+      ],
+      "op_cashflow": 44722000000.0,
+      "dividend_history": [
+        42.0,
+        48.0,
+        25.0
+      ],
+      "high_52w": 2145.0,
+      "low_52w": 1574.0,
+      "ma25": 1865.4,
+      "ma75": 1892.2,
+      "error": null
+    },
+    {
+      "code": "9303",
+      "name_ja": "住友倉庫",
+      "sector_ja": "産業・機械",
+      "price": 3805.0,
+      "prev_close": 3785.0,
+      "day_change_pct": 0.53,
+      "yield": 271.0,
+      "yield_error": true,
+      "annual_dividend": 103.0,
+      "market_cap": 289980252160,
+      "per": 13.531775,
+      "pbr": 0.98059404,
+      "op_margin": 6.28,
+      "payout_ratio": 37.0,
+      "equity_ratio": 59.98,
+      "revenue_trend": [
+        100,
+        82,
+        86
+      ],
+      "eps_trend": [
+        100,
+        56,
+        92
+      ],
+      "cash_trend": [
+        100,
+        107,
+        98
+      ],
+      "op_cashflow": 31733000000.0,
+      "dividend_history": [
+        101.0,
+        104.0,
+        51.5
+      ],
+      "high_52w": 4285.0,
+      "low_52w": 2796.0,
+      "ma25": 3962.3,
+      "ma75": 3871.2,
+      "error": null
+    },
+    {
+      "code": "9769",
+      "name_ja": "学究社",
+      "sector_ja": "消費財（ディフェンシブ）",
+      "price": 2273.0,
+      "prev_close": 2283.0,
+      "day_change_pct": -0.44,
+      "yield": 466.0,
+      "yield_error": true,
+      "annual_dividend": 106.0,
+      "market_cap": 24703412224,
+      "per": 14.285714,
+      "pbr": 3.113447,
+      "op_margin": 27.73,
+      "payout_ratio": 59.67,
+      "equity_ratio": 60.34,
+      "revenue_trend": [
+        100,
+        102,
+        102
+      ],
+      "eps_trend": [
+        100,
+        98,
+        100
+      ],
+      "cash_trend": [
+        100,
+        117,
+        137
+      ],
+      "op_cashflow": 2246025000.0,
+      "dividend_history": [
+        87.0,
+        95.0,
+        53.0
+      ],
+      "high_52w": 2497.0,
+      "low_52w": 2150.0,
+      "ma25": 2352.4,
+      "ma75": 2364.7,
+      "error": null
+    },
+    {
+      "code": "1835",
+      "name_ja": "東鉄工業",
+      "sector_ja": "産業・機械",
+      "price": 5510.0,
+      "prev_close": 5520.0,
+      "day_change_pct": -0.18,
+      "yield": 272.0,
+      "yield_error": true,
+      "annual_dividend": 150.0,
+      "market_cap": 189774315520,
+      "per": 14.814616,
+      "pbr": 1.5013956,
+      "op_margin": 12.99,
+      "payout_ratio": 41.66,
+      "equity_ratio": 66.04,
+      "revenue_trend": [
+        100,
+        114,
+        128
+      ],
+      "eps_trend": [
+        100,
+        105,
+        146
+      ],
+      "cash_trend": [
+        100,
+        120,
+        115
+      ],
+      "op_cashflow": 4160881000.0,
+      "dividend_history": [
+        100.0,
+        155.0,
+        80.0
+      ],
+      "high_52w": 5840.0,
+      "low_52w": 3140.0,
+      "ma25": 5519.6,
+      "ma75": 5193.8,
+      "error": null
+    },
+    {
+      "code": "8584",
+      "name_ja": "ジャックス",
+      "sector_ja": "金融サービス",
+      "price": 4020.0,
+      "prev_close": 4075.0,
+      "day_change_pct": -1.35,
+      "yield": 498.0,
+      "yield_error": true,
+      "annual_dividend": 200.0,
+      "market_cap": 179944701952,
+      "per": 8.298755,
+      "pbr": 0.61405975,
+      "op_margin": 58.84,
+      "payout_ratio": 41.29,
+      "equity_ratio": 6.53,
+      "revenue_trend": [
+        100,
+        106,
+        110
+      ],
+      "eps_trend": [
+        100,
+        110,
+        86
+      ],
+      "cash_trend": [
+        100,
+        116,
+        108
+      ],
+      "op_cashflow": -45170000000.0,
+      "dividend_history": [
+        210.0,
+        200.0,
+        100.0
+      ],
+      "high_52w": 4465.0,
+      "low_52w": 3650.0,
+      "ma25": 4086.0,
+      "ma75": 4133.9,
+      "error": null
+    },
+    {
+      "code": "9513",
+      "name_ja": "電源開発",
+      "sector_ja": "公益事業",
+      "price": 3811.0,
+      "prev_close": 3855.0,
+      "day_change_pct": -1.14,
+      "yield": 262.0,
+      "yield_error": true,
+      "annual_dividend": 100.0,
+      "market_cap": 670767579136,
+      "per": 6.4892383,
+      "pbr": 0.48968738,
+      "op_margin": 11.82,
+      "payout_ratio": 17.03,
+      "equity_ratio": 36.42,
+      "revenue_trend": [
+        100,
+        68,
+        71
+      ],
+      "eps_trend": [
+        100,
+        163,
+        112
+      ],
+      "cash_trend": [
+        100,
+        82,
+        90
+      ],
+      "op_cashflow": 250335000000.0,
+      "dividend_history": [
+        105.0,
+        100.0,
+        50.0
+      ],
+      "high_52w": 4514.0,
+      "low_52w": 2337.0,
+      "ma25": 4053.0,
+      "ma75": 3711.9,
+      "error": null
+    },
+    {
+      "code": "3817",
+      "name_ja": "SRAホールディングス",
+      "sector_ja": "情報技術",
+      "price": 4390.0,
+      "prev_close": 4495.0,
+      "day_change_pct": -2.34,
+      "yield": 456.0,
+      "yield_error": true,
+      "annual_dividend": 200.0,
+      "market_cap": 55462772736,
+      "per": 14.429872,
+      "pbr": 1.713083,
+      "op_margin": 15.37,
+      "payout_ratio": 62.47,
+      "equity_ratio": 59.88,
+      "revenue_trend": [
+        100,
+        110,
+        120
+      ],
+      "eps_trend": [
+        100,
+        517,
+        376
+      ],
+      "cash_trend": [
+        100,
+        119,
+        145
+      ],
+      "op_cashflow": 5778000000.0,
+      "dividend_history": [
+        200.0,
+        190.0,
+        100.0
+      ],
+      "high_52w": 5870.0,
+      "low_52w": 4215.0,
+      "ma25": 4669.6,
+      "ma75": 4954.7,
+      "error": null
+    },
+    {
+      "code": "6073",
+      "name_ja": "アサンテ",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 1476.0,
+      "prev_close": 1487.0,
+      "day_change_pct": -0.74,
+      "yield": 420.0,
+      "yield_error": true,
+      "annual_dividend": 62.0,
+      "market_cap": 14424836096,
+      "per": 29.326445,
+      "pbr": 1.4858706,
+      "op_margin": -1.35,
+      "payout_ratio": 123.21,
+      "equity_ratio": 67.93,
+      "revenue_trend": [
+        100,
+        97,
+        99
+      ],
+      "eps_trend": [
+        100,
+        62,
+        83
+      ],
+      "cash_trend": [
+        100,
+        131,
+        107
+      ],
+      "op_cashflow": 1120131000.0,
+      "dividend_history": [
+        62.0,
+        62.0,
+        31.0
+      ],
+      "high_52w": 1728.0,
+      "low_52w": 1460.0,
+      "ma25": 1511.1,
+      "ma75": 1549.8,
+      "error": null
+    },
+    {
+      "code": "9142",
+      "name_ja": "九州旅客鉄道",
+      "sector_ja": "産業・機械",
+      "price": 3620.0,
+      "prev_close": 3588.0,
+      "day_change_pct": 0.89,
+      "yield": 318.0,
+      "yield_error": true,
+      "annual_dividend": 115.0,
+      "market_cap": 556356206592,
+      "per": 12.953554,
+      "pbr": 1.1496458,
+      "op_margin": 17.84,
+      "payout_ratio": 39.0,
+      "equity_ratio": 40.03,
+      "revenue_trend": [
+        100,
+        110,
+        119
+      ],
+      "eps_trend": [
+        100,
+        235,
+        290
+      ],
+      "cash_trend": [
+        100,
+        91,
+        94
+      ],
+      "op_cashflow": 96669000000.0,
+      "dividend_history": [
+        139.5,
+        109.0,
+        57.5
+      ],
+      "high_52w": 4215.0,
+      "low_52w": 3567.0,
+      "ma25": 3716.0,
+      "ma75": 3820.9,
+      "error": null
+    },
+    {
+      "code": "2670",
+      "name_ja": "エービーシー・マート",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 2657.5,
+      "prev_close": 2668.0,
+      "day_change_pct": -0.39,
+      "yield": 301.0,
+      "yield_error": true,
+      "annual_dividend": 80.0,
+      "market_cap": 658041208832,
+      "per": 14.204394,
+      "pbr": 1.6530545,
+      "op_margin": 16.56,
+      "payout_ratio": 40.07,
+      "equity_ratio": 87.72,
+      "revenue_trend": [
+        100,
+        119,
+        128
+      ],
+      "eps_trend": [
+        100,
+        132,
+        150
+      ],
+      "cash_trend": [
+        100,
+        120,
+        141
+      ],
+      "op_cashflow": 56125000000.0,
+      "dividend_history": [
+        70.0,
+        72.0,
+        40.0
+      ],
+      "high_52w": 3270.0,
+      "low_52w": 2375.5,
+      "ma25": 2726.4,
+      "ma75": 2586.3,
+      "error": null
+    },
+    {
+      "code": "2124",
+      "name_ja": "JACリクルートメント",
+      "sector_ja": "産業・機械",
+      "price": 851.0,
+      "prev_close": 862.0,
+      "day_change_pct": -1.28,
+      "yield": 447.0,
+      "yield_error": true,
+      "annual_dividend": 38.0,
+      "market_cap": 134800547840,
+      "per": 16.050547,
+      "pbr": 6.0329795,
+      "op_margin": 17.33,
+      "payout_ratio": 67.95,
+      "equity_ratio": 72.32,
+      "revenue_trend": [
+        100,
+        114,
+        134
+      ],
+      "eps_trend": [
+        100,
+        94,
+        142
+      ],
+      "cash_trend": [
+        100,
+        114,
+        139
+      ],
+      "op_cashflow": 9566000000.0,
+      "dividend_history": [
+        22.5,
+        26.0,
+        36.0
+      ],
+      "high_52w": 1179.0,
+      "low_52w": 812.0,
+      "ma25": 863.8,
+      "ma75": 915.4,
+      "error": null
+    },
+    {
+      "code": "7995",
+      "name_ja": "バルカー",
+      "sector_ja": "産業・機械",
+      "price": 5700.0,
+      "prev_close": 5790.0,
+      "day_change_pct": -1.55,
+      "yield": 263.0,
+      "yield_error": true,
+      "annual_dividend": 150.0,
+      "market_cap": 100438081536,
+      "per": 19.193857,
+      "pbr": 1.9632534,
+      "op_margin": 9.91,
+      "payout_ratio": 50.48,
+      "equity_ratio": 64.87,
+      "revenue_trend": [
+        100,
+        99,
+        97
+      ],
+      "eps_trend": [
+        100,
+        73,
+        70
+      ],
+      "cash_trend": [
+        100,
+        78,
+        97
+      ],
+      "op_cashflow": 4870000000.0,
+      "dividend_history": [
+        150.0,
+        150.0,
+        75.0
+      ],
+      "high_52w": 5880.0,
+      "low_52w": 2900.0,
+      "ma25": 5301.4,
+      "ma75": 4843.2,
+      "error": null
+    },
+    {
+      "code": "8766",
+      "name_ja": "東京海上ホールディングス",
+      "sector_ja": "金融サービス",
+      "price": 7093.0,
+      "prev_close": 7202.0,
+      "day_change_pct": -1.51,
+      "yield": 297.0,
+      "yield_error": true,
+      "annual_dividend": 211.0,
+      "market_cap": 13665493319680,
+      "per": 12.903167,
+      "pbr": 2.5332603,
+      "op_margin": 14.39,
+      "payout_ratio": 35.73,
+      "equity_ratio": 16.25,
+      "revenue_trend": [
+        100,
+        112,
+        120
+      ],
+      "eps_trend": [
+        100,
+        189,
+        291
+      ],
+      "cash_trend": [
+        100,
+        103,
+        123
+      ],
+      "op_cashflow": 1345080000000.0,
+      "dividend_history": [
+        143.5,
+        196.5,
+        105.5
+      ],
+      "high_52w": 7870.0,
+      "low_52w": 5300.0,
+      "ma25": 7177.2,
+      "ma75": 6428.0,
+      "error": null
+    },
+    {
+      "code": "6301",
+      "name_ja": "コマツ",
+      "sector_ja": "産業・機械",
+      "price": 6514.0,
+      "prev_close": 6557.0,
+      "day_change_pct": -0.66,
+      "yield": 292.0,
+      "yield_error": true,
+      "annual_dividend": 190.0,
+      "market_cap": 5869752811520,
+      "per": 15.7479925,
+      "pbr": 1.6705816,
+      "op_margin": 12.18,
+      "payout_ratio": 45.9,
+      "equity_ratio": 54.96,
+      "revenue_trend": [
+        100,
+        109,
+        116
+      ],
+      "eps_trend": [
+        100,
+        120,
+        120
+      ],
+      "cash_trend": [
+        100,
+        139,
+        133
+      ],
+      "op_cashflow": 517167000000.0,
+      "dividend_history": [
+        178.0,
+        202.0,
+        95.0
+      ],
+      "high_52w": 7840.0,
+      "low_52w": 4117.0,
+      "ma25": 6692.2,
+      "ma75": 6633.5,
+      "error": null
+    },
+    {
+      "code": "8439",
+      "name_ja": "東京センチュリー",
+      "sector_ja": "産業・機械",
+      "price": 2167.0,
+      "prev_close": 2151.0,
+      "day_change_pct": 0.74,
+      "yield": 332.0,
+      "yield_error": true,
+      "annual_dividend": 72.0,
+      "market_cap": 1059147153408,
+      "per": 7.867698,
+      "pbr": 0.9977931,
+      "op_margin": 8.33,
+      "payout_ratio": 25.06,
+      "equity_ratio": 15.04,
+      "revenue_trend": [
+        100,
+        102,
+        103
+      ],
+      "eps_trend": [
+        100,
+        1513,
+        1792
+      ],
+      "cash_trend": [
+        100,
+        90,
+        82
+      ],
+      "op_cashflow": 51371000000.0,
+      "dividend_history": [
+        56.0,
+        69.0,
+        36.0
+      ],
+      "high_52w": 2324.5,
+      "low_52w": 1478.5,
+      "ma25": 2095.8,
+      "ma75": 2113.1,
+      "error": null
+    },
+    {
+      "code": "2391",
+      "name_ja": "プラネット",
+      "sector_ja": "情報技術",
+      "price": 1233.0,
+      "prev_close": 1237.0,
+      "day_change_pct": -0.32,
+      "yield": 357.0,
+      "yield_error": true,
+      "annual_dividend": 44.0,
+      "market_cap": 8175739392,
+      "per": 19.19365,
+      "pbr": 1.4532057,
+      "op_margin": 18.38,
+      "payout_ratio": 68.45,
+      "equity_ratio": 82.76,
+      "revenue_trend": [
+        100,
+        100,
+        101
+      ],
+      "eps_trend": [
+        100,
+        84,
+        76
+      ],
+      "cash_trend": [
+        100,
+        96,
+        98
+      ],
+      "op_cashflow": 625487000.0,
+      "dividend_history": [
+        43.0,
+        43.5,
+        22.0
+      ],
+      "high_52w": 1356.0,
+      "low_52w": 1214.0,
+      "ma25": 1244.6,
+      "ma75": 1253.6,
+      "error": null
+    },
+    {
+      "code": "3763",
+      "name_ja": "プロシップ",
+      "sector_ja": "情報技術",
+      "price": 1530.0,
+      "prev_close": 1533.0,
+      "day_change_pct": -0.2,
+      "yield": 229.0,
+      "yield_error": true,
+      "annual_dividend": 35.0,
+      "market_cap": 39287394304,
+      "per": 15.266414,
+      "pbr": 3.7965167,
+      "op_margin": 34.8,
+      "payout_ratio": 31.42,
+      "equity_ratio": 78.16,
+      "revenue_trend": [
+        100,
+        103,
+        115
+      ],
+      "eps_trend": [
+        100,
+        114,
+        162
+      ],
+      "cash_trend": [
+        100,
+        112,
+        124
+      ],
+      "op_cashflow": 1474495000.0,
+      "dividend_history": [
+        25.0,
+        31.5,
+        40.0
+      ],
+      "high_52w": 1825.0,
+      "low_52w": 1059.0,
+      "ma25": 1425.2,
+      "ma75": 1467.7,
+      "error": null
+    },
+    {
+      "code": "4502",
+      "name_ja": "武田薬品",
+      "sector_ja": "医薬品・医療",
+      "price": 5239.0,
+      "prev_close": 5270.0,
+      "day_change_pct": -0.59,
+      "yield": 382.0,
+      "yield_error": true,
+      "annual_dividend": 200.0,
+      "market_cap": 8275505446912,
+      "per": 74.070404,
+      "pbr": 1.0827641,
+      "op_margin": 10.85,
+      "payout_ratio": null,
+      "equity_ratio": 48.67,
+      "revenue_trend": [
+        100,
+        106,
+        114
+      ],
+      "eps_trend": [
+        100,
+        45,
+        33
+      ],
+      "cash_trend": [
+        100,
+        86,
+        72
+      ],
+      "op_cashflow": 1057182000000.0,
+      "dividend_history": [
+        192.0,
+        198.0,
+        100.0
+      ],
+      "high_52w": 6033.0,
+      "low_52w": 4000.0,
+      "ma25": 5591.2,
+      "ma75": 5476.3,
+      "error": null
+    },
+    {
+      "code": "4732",
+      "name_ja": "ユー・エス・エス",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 1696.5,
+      "prev_close": 1695.0,
+      "day_change_pct": 0.09,
+      "yield": 305.0,
+      "yield_error": true,
+      "annual_dividend": 51.8,
+      "market_cap": 787627442176,
+      "per": 20.366146,
+      "pbr": 4.0081367,
+      "op_margin": 51.93,
+      "payout_ratio": 57.57,
+      "equity_ratio": 76.38,
+      "revenue_trend": [
+        100,
+        110,
+        117
+      ],
+      "eps_trend": [
+        100,
+        111,
+        128
+      ],
+      "cash_trend": [
+        100,
+        118,
+        122
+      ],
+      "op_cashflow": 38157000000.0,
+      "dividend_history": [
+        41.0,
+        48.0,
+        26.6
+      ],
+      "high_52w": 1919.0,
+      "low_52w": 1428.0,
+      "ma25": 1715.2,
+      "ma75": 1732.9,
+      "error": null
+    },
+    {
+      "code": "7820",
+      "name_ja": "日本フラッシュ",
+      "sector_ja": "産業・機械",
+      "price": 790.0,
+      "prev_close": 792.0,
+      "day_change_pct": -0.25,
+      "yield": 456.0,
+      "yield_error": true,
+      "annual_dividend": 36.0,
+      "market_cap": 17977839616,
+      "per": null,
+      "pbr": 0.6005353,
+      "op_margin": 12.46,
+      "payout_ratio": 86.98,
+      "equity_ratio": 71.4,
+      "revenue_trend": [
+        100,
+        95,
+        88
+      ],
+      "eps_trend": [
+        100,
+        75,
+        -163
+      ],
+      "cash_trend": [
+        100,
+        99,
+        118
+      ],
+      "op_cashflow": 2542867000.0,
+      "dividend_history": [
+        36.0,
+        36.0,
+        18.0
+      ],
+      "high_52w": 870.0,
+      "low_52w": 783.0,
+      "ma25": 802.4,
+      "ma75": 809.3,
+      "error": null
+    },
+    {
+      "code": "7921",
+      "name_ja": "TAKARA&COMPANY",
+      "sector_ja": "産業・機械",
+      "price": 3350.0,
+      "prev_close": 3375.0,
+      "day_change_pct": -0.74,
+      "yield": 358.0,
+      "yield_error": true,
+      "annual_dividend": 120.0,
+      "market_cap": 43240763392,
+      "per": 10.460251,
+      "pbr": 1.4202125,
+      "op_margin": 3.68,
+      "payout_ratio": 32.79,
+      "equity_ratio": 75.73,
+      "revenue_trend": [
+        100,
+        106,
+        108
+      ],
+      "eps_trend": [
+        100,
+        117,
+        159
+      ],
+      "cash_trend": [
+        100,
+        111,
+        146
+      ],
+      "op_cashflow": 4366622000.0,
+      "dividend_history": [
+        75.0,
+        85.0,
+        135.0
+      ],
+      "high_52w": 4795.0,
+      "low_52w": 3100.0,
+      "ma25": 3682.4,
+      "ma75": 3979.8,
+      "error": null
+    },
+    {
+      "code": "4326",
+      "name_ja": "インテージHD",
+      "sector_ja": "通信サービス",
+      "price": 1654.0,
+      "prev_close": 1661.0,
+      "day_change_pct": -0.42,
+      "yield": 290.0,
+      "yield_error": true,
+      "annual_dividend": 48.0,
+      "market_cap": 63199969280,
+      "per": 23.308907,
+      "pbr": 1.8792166,
+      "op_margin": 2.1,
+      "payout_ratio": 65.59,
+      "equity_ratio": 70.6,
+      "revenue_trend": [
+        100,
+        103,
+        107
+      ],
+      "eps_trend": [
+        100,
+        71,
+        101
+      ],
+      "cash_trend": [
+        100,
+        95,
+        121
+      ],
+      "op_cashflow": 6429839000.0,
+      "dividend_history": [
+        42.0,
+        65.5,
+        46.5
+      ],
+      "high_52w": 2044.0,
+      "low_52w": 1598.0,
+      "ma25": 1669.8,
+      "ma75": 1685.1,
+      "error": null
+    },
+    {
+      "code": "4928",
+      "name_ja": "ノエビアHD",
+      "sector_ja": "消費財（ディフェンシブ）",
+      "price": 4380.0,
+      "prev_close": 4375.0,
+      "day_change_pct": 0.11,
+      "yield": 525.0,
+      "yield_error": true,
+      "annual_dividend": 230.0,
+      "market_cap": 149604188160,
+      "per": 18.621656,
+      "pbr": 3.1516845,
+      "op_margin": 14.56,
+      "payout_ratio": 97.83,
+      "equity_ratio": 70.29,
+      "revenue_trend": [
+        100,
+        102,
+        103
+      ],
+      "eps_trend": [
+        100,
+        104,
+        105
+      ],
+      "cash_trend": [
+        100,
+        101,
+        93
+      ],
+      "op_cashflow": 7928000000.0,
+      "dividend_history": [
+        220.0,
+        225.0,
+        230.0
+      ],
+      "high_52w": 4795.0,
+      "low_52w": 4155.0,
+      "ma25": 4472.8,
+      "ma75": 4579.6,
+      "error": null
+    },
+    {
+      "code": "8750",
+      "name_ja": "第一生命ホールディングス",
+      "sector_ja": "金融サービス",
+      "price": 1423.0,
+      "prev_close": 1440.0,
+      "day_change_pct": -1.18,
+      "yield": 365.0,
+      "yield_error": true,
+      "annual_dividend": 52.0,
+      "market_cap": 5131359223808,
+      "per": 12.853401,
+      "pbr": 1.2659782,
+      "op_margin": -0.18,
+      "payout_ratio": 38.86,
+      "equity_ratio": 4.99,
+      "revenue_trend": [
+        100,
+        125,
+        109
+      ],
+      "eps_trend": [
+        100,
+        193,
+        273
+      ],
+      "cash_trend": [
+        100,
+        128,
+        117
+      ],
+      "op_cashflow": 592578000000.0,
+      "dividend_history": [
+        43.5,
+        43.0,
+        28.0
+      ],
+      "high_52w": 1617.0,
+      "low_52w": 1010.0,
+      "ma25": 1455.9,
+      "ma75": 1429.4,
+      "error": null
+    },
+    {
+      "code": "2169",
+      "name_ja": "CDS",
+      "sector_ja": "情報技術",
+      "price": 1821.0,
+      "prev_close": 1820.0,
+      "day_change_pct": 0.05,
+      "yield": 406.0,
+      "yield_error": true,
+      "annual_dividend": 74.0,
+      "market_cap": 12418563072,
+      "per": 27.248241,
+      "pbr": 1.3965999,
+      "op_margin": 5.17,
+      "payout_ratio": 110.58,
+      "equity_ratio": 83.89,
+      "revenue_trend": [
+        100,
+        108,
+        91
+      ],
+      "eps_trend": [
+        100,
+        106,
+        46
+      ],
+      "cash_trend": [
+        100,
+        109,
+        120
+      ],
+      "op_cashflow": 1578104000.0,
+      "dividend_history": [
+        66.0,
+        78.0,
+        74.0
+      ],
+      "high_52w": 1860.0,
+      "low_52w": 1740.0,
+      "ma25": 1828.3,
+      "ma75": 1828.3,
+      "error": null
+    },
+    {
+      "code": "2393",
+      "name_ja": "日本ケアサプライ",
+      "sector_ja": "産業・機械",
+      "price": 2223.0,
+      "prev_close": 2234.0,
+      "day_change_pct": -0.49,
+      "yield": 324.0,
+      "yield_error": true,
+      "annual_dividend": 72.0,
+      "market_cap": 34543243264,
+      "per": 16.750809,
+      "pbr": 1.9234463,
+      "op_margin": 9.57,
+      "payout_ratio": 52.73,
+      "equity_ratio": 65.55,
+      "revenue_trend": [
+        100,
+        110,
+        124
+      ],
+      "eps_trend": [
+        100,
+        104,
+        118
+      ],
+      "cash_trend": [
+        100,
+        90,
+        94
+      ],
+      "op_cashflow": 1389235000.0,
+      "dividend_history": [
+        70.0,
+        70.0,
+        72.0
+      ],
+      "high_52w": 2665.0,
+      "low_52w": 1950.0,
+      "ma25": 2351.4,
+      "ma75": 2352.7,
+      "error": null
+    },
+    {
+      "code": "2914",
+      "name_ja": "JT",
+      "sector_ja": "消費財（ディフェンシブ）",
+      "price": 5886.0,
+      "prev_close": 5865.0,
+      "day_change_pct": 0.36,
+      "yield": 411.0,
+      "yield_error": true,
+      "annual_dividend": 242.0,
+      "market_cap": 10449940643840,
+      "per": 20.92056,
+      "pbr": 2.5569139,
+      "op_margin": 24.16,
+      "payout_ratio": 83.25,
+      "equity_ratio": 48.54,
+      "revenue_trend": [
+        100,
+        108,
+        122
+      ],
+      "eps_trend": [
+        100,
+        37,
+        106
+      ],
+      "cash_trend": [
+        100,
+        104,
+        80
+      ],
+      "op_cashflow": 514056000000.0,
+      "dividend_history": [
+        194.0,
+        194.0,
+        234.0
+      ],
+      "high_52w": 6182.0,
+      "low_52w": 4139.0,
+      "ma25": 5925.2,
+      "ma75": 5863.0,
+      "error": null
+    },
+    {
+      "code": "3407",
+      "name_ja": "旭化成",
+      "sector_ja": "産業・機械",
+      "price": 1524.5,
+      "prev_close": 1535.0,
+      "day_change_pct": -0.68,
+      "yield": 262.0,
+      "yield_error": true,
+      "annual_dividend": 40.0,
+      "market_cap": 2067893846016,
+      "per": 14.770856,
+      "pbr": 1.0315543,
+      "op_margin": 8.58,
+      "payout_ratio": 38.73,
+      "equity_ratio": 46.31,
+      "revenue_trend": [
+        100,
+        102,
+        111
+      ],
+      "eps_trend": [
+        -100,
+        48,
+        150
+      ],
+      "cash_trend": [
+        100,
+        135,
+        157
+      ],
+      "op_cashflow": 301489000000.0,
+      "dividend_history": [
+        36.0,
+        40.0,
+        20.0
+      ],
+      "high_52w": 1889.0,
+      "low_52w": 952.5,
+      "ma25": 1561.2,
+      "ma75": 1593.7,
+      "error": null
+    },
+    {
+      "code": "3597",
+      "name_ja": "自重堂",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 10110.0,
+      "prev_close": 10050.0,
+      "day_change_pct": 0.6,
+      "yield": 495.0,
+      "yield_error": true,
+      "annual_dividend": 500.0,
+      "market_cap": 29136553984,
+      "per": 23.20191,
+      "pbr": 0.77099943,
+      "op_margin": 15.71,
+      "payout_ratio": 114.7,
+      "equity_ratio": 92.1,
+      "revenue_trend": [
+        100,
+        104,
+        99
+      ],
+      "eps_trend": [
+        100,
+        87,
+        40
+      ],
+      "cash_trend": [
+        100,
+        95,
+        121
+      ],
+      "op_cashflow": 3817643000.0,
+      "dividend_history": [
+        500.0,
+        500.0,
+        600.0
+      ],
+      "high_52w": 11220.0,
+      "low_52w": 9230.0,
+      "ma25": 10080.4,
+      "ma75": 10016.3,
+      "error": null
+    },
+    {
+      "code": "4327",
+      "name_ja": "日本エス・エイチ・エル",
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": null
+    },
+    {
+      "code": "5108",
+      "name_ja": "ブリヂストン",
+      "sector_ja": "消費財（景気敏感）",
+      "price": 3231.0,
+      "prev_close": 3265.0,
+      "day_change_pct": -1.04,
+      "yield": 402.0,
+      "yield_error": true,
+      "annual_dividend": 130.0,
+      "market_cap": 4078319435776,
+      "per": 27.101158,
+      "pbr": 1.1263766,
+      "op_margin": 15.73,
+      "payout_ratio": 96.58,
+      "equity_ratio": 63.71,
+      "revenue_trend": [
+        100,
+        103,
+        103
+      ],
+      "eps_trend": [
+        100,
+        86,
+        51
+      ],
+      "cash_trend": [
+        100,
+        98,
+        99
+      ],
+      "op_cashflow": 660442000000.0,
+      "dividend_history": [
+        100.0,
+        105.0,
+        115.0
+      ],
+      "high_52w": 3859.0,
+      "low_52w": 2913.0,
+      "ma25": 3352.8,
+      "ma75": 3468.8,
+      "error": null
+    },
+    {
+      "code": "6087",
+      "name_ja": "アビスト",
+      "sector_ja": "産業・機械",
+      "price": 3405.0,
+      "prev_close": 3400.0,
+      "day_change_pct": 0.15,
+      "yield": 300.0,
+      "yield_error": true,
+      "annual_dividend": 102.0,
+      "market_cap": 13549033472,
+      "per": 20.876762,
+      "pbr": 1.9262362,
+      "op_margin": 11.73,
+      "payout_ratio": 62.48,
+      "equity_ratio": 75.8,
+      "revenue_trend": [
+        100,
+        105,
+        112
+      ],
+      "eps_trend": [
+        100,
+        257,
+        215
+      ],
+      "cash_trend": [
+        100,
+        104,
+        96
+      ],
+      "op_cashflow": 445244000.0,
+      "dividend_history": [
+        102.0,
+        102.0,
+        102.0
+      ],
+      "high_52w": 3485.0,
+      "low_52w": 3075.0,
+      "ma25": 3396.4,
+      "ma75": 3412.7,
+      "error": null
+    },
+    {
+      "code": "6113",
+      "name_ja": "アマダホールディングス",
+      "sector_ja": "産業・機械",
+      "price": 2630.0,
+      "prev_close": 2629.0,
+      "day_change_pct": 0.04,
+      "yield": 236.0,
+      "yield_error": true,
+      "annual_dividend": 62.0,
+      "market_cap": 816701505536,
+      "per": 30.674131,
+      "pbr": 1.565166,
+      "op_margin": 10.12,
+      "payout_ratio": 72.29,
+      "equity_ratio": 79.89,
+      "revenue_trend": [
+        100,
+        110,
+        108
+      ],
+      "eps_trend": [
+        100,
+        121,
+        100
+      ],
+      "cash_trend": [
+        100,
+        95,
+        106
+      ],
+      "op_cashflow": 46192000000.0,
+      "dividend_history": [
+        66.0,
+        62.0,
+        31.0
+      ],
+      "high_52w": 2668.5,
+      "low_52w": 1410.0,
+      "ma25": 2414.1,
+      "ma75": 2294.2,
+      "error": null
+    },
+    {
+      "code": "7751",
+      "name_ja": "キヤノン",
+      "sector_ja": "情報技術",
+      "price": 4017.0,
+      "prev_close": 4007.0,
+      "day_change_pct": 0.25,
+      "yield": 398.0,
+      "yield_error": true,
+      "annual_dividend": 160.0,
+      "market_cap": 3489116192768,
+      "per": 10.941032,
+      "pbr": 1.016319,
+      "op_margin": 6.53,
+      "payout_ratio": 43.57,
+      "equity_ratio": 56.92,
+      "revenue_trend": [
+        100,
+        108,
+        111
+      ],
+      "eps_trend": [
+        100,
+        63,
+        139
+      ],
+      "cash_trend": [
+        100,
+        125,
+        146
+      ],
+      "op_cashflow": 475903000000.0,
+      "dividend_history": [
+        140.0,
+        155.0,
+        160.0
+      ],
+      "high_52w": 5033.0,
+      "low_52w": 3956.0,
+      "ma25": 4357.7,
+      "ma75": 4538.6,
+      "error": null
+    },
+    {
+      "code": "8001",
+      "name_ja": "伊藤忠商事",
+      "sector_ja": "産業・機械",
+      "price": 1987.0,
+      "prev_close": 1938.0,
+      "day_change_pct": 2.53,
+      "yield": 221.0,
+      "yield_error": true,
+      "annual_dividend": 44.0,
+      "market_cap": 13888831619072,
+      "per": 14.947718,
+      "pbr": 2.2030168,
+      "op_margin": 4.57,
+      "payout_ratio": 30.08,
+      "equity_ratio": 38.03,
+      "revenue_trend": [
+        100,
+        101,
+        106
+      ],
+      "eps_trend": [
+        100,
+        101,
+        113
+      ],
+      "cash_trend": [
+        100,
+        99,
+        91
+      ],
+      "op_cashflow": 997278000000.0,
+      "dividend_history": [
+        36.0,
+        40.0,
+        22.0
+      ],
+      "high_52w": 2286.5,
+      "low_52w": 1408.4,
+      "ma25": 1997.8,
+      "ma75": 2045.0,
+      "error": null
+    },
+    {
+      "code": "8002",
+      "name_ja": "丸紅",
+      "sector_ja": "産業・機械",
+      "price": 5755.0,
+      "prev_close": 6072.0,
+      "day_change_pct": -5.22,
+      "yield": 200.0,
+      "yield_error": true,
+      "annual_dividend": 115.0,
+      "market_cap": 9428974698496,
+      "per": 16.694708,
+      "pbr": 2.2837565,
+      "op_margin": 3.16,
+      "payout_ratio": 29.02,
+      "equity_ratio": 39.44,
+      "revenue_trend": [
+        100,
+        79,
+        85
+      ],
+      "eps_trend": [
+        100,
+        130,
+        115
+      ],
+      "cash_trend": [
+        100,
+        83,
+        93
+      ],
+      "op_cashflow": 597945000000.0,
+      "dividend_history": [
+        88.5,
+        100.0,
+        57.5
+      ],
+      "high_52w": 6328.0,
+      "low_52w": 2536.0,
+      "ma25": 5925.7,
+      "ma75": 5598.1,
+      "error": null
+    },
+    {
+      "code": "8031",
+      "name_ja": "三井物産",
+      "sector_ja": "産業・機械",
+      "price": 5765.0,
+      "prev_close": 5896.0,
+      "day_change_pct": -2.22,
+      "yield": 199.0,
+      "yield_error": true,
+      "annual_dividend": 115.0,
+      "market_cap": 16338440421376,
+      "per": 18.281275,
+      "pbr": 1.9546733,
+      "op_margin": 4.03,
+      "payout_ratio": 33.31,
+      "equity_ratio": 44.89,
+      "revenue_trend": [
+        100,
+        93,
+        102
+      ],
+      "eps_trend": [
+        100,
+        100,
+        85
+      ],
+      "cash_trend": [
+        100,
+        65,
+        70
+      ],
+      "op_cashflow": 1017518000000.0,
+      "dividend_history": [
+        92.5,
+        105.0,
+        60.0
+      ],
+      "high_52w": 6675.0,
+      "low_52w": 2782.5,
+      "ma25": 6054.5,
+      "ma75": 5687.7,
+      "error": null
+    },
+    {
+      "code": "8053",
+      "name_ja": "住友商事",
+      "sector_ja": "産業・機械",
+      "price": 6840.0,
+      "prev_close": 5840.0,
+      "day_change_pct": 17.12,
+      "yield": 234.0,
+      "yield_error": true,
+      "annual_dividend": 160.0,
+      "market_cap": 8160556351488,
+      "per": 13.605442,
+      "pbr": 1.7988681,
+      "op_margin": 0.0,
+      "payout_ratio": 26.84,
+      "equity_ratio": 39.97,
+      "revenue_trend": [
+        100,
+        101,
+        107
+      ],
+      "eps_trend": [
+        100,
+        70,
+        102
+      ],
+      "cash_trend": [
+        100,
+        102,
+        87
+      ],
+      "op_cashflow": 612281000000.0,
+      "dividend_history": [
+        127.5,
+        135.0,
+        80.0
+      ],
+      "high_52w": 6840.0,
+      "low_52w": 3503.0,
+      "ma25": 6005.3,
+      "ma75": 6041.0,
+      "error": null
+    },
+    {
+      "code": "8058",
+      "name_ja": "三菱商事",
+      "sector_ja": "産業・機械",
+      "price": 5219.0,
+      "prev_close": 4990.0,
+      "day_change_pct": 4.59,
+      "yield": 211.0,
+      "yield_error": true,
+      "annual_dividend": 110.0,
+      "market_cap": 19140643389440,
+      "per": 29.761633,
+      "pbr": 2.1246574,
+      "op_margin": 1.76,
+      "payout_ratio": 59.94,
+      "equity_ratio": 43.58,
+      "revenue_trend": [
+        100,
+        91,
+        86
+      ],
+      "eps_trend": [
+        100,
+        85,
+        88
+      ],
+      "cash_trend": [
+        100,
+        80,
+        99
+      ],
+      "op_cashflow": 1658349000000.0,
+      "dividend_history": [
+        85.0,
+        105.0,
+        55.0
+      ],
+      "high_52w": 5787.0,
+      "low_52w": 2640.5,
+      "ma25": 5188.4,
+      "ma75": 4890.4,
+      "error": null
+    },
+    {
+      "code": "8096",
+      "name_ja": "兼松エレクトロニクス",
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": null
+    },
+    {
+      "code": "8306",
+      "name_ja": "三菱UFJファイナンシャルグループ",
+      "sector_ja": "金融サービス",
+      "price": 2798.0,
+      "prev_close": 2817.0,
+      "day_change_pct": -0.67,
+      "yield": 279.0,
+      "yield_error": true,
+      "annual_dividend": 78.0,
+      "market_cap": 31582695981056,
+      "per": 16.611256,
+      "pbr": 1.4845715,
+      "op_margin": 34.84,
+      "payout_ratio": 43.95,
+      "equity_ratio": 4.97,
+      "revenue_trend": [
+        100,
+        97,
+        113
+      ],
+      "eps_trend": [
+        100,
+        137,
+        176
+      ],
+      "cash_trend": [
+        100,
+        97,
+        96
+      ],
+      "op_cashflow": 6415000000.0,
+      "dividend_history": [
+        45.5,
+        74.0,
+        39.0
+      ],
+      "high_52w": 3087.0,
+      "low_52w": 1725.5,
+      "ma25": 2804.8,
+      "ma75": 2788.7,
+      "error": null
+    },
+    {
+      "code": "8316",
+      "name_ja": "三井住友ファイナンシャルグループ",
+      "sector_ja": "金融サービス",
+      "price": 5541.0,
+      "prev_close": 5512.0,
+      "day_change_pct": 0.53,
+      "yield": 283.0,
+      "yield_error": true,
+      "annual_dividend": 157.0,
+      "market_cap": 21155557670912,
+      "per": 14.83693,
+      "pbr": 1.3552231,
+      "op_margin": 39.31,
+      "payout_ratio": 37.47,
+      "equity_ratio": 4.8,
+      "revenue_trend": [
+        100,
+        119,
+        136
+      ],
+      "eps_trend": [
+        100,
+        115,
+        141
+      ],
+      "cash_trend": [
+        100,
+        103,
+        100
+      ],
+      "op_cashflow": 4848464000000.0,
+      "dividend_history": [
+        105.0,
+        140.0,
+        79.0
+      ],
+      "high_52w": 6284.0,
+      "low_52w": 3279.0,
+      "ma25": 5451.7,
+      "ma75": 5455.5,
+      "error": null
+    },
+    {
+      "code": "8591",
+      "name_ja": "オリックス",
+      "sector_ja": "金融サービス",
+      "price": 5209.0,
+      "prev_close": 5275.0,
+      "day_change_pct": -1.25,
+      "yield": 360.0,
+      "yield_error": true,
+      "annual_dividend": 187.52,
+      "market_cap": 5720710316032,
+      "per": 12.5,
+      "pbr": 1.2574663,
+      "op_margin": 19.55,
+      "payout_ratio": 36.4,
+      "equity_ratio": 24.25,
+      "revenue_trend": [
+        100,
+        110,
+        112
+      ],
+      "eps_trend": [
+        100,
+        129,
+        133
+      ],
+      "cash_trend": [
+        100,
+        84,
+        98
+      ],
+      "op_cashflow": 1300193000000.0,
+      "dividend_history": [
+        85.6,
+        118.0,
+        151.6
+      ],
+      "high_52w": 5648.0,
+      "low_52w": 2844.0,
+      "ma25": 4894.8,
+      "ma75": 4948.4,
+      "error": null
+    },
+    {
+      "code": "8593",
+      "name_ja": "三菱UFJリース",
+      "sector_ja": "金融サービス",
+      "price": 1405.5,
+      "prev_close": 1423.5,
+      "day_change_pct": -1.26,
+      "yield": 327.0,
+      "yield_error": true,
+      "annual_dividend": 46.0,
+      "market_cap": 2018022785024,
+      "per": 12.468949,
+      "pbr": 1.0527065,
+      "op_margin": 13.51,
+      "payout_ratio": 37.24,
+      "equity_ratio": 15.23,
+      "revenue_trend": [
+        100,
+        103,
+        110
+      ],
+      "eps_trend": [
+        100,
+        107,
+        116
+      ],
+      "cash_trend": [
+        100,
+        62,
+        53
+      ],
+      "op_cashflow": -296884000000.0,
+      "dividend_history": [
+        39.0,
+        42.0,
+        23.0
+      ],
+      "high_52w": 1541.5,
+      "low_52w": 997.6,
+      "ma25": 1446.1,
+      "ma75": 1415.7,
+      "error": null
+    },
+    {
+      "code": "8898",
+      "name_ja": "センチュリー21・ジャパン",
+      "sector_ja": "不動産",
+      "price": 1128.0,
+      "prev_close": 1138.0,
+      "day_change_pct": -0.88,
+      "yield": 496.0,
+      "yield_error": true,
+      "annual_dividend": 56.0,
+      "market_cap": 11575335936,
+      "per": 15.08223,
+      "pbr": 1.7032508,
+      "op_margin": 17.72,
+      "payout_ratio": 73.59,
+      "equity_ratio": 83.45,
+      "revenue_trend": [
+        100,
+        101,
+        107
+      ],
+      "eps_trend": [
+        100,
+        104,
+        125
+      ],
+      "cash_trend": [
+        100,
+        113,
+        40
+      ],
+      "op_cashflow": 1038930000.0,
+      "dividend_history": [
+        45.0,
+        55.0,
+        28.0
+      ],
+      "high_52w": 1190.0,
+      "low_52w": 1090.0,
+      "ma25": 1126.8,
+      "ma75": 1116.0,
+      "error": null
+    },
+    {
+      "code": "9432",
+      "name_ja": "NTT（日本電信電話）",
+      "sector_ja": "通信サービス",
+      "price": 152.0,
+      "prev_close": 152.5,
+      "day_change_pct": -0.33,
+      "yield": 349.0,
+      "yield_error": true,
+      "annual_dividend": 5.3,
+      "market_cap": 12376390762496,
+      "per": 12.101911,
+      "pbr": 1.3061448,
+      "op_margin": 14.65,
+      "payout_ratio": 41.8,
+      "equity_ratio": 34.0,
+      "revenue_trend": [
+        100,
+        102,
+        104
+      ],
+      "eps_trend": [
+        100,
+        108,
+        86
+      ],
+      "cash_trend": [
+        100,
+        124,
+        126
+      ],
+      "op_cashflow": 2364031000000.0,
+      "dividend_history": [
+        5.2,
+        5.2,
+        2.6
+      ],
+      "high_52w": 167.2,
+      "low_52w": 148.0,
+      "ma25": 154.0,
+      "ma75": 152.9,
+      "error": null
+    },
+    {
+      "code": "9433",
+      "name_ja": "KDDI",
+      "sector_ja": "通信サービス",
+      "price": 2548.0,
+      "prev_close": 2582.5,
+      "day_change_pct": -1.34,
+      "yield": 314.0,
+      "yield_error": true,
+      "annual_dividend": 80.0,
+      "market_cap": 9700435296256,
+      "per": 14.88057,
+      "pbr": 1.9688249,
+      "op_margin": 18.71,
+      "payout_ratio": 45.23,
+      "equity_ratio": 30.11,
+      "revenue_trend": [
+        100,
+        101,
+        104
+      ],
+      "eps_trend": [
+        100,
+        95,
+        109
+      ],
+      "cash_trend": [
+        100,
+        185,
+        192
+      ],
+      "op_cashflow": 1249042000000.0,
+      "dividend_history": [
+        70.0,
+        77.5,
+        40.0
+      ],
+      "high_52w": 2827.0,
+      "low_52w": 2307.5,
+      "ma25": 2640.7,
+      "ma75": 2632.4,
+      "error": null
+    },
+    {
+      "code": "9436",
+      "name_ja": "沖縄セルラー",
+      "sector_ja": "通信サービス",
+      "price": 3285.0,
+      "prev_close": 3355.0,
+      "day_change_pct": -2.09,
+      "yield": 195.0,
+      "yield_error": true,
+      "annual_dividend": 64.0,
+      "market_cap": 302631452672,
+      "per": 24.095943,
+      "pbr": 3.141097,
+      "op_margin": 22.43,
+      "payout_ratio": 46.95,
+      "equity_ratio": 81.63,
+      "revenue_trend": [
+        100,
+        101,
+        109
+      ],
+      "eps_trend": [
+        100,
+        120,
+        127
+      ],
+      "cash_trend": [
+        100,
+        97,
+        107
+      ],
+      "op_cashflow": 15092000000.0,
+      "dividend_history": [
+        60.0,
+        64.0,
+        32.0
+      ],
+      "high_52w": 3550.0,
+      "low_52w": 2105.0,
+      "ma25": 3413.3,
+      "ma75": 3294.8,
+      "error": null
+    },
+    {
+      "code": "9986",
+      "name_ja": "蔵王産業",
+      "sector_ja": "産業・機械",
+      "price": 2580.0,
+      "prev_close": 2599.0,
+      "day_change_pct": -0.73,
+      "yield": 388.0,
+      "yield_error": true,
+      "annual_dividend": 100.0,
+      "market_cap": 14030600192,
+      "per": 19.230768,
+      "pbr": 1.2499746,
+      "op_margin": 12.17,
+      "payout_ratio": 74.48,
+      "equity_ratio": 87.25,
+      "revenue_trend": [
+        100,
+        98,
+        88
+      ],
+      "eps_trend": [
+        100,
+        101,
+        62
+      ],
+      "cash_trend": [
+        100,
+        74,
+        75
+      ],
+      "op_cashflow": 513714000.0,
+      "dividend_history": [
+        100.0,
+        100.0,
+        55.0
+      ],
+      "high_52w": 2850.0,
+      "low_52w": 2390.0,
+      "ma25": 2654.0,
+      "ma75": 2581.2,
+      "error": null
+    }
+  ]
 }
