@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高配当株トラッカー</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+:root {
+  --bg: #0f1117;
+  --card: #1a1d2e;
+  --card2: #222540;
+  --text: #f3f4f6;
+  --muted: #9ca3af;
+  --border: #374151;
+  --red: #ef4444;
+  --orange: #f97316;
+  --blue: #3b82f6;
+  --green: #22c55e;
+  --yellow: #eab308;
+  --radius: 8px;
+  --gap: 12px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Hiragino Sans', 'Meiryo', 'Segoe UI', sans-serif; padding: 16px; font-size: 14px; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { cursor: pointer; border: none; border-radius: 4px; font-size: 13px; padding: 6px 12px; transition: opacity 0.15s; }
+button:hover { opacity: 0.8; }
+input, select { background: #2d3148; color: var(--text); border: 1px solid var(--border); border-radius: 4px; padding: 5px 8px; font-size: 13px; }
+input:focus, select:focus { outline: 2px solid var(--blue); border-color: transparent; }
+
+/* ── ヘッダー ── */
+#header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+#header h1 { font-size: 20px; font-weight: 700; white-space: nowrap; }
+#update-time { color: var(--muted); font-size: 12px; }
+
+/* ── 統計バー ── */
+#stats-bar {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;
+  background: var(--card); border-radius: var(--radius); padding: 10px 14px;
+}
+.stat-item { display: flex; flex-direction: column; gap: 2px; padding: 0 10px; border-right: 1px solid var(--border); }
+.stat-item:last-child { border-right: none; }
+.stat-label { font-size: 11px; color: var(--muted); }
+.stat-value { font-size: 16px; font-weight: 700; }
+.stat-value.red { color: var(--red); }
+.stat-value.green { color: var(--green); }
+
+/* ── 市場環境パネル ── */
+#market-panel {
+  display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px;
+  background: var(--card); border-radius: var(--radius); padding: 12px 16px;
+  align-items: center;
+}
+.market-item { display: flex; align-items: center; gap: 8px; }
+.market-label { font-size: 12px; color: var(--muted); }
+.market-value { font-size: 20px; font-weight: 700; }
+#tdr-input { width: 70px; font-size: 14px; }
+
+/* ── コントロール ── */
+#controls { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+#tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tab-btn {
+  background: var(--card); color: var(--muted); border: 1px solid var(--border);
+  padding: 6px 14px; border-radius: 20px; font-size: 13px;
+}
+.tab-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
+#filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+#filter-info { font-size: 12px; color: var(--muted); }
+.filter-group { display: flex; align-items: center; gap: 6px; }
+.filter-group label { font-size: 12px; color: var(--muted); white-space: nowrap; }
+#search-input { width: 160px; }
+
+/* ── カードグリッド ── */
+#card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: var(--gap);
+}
+.stock-card {
+  background: var(--card); border-radius: var(--radius);
+  padding: 12px 14px; cursor: pointer;
+  border-left: 4px solid var(--border);
+  transition: transform 0.1s, box-shadow 0.1s;
+  position: relative;
+}
+.stock-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.4); }
+.card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px; }
+.card-name { font-weight: 600; font-size: 14px; line-height: 1.3; }
+.card-code { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.card-sector { font-size: 11px; color: var(--muted); margin-bottom: 8px; }
+.card-price-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.card-price { font-size: 16px; font-weight: 700; }
+.card-change { font-size: 12px; }
+.card-yield-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.card-yield-label { font-size: 11px; color: var(--muted); }
+.card-yield-value { font-size: 18px; font-weight: 700; }
+.card-yield-value.high { color: var(--red); }
+.card-yield-value.mid { color: var(--orange); }
+.card-score-badge {
+  position: absolute; top: 10px; right: 10px;
+  background: #2d3148; border-radius: 4px; padding: 2px 6px;
+  font-size: 11px; color: var(--muted);
+}
+.card-score-badge b { color: var(--text); }
+.card-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+.card-tag { font-size: 10px; padding: 1px 6px; border-radius: 10px; font-weight: 600; }
+.card-tag.holding { background: rgba(34,197,94,0.2); color: var(--green); }
+.card-tag.watch { background: rgba(59,130,246,0.2); color: var(--blue); }
+.card-tag.candidate { background: rgba(234,179,8,0.2); color: var(--yellow); }
+.card-error { color: var(--muted); font-size: 12px; padding: 8px 0; }
+
+/* ── 保有中テーブル ── */
+#holdings-view { display: none; }
+.holdings-table { width: 100%; border-collapse: collapse; }
+.holdings-table th { background: var(--card2); padding: 8px 10px; text-align: left; font-size: 12px; color: var(--muted); border-bottom: 1px solid var(--border); }
+.holdings-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); font-size: 13px; }
+.holdings-table tr:hover td { background: var(--card2); cursor: pointer; }
+.holdings-table tfoot td { font-weight: 700; padding: 10px; border-top: 2px solid var(--border); }
+.invest-input { width: 100px; }
+#sector-alloc-bar { margin-top: 16px; }
+.sector-bar-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 12px; }
+.sector-bar-label { width: 140px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-shrink: 0; }
+.sector-bar-track { flex: 1; background: var(--border); border-radius: 4px; height: 10px; }
+.sector-bar-fill { height: 10px; border-radius: 4px; background: var(--blue); }
+.sector-bar-pct { width: 40px; text-align: right; color: var(--muted); }
+
+/* ── モーダル ── */
+#modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.75);
+  display: none; align-items: center; justify-content: center;
+  z-index: 100; padding: 16px;
+}
+#modal.open { display: flex; }
+.modal-content {
+  background: var(--card); border-radius: 12px; padding: 24px;
+  width: min(620px, 100%); max-height: 90vh; overflow-y: auto;
+  position: relative;
+}
+.modal-close {
+  position: absolute; top: 12px; right: 12px;
+  background: var(--border); color: var(--text); width: 28px; height: 28px;
+  border-radius: 50%; font-size: 16px; display: flex; align-items: center; justify-content: center;
+}
+.modal-title { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+.modal-subtitle { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+.modal-section { margin-bottom: 16px; }
+.modal-section h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+/* タグボタン */
+.tag-buttons { display: flex; gap: 8px; margin-bottom: 16px; }
+.tag-btn { padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; border: 1.5px solid; }
+.tag-btn.holding { border-color: var(--green); color: var(--green); background: transparent; }
+.tag-btn.holding.active { background: var(--green); color: #0f1117; }
+.tag-btn.watch { border-color: var(--blue); color: var(--blue); background: transparent; }
+.tag-btn.watch.active { background: var(--blue); color: white; }
+.tag-btn.candidate { border-color: var(--yellow); color: var(--yellow); background: transparent; }
+.tag-btn.candidate.active { background: var(--yellow); color: #0f1117; }
+/* スコアチェックリスト */
+.score-list { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.score-list li { font-size: 12px; display: flex; align-items: center; gap: 6px; padding: 3px 0; }
+.score-check { width: 16px; height: 16px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; flex-shrink: 0; }
+.score-check.pass { background: rgba(34,197,94,0.2); color: var(--green); }
+.score-check.fail { background: rgba(107,114,128,0.2); color: var(--muted); }
+/* レーダーチャート */
+#radar-wrap { display: flex; justify-content: center; margin: 12px 0; }
+#radar-canvas { max-width: 260px; }
+/* 52週バー */
+.fw52-bar-container { padding: 4px 0; }
+.fw52-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+.fw52-track { position: relative; background: var(--border); border-radius: 4px; height: 12px; margin-bottom: 4px; }
+.fw52-fill { height: 12px; border-radius: 4px; background: linear-gradient(to right, var(--blue), var(--green)); }
+.fw52-marker { position: absolute; top: -3px; width: 2px; height: 18px; background: white; border-radius: 2px; transform: translateX(-50%); }
+.fw52-current { font-size: 11px; color: var(--muted); text-align: center; }
+/* バリュー指標 */
+.valuation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.val-item { background: var(--card2); border-radius: 6px; padding: 8px 12px; }
+.val-label { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+.val-value { font-size: 20px; font-weight: 700; }
+.val-comment { font-size: 11px; color: var(--muted); }
+.val-value.cheap { color: var(--green); }
+.val-value.expensive { color: var(--red); }
+/* MA乖離 */
+.ma-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ma-item { background: var(--card2); border-radius: 6px; padding: 8px 12px; }
+.ma-label { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+.ma-value { font-size: 18px; font-weight: 700; }
+/* 買い増し判断 */
+.buyyield-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.buyyield-compare { font-size: 13px; padding: 6px 10px; background: var(--card2); border-radius: 6px; }
+/* 手動入力フォーム */
+.manual-form { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.manual-field { display: flex; flex-direction: column; gap: 4px; }
+.manual-field label { font-size: 11px; color: var(--muted); }
+.manual-field input { width: 100%; }
+.memo-area { grid-column: 1 / -1; }
+.memo-area textarea { width: 100%; background: #2d3148; color: var(--text); border: 1px solid var(--border); border-radius: 4px; padding: 6px 8px; font-size: 13px; resize: vertical; min-height: 60px; }
+/* フッターリンク */
+.modal-footer { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; }
+
+/* ── ローディング / エラー ── */
+#loading { text-align: center; padding: 60px; color: var(--muted); font-size: 16px; }
+#load-error { text-align: center; padding: 60px; color: var(--red); }
+.empty-msg { text-align: center; padding: 40px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>📈 高配当株トラッカー</h1>
+  <span id="update-time"></span>
+</div>
+
+<div id="stats-bar">
+  <div class="stat-item"><span class="stat-label">4%以上</span><span class="stat-value red" id="s-count4">–</span></div>
+  <div class="stat-item"><span class="stat-label">3.7%以上</span><span class="stat-value orange" id="s-count37" style="color:var(--orange)">–</span></div>
+  <div class="stat-item"><span class="stat-label">平均利回り</span><span class="stat-value" id="s-avg-yield">–</span></div>
+  <div class="stat-item"><span class="stat-label">全銘柄数</span><span class="stat-value" id="s-total">–</span></div>
+  <div class="stat-item"><span class="stat-label">表示中</span><span class="stat-value" id="s-filtered">–</span></div>
+  <div class="stat-item"><span class="stat-label">表示平均利回り</span><span class="stat-value" id="s-filtered-avg">–</span></div>
+</div>
+
+<div id="market-panel">
+  <div class="market-item">
+    <span class="market-label">VIX</span>
+    <span class="market-value" id="vix-value">–</span>
+    <span style="font-size:11px;color:var(--muted)" id="vix-label"></span>
+  </div>
+  <div class="market-item" style="margin-left:16px">
+    <span class="market-label">騰落レシオ</span>
+    <input type="number" id="tdr-input" placeholder="例: 95" min="0" max="300">
+    <span class="market-value" id="tdr-value" style="font-size:16px">–</span>
+    <span style="font-size:11px;color:var(--muted)" id="tdr-label"></span>
+  </div>
+</div>
+
+<div id="controls">
+  <div id="tabs">
+    <button class="tab-btn active" data-tab="全銘柄">全銘柄</button>
+    <button class="tab-btn" data-tab="4%以上">4%以上</button>
+    <button class="tab-btn" data-tab="3.7%以上">3.7%以上</button>
+    <button class="tab-btn" data-tab="保有中">保有中</button>
+    <button class="tab-btn" data-tab="ウォッチ">ウォッチ</button>
+    <button class="tab-btn" data-tab="候補">候補</button>
+    <button class="tab-btn" data-tab="トップ30">トップ30</button>
+    <button class="tab-btn" data-tab="エラー">エラー</button>
+  </div>
+  <div id="filters">
+    <div class="filter-group">
+      <label>ソート:</label>
+      <select id="sort-select">
+        <option value="yield">利回り順</option>
+        <option value="score">財務スコア順</option>
+        <option value="code">コード順</option>
+        <option value="price">株価順</option>
+        <option value="top30">トップ30スコア順</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>セクター:</label>
+      <select id="sector-select"><option value="">全セクター</option></select>
+    </div>
+    <div class="filter-group">
+      <label>スコア下限:</label>
+      <select id="score-select">
+        <option value="0">指定なし</option>
+        <option value="4">4以上</option>
+        <option value="5">5以上</option>
+        <option value="6">6以上</option>
+        <option value="7">7以上</option>
+        <option value="8">8</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>検索:</label>
+      <input type="text" id="search-input" placeholder="銘柄名・コード">
+    </div>
+    <span id="filter-info"></span>
+  </div>
+</div>
+
+<div id="loading">データを読み込み中...</div>
+<div id="load-error" style="display:none">データの読み込みに失敗しました。ページをリロードしてください。</div>
+<div id="card-grid" style="display:none"></div>
+<div id="holdings-view"></div>
+
+<!-- モーダル -->
+<div id="modal" onclick="handleModalBg(event)">
+  <div class="modal-content" id="modal-content"></div>
+</div>
+
+<script>
+'use strict';
+
+// ── グローバル状態 ──
+let ALL_STOCKS = [];
+let META = {};
+let radarChart = null;
+
+const STATE = {
+  activeTab: '全銘柄',
+  sort: 'yield',
+  sectorFilter: '',
+  scoreFilter: 0,
+  searchText: '',
+};
+
+// ── 1. データ読み込み ──
+async function loadData() {
+  try {
+    const resp = await fetch('data/stocks.json');
+    if (!resp.ok) throw new Error(resp.status);
+    const json = await resp.json();
+    META = json.meta || {};
+    ALL_STOCKS = json.stocks || [];
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('card-grid').style.display = 'grid';
+    initPage();
+  } catch (e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('load-error').style.display = 'block';
+  }
+}
+
+// ── 2. スコア計算 ──
+function calcQualityScore(s) {
+  let score = 0;
+  const dh = s.dividend_history || [];
+  // 増配トレンド
+  if (dh.length >= 3 && dh[1] > dh[0] && dh[2] > dh[1]) score++;
+  else if (dh.length === 2 && dh[1] > dh[0]) score++;
+  // 配当性向 20-60%
+  if (s.payout_ratio != null && s.payout_ratio >= 20 && s.payout_ratio <= 60) score++;
+  // 配当性向安定性 (存在し 100% 未満)
+  if (s.payout_ratio != null && s.payout_ratio > 0 && s.payout_ratio < 100) score++;
+  // ROE代理: EPS最新値 > base(100)
+  const eps = s.eps_trend || [];
+  if (eps.length > 0 && eps[eps.length - 1] > 100) score++;
+  // 営業CFプラス
+  if (s.op_cashflow != null && s.op_cashflow > 0) score++;
+  // PBR < 1.0
+  if (s.pbr != null && s.pbr < 1.0) score++;
+  // 営業利益率 > 8%
+  if (s.op_margin != null && s.op_margin > 8) score++;
+  // 自己資本比率 > 40%
+  if (s.equity_ratio != null && s.equity_ratio > 40) score++;
+  return Math.min(score, 8);
+}
+
+function getScoreChecks(s) {
+  const dh = s.dividend_history || [];
+  const hasDivIncrease =
+    (dh.length >= 3 && dh[1] > dh[0] && dh[2] > dh[1]) ||
+    (dh.length === 2 && dh[1] > dh[0]);
+  const eps = s.eps_trend || [];
+  return [
+    { label: '増配トレンド', shortLabel: '増配', pass: hasDivIncrease },
+    { label: '配当性向20〜60%', shortLabel: '性向', pass: s.payout_ratio != null && s.payout_ratio >= 20 && s.payout_ratio <= 60 },
+    { label: '配当性向安定性', shortLabel: '安定', pass: s.payout_ratio != null && s.payout_ratio > 0 && s.payout_ratio < 100 },
+    { label: 'EPS成長(ROE代理)', shortLabel: 'EPS', pass: eps.length > 0 && eps[eps.length - 1] > 100 },
+    { label: '営業CFプラス', shortLabel: '営業CF', pass: s.op_cashflow != null && s.op_cashflow > 0 },
+    { label: 'PBR 1.0未満', shortLabel: 'PBR', pass: s.pbr != null && s.pbr < 1.0 },
+    { label: '営業利益率 8%超', shortLabel: '利益率', pass: s.op_margin != null && s.op_margin > 8 },
+    { label: '自己資本比率 40%超', shortLabel: '自己資本', pass: s.equity_ratio != null && s.equity_ratio > 40 },
+  ];
+}
+
+function calcTop30Score(s) {
+  if (s.yield_error || s.yield == null) return -1;
+  const qs = calcQualityScore(s);
+  const yieldPts = Math.min(s.yield / 5 * 40, 40);
+  const qualityPts = qs / 8 * 35;
+  const pbr = s.pbr;
+  const pbrPts = pbr == null ? 0 : pbr < 0.5 ? 15 : pbr < 0.8 ? 12 : pbr < 1.0 ? 9 : pbr < 1.5 ? 5 : 0;
+  const per = s.per;
+  const perPts = per == null ? 0 : per < 10 ? 10 : per < 15 ? 7 : per < 20 ? 4 : 0;
+  return Math.round(yieldPts + qualityPts + pbrPts + perPts);
+}
+
+// ── 3. ボーダーカラー ──
+function getBorderColor(s) {
+  if (s.error) return '#4b5563';
+  if (!s.yield_error && s.yield != null) {
+    if (s.yield >= 4.0) return '#ef4444';
+    if (s.yield >= 3.7) return '#f97316';
+  }
+  if (s.price && s.high_52w != null && s.low_52w != null) {
+    const range = s.high_52w - s.low_52w;
+    if (range > 0 && s.price <= s.low_52w + range * 0.33) return '#3b82f6';
+  }
+  return '#374151';
+}
+
+// ── 4. フィルタ & ソート ──
+function getVisibleStocks() {
+  const tab = STATE.activeTab;
+  if (tab === 'エラー') return ALL_STOCKS.filter(s => s.error);
+
+  let stocks = ALL_STOCKS.filter(s => !s.error);
+
+  if (tab === '4%以上') stocks = stocks.filter(s => !s.yield_error && s.yield != null && s.yield >= 4);
+  else if (tab === '3.7%以上') stocks = stocks.filter(s => !s.yield_error && s.yield != null && s.yield >= 3.7);
+  else if (tab === '保有中') stocks = stocks.filter(s => localStorage.getItem(`holding_${s.code}`) === '1');
+  else if (tab === 'ウォッチ') stocks = stocks.filter(s => localStorage.getItem(`watch_${s.code}`) === '1');
+  else if (tab === '候補') stocks = stocks.filter(s => localStorage.getItem(`candidate_${s.code}`) === '1');
+  else if (tab === 'トップ30') {
+    return stocks
+      .filter(s => !s.yield_error && s.yield != null)
+      .map(s => ({ ...s, _top30: calcTop30Score(s) }))
+      .sort((a, b) => b._top30 - a._top30)
+      .slice(0, 30);
+  }
+
+  if (STATE.sectorFilter) stocks = stocks.filter(s => s.sector_ja === STATE.sectorFilter);
+  if (STATE.scoreFilter > 0) stocks = stocks.filter(s => calcQualityScore(s) >= STATE.scoreFilter);
+  if (STATE.searchText) {
+    const q = STATE.searchText.toLowerCase();
+    stocks = stocks.filter(s =>
+      (s.name_ja || '').includes(q) || s.code.includes(q) || (s.sector_ja || '').includes(q)
+    );
+  }
+
+  const sort = STATE.sort;
+  if (sort === 'yield') stocks.sort((a, b) => (b.yield || 0) - (a.yield || 0));
+  else if (sort === 'score') stocks.sort((a, b) => calcQualityScore(b) - calcQualityScore(a));
+  else if (sort === 'code') stocks.sort((a, b) => a.code.localeCompare(b.code));
+  else if (sort === 'price') stocks.sort((a, b) => (b.price || 0) - (a.price || 0));
+  else if (sort === 'top30') stocks.sort((a, b) => calcTop30Score(b) - calcTop30Score(a));
+
+  return stocks;
+}
+
+// ── 5. カードレンダリング ──
+function renderCard(s) {
+  const score = calcQualityScore(s);
+  const borderColor = getBorderColor(s);
+  const yieldDisplay = s.yield_error ? '–' : (s.yield != null ? s.yield.toFixed(2) + '%' : '–');
+  const yieldClass = !s.yield_error && s.yield >= 4 ? 'high' : (!s.yield_error && s.yield >= 3.7 ? 'mid' : '');
+  const changeVal = s.day_change_pct;
+  const changeStr = changeVal != null ? `${changeVal >= 0 ? '+' : ''}${changeVal.toFixed(2)}%` : '–';
+  const changeColor = changeVal != null ? (changeVal >= 0 ? 'var(--green)' : 'var(--red)') : 'var(--muted)';
+  const priceStr = s.price != null ? `¥${Math.round(s.price).toLocaleString()}` : '–';
+
+  const holding = localStorage.getItem(`holding_${s.code}`) === '1';
+  const watch = localStorage.getItem(`watch_${s.code}`) === '1';
+  const candidate = localStorage.getItem(`candidate_${s.code}`) === '1';
+  const tags = [
+    holding ? '<span class="card-tag holding">保有中</span>' : '',
+    watch ? '<span class="card-tag watch">ウォッチ</span>' : '',
+    candidate ? '<span class="card-tag candidate">候補</span>' : '',
+  ].join('');
+
+  if (s.error) {
+    return `<div class="stock-card" style="border-left-color:${borderColor}" onclick="openModal('${s.code}')">
+      <div class="card-header"><span class="card-name">${s.name_ja || s.code}</span><span class="card-code">${s.code}</span></div>
+      <div class="card-error">取得エラー</div>
+    </div>`;
+  }
+
+  const top30Score = s._top30 != null ? `<span style="font-size:10px;color:var(--muted);margin-left:4px">T30:${s._top30}</span>` : '';
+
+  return `<div class="stock-card" style="border-left-color:${borderColor}" onclick="openModal('${s.code}')">
+    <div class="card-score-badge">スコア <b>${score}</b>/8</div>
+    <div class="card-header">
+      <span class="card-name">${s.name_ja || s.code}</span>
+      <span class="card-code">${s.code}</span>
+    </div>
+    <div class="card-sector">${s.sector_ja || '–'}</div>
+    <div class="card-price-row">
+      <span class="card-price">${priceStr}</span>
+      <span class="card-change" style="color:${changeColor}">${changeStr}</span>
+    </div>
+    <div class="card-yield-row">
+      <span class="card-yield-label">配当利回り</span>
+      <span class="card-yield-value ${yieldClass}">${yieldDisplay}${top30Score}</span>
+    </div>
+    ${tags ? `<div class="card-tags">${tags}</div>` : ''}
+  </div>`;
+}
+
+function renderCards() {
+  const visible = getVisibleStocks();
+  const tab = STATE.activeTab;
+
+  if (tab === '保有中') {
+    document.getElementById('card-grid').style.display = 'none';
+    document.getElementById('holdings-view').style.display = 'block';
+    renderHoldingsView(visible);
+    updateStatsBar(visible);
+    return;
+  }
+  document.getElementById('holdings-view').style.display = 'none';
+  document.getElementById('card-grid').style.display = 'grid';
+
+  if (visible.length === 0) {
+    document.getElementById('card-grid').innerHTML = '<div class="empty-msg" style="grid-column:1/-1">表示できる銘柄がありません</div>';
+  } else {
+    document.getElementById('card-grid').innerHTML = visible.map(renderCard).join('');
+  }
+  updateStatsBar(visible);
+}
+
+// ── 6. 統計バー ──
+function updateStatsBar(visible) {
+  const all = ALL_STOCKS.filter(s => !s.error && !s.yield_error && s.yield != null);
+  const count4 = all.filter(s => s.yield >= 4).length;
+  const count37 = all.filter(s => s.yield >= 3.7).length;
+  const avgYield = all.length ? (all.reduce((a, b) => a + b.yield, 0) / all.length).toFixed(2) : '–';
+
+  const visFiltered = visible.filter(s => !s.yield_error && s.yield != null);
+  const filteredAvg = visFiltered.length ? (visFiltered.reduce((a, b) => a + b.yield, 0) / visFiltered.length).toFixed(2) : '–';
+
+  document.getElementById('s-count4').textContent = count4;
+  document.getElementById('s-count37').textContent = count37;
+  document.getElementById('s-avg-yield').textContent = avgYield !== '–' ? avgYield + '%' : '–';
+  document.getElementById('s-total').textContent = ALL_STOCKS.filter(s => !s.error).length;
+  document.getElementById('s-filtered').textContent = visible.length + '銘柄';
+  document.getElementById('s-filtered-avg').textContent = filteredAvg !== '–' ? filteredAvg + '%' : '–';
+}
+
+// ── 7. 市場環境パネル ──
+function initMarketPanel() {
+  // VIX 初期表示（JSON値）
+  if (META.vix != null) updateVIXDisplay(META.vix);
+  // ライブ更新
+  fetchLiveVIX();
+
+  // 騰落レシオ
+  const tdrInput = document.getElementById('tdr-input');
+  const saved = localStorage.getItem('tdr_value');
+  if (saved) { tdrInput.value = saved; updateTDRDisplay(saved); }
+  tdrInput.addEventListener('input', () => {
+    localStorage.setItem('tdr_value', tdrInput.value);
+    updateTDRDisplay(tdrInput.value);
+  });
+
+  // 更新時刻
+  if (META.updated) {
+    try {
+      const d = new Date(META.updated);
+      document.getElementById('update-time').textContent = `最終更新: ${d.toLocaleString('ja-JP')}`;
+    } catch (e) {}
+  }
+}
+
+function updateVIXDisplay(v) {
+  const val = parseFloat(v);
+  if (isNaN(val)) return;
+  const el = document.getElementById('vix-value');
+  const lbl = document.getElementById('vix-label');
+  el.textContent = val.toFixed(2);
+  if (val < 20) { el.style.color = 'var(--green)'; lbl.textContent = '(安定)'; }
+  else if (val <= 30) { el.style.color = 'var(--orange)'; lbl.textContent = '(警戒)'; }
+  else { el.style.color = 'var(--red)'; lbl.textContent = '(恐怖)'; }
+}
+
+function updateTDRDisplay(v) {
+  const val = parseFloat(v);
+  const el = document.getElementById('tdr-value');
+  const lbl = document.getElementById('tdr-label');
+  if (isNaN(val) || v === '') { el.textContent = '–'; lbl.textContent = ''; return; }
+  el.textContent = val.toFixed(1);
+  if (val > 120) { el.style.color = 'var(--red)'; lbl.textContent = '(買われ過ぎ)'; }
+  else if (val >= 70) { el.style.color = 'var(--green)'; lbl.textContent = '(通常)'; }
+  else { el.style.color = 'var(--blue)'; lbl.textContent = '(売られ過ぎ)'; }
+}
+
+async function fetchLiveVIX() {
+  const PROXY = 'https://corsproxy.io/?url=';
+  const VIX_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?interval=1d&range=1d';
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 6000);
+    const resp = await fetch(PROXY + encodeURIComponent(VIX_URL), { signal: ctrl.signal });
+    clearTimeout(t);
+    const data = await resp.json();
+    const price = data?.chart?.result?.[0]?.meta?.regularMarketPrice;
+    if (price != null) updateVIXDisplay(price);
+  } catch (e) { /* フォールバック: JSON値維持 */ }
+}
+
+// ── 8. 保有中タブ ──
+function renderHoldingsView(stocks) {
+  const rows = stocks.map(s => {
+    const invest = parseFloat(localStorage.getItem(`invest_${s.code}`) || '0') || 0;
+    return { s, invest };
+  });
+  const total = rows.reduce((a, r) => a + r.invest, 0);
+
+  const tableRows = rows.map(({ s, invest }) => {
+    const pct = total > 0 && invest > 0 ? (invest / total * 100).toFixed(1) + '%' : '–';
+    const yld = s.yield_error ? '–' : (s.yield != null ? s.yield.toFixed(2) + '%' : '–');
+    return `<tr onclick="openModal('${s.code}')">
+      <td>${s.name_ja}</td>
+      <td>${s.sector_ja || '–'}</td>
+      <td>${yld}</td>
+      <td><input class="invest-input" type="number" value="${invest || ''}" placeholder="0"
+        onclick="event.stopPropagation()"
+        onchange="saveInvest('${s.code}', this.value); renderCards()"></td>
+      <td>${pct}</td>
+    </tr>`;
+  }).join('');
+
+  // セクター配分バー
+  const sectorMap = {};
+  rows.forEach(({ s, invest }) => {
+    const key = s.sector_ja || 'その他';
+    sectorMap[key] = (sectorMap[key] || 0) + (invest > 0 ? invest : 1);
+  });
+  const sectorTotal = Object.values(sectorMap).reduce((a, b) => a + b, 0);
+  const sectorBars = Object.entries(sectorMap)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, v]) => {
+      const pct = sectorTotal > 0 ? (v / sectorTotal * 100) : 0;
+      return `<div class="sector-bar-row">
+        <span class="sector-bar-label">${k}</span>
+        <div class="sector-bar-track"><div class="sector-bar-fill" style="width:${pct.toFixed(1)}%"></div></div>
+        <span class="sector-bar-pct">${pct.toFixed(1)}%</span>
+      </div>`;
+    }).join('');
+
+  document.getElementById('holdings-view').innerHTML = `
+    <div style="overflow-x:auto">
+      <table class="holdings-table">
+        <thead><tr><th>銘柄名</th><th>セクター</th><th>利回り</th><th>投資額(円)</th><th>割合</th></tr></thead>
+        <tbody>${tableRows}</tbody>
+        <tfoot><tr><td colspan="3">合計投資額</td><td><b>¥${total.toLocaleString()}</b></td><td></td></tr></tfoot>
+      </table>
+    </div>
+    ${stocks.length === 0 ? '<div class="empty-msg">保有銘柄がありません。カードのモーダルから「保有中」タグを設定してください。</div>' : ''}
+    <div id="sector-alloc-bar" style="margin-top:16px">
+      <div style="font-size:12px;color:var(--muted);margin-bottom:8px">セクター配分</div>
+      ${sectorBars}
+    </div>`;
+}
+
+function saveInvest(code, val) {
+  try { localStorage.setItem(`invest_${code}`, val); } catch (e) {}
+}
+
+// ── 9. セクタードロップダウン ──
+function populateSectors() {
+  const sectors = [...new Set(ALL_STOCKS.map(s => s.sector_ja).filter(Boolean))].sort();
+  const sel = document.getElementById('sector-select');
+  sel.innerHTML = '<option value="">全セクター</option>' +
+    sectors.map(s => `<option value="${s}">${s}</option>`).join('');
+}
+
+// ── 10. モーダル ──
+function openModal(code) {
+  const s = ALL_STOCKS.find(x => x.code === code);
+  if (!s) return;
+  const score = calcQualityScore(s);
+  const checks = getScoreChecks(s);
+
+  const holding = localStorage.getItem(`holding_${code}`) === '1';
+  const watch = localStorage.getItem(`watch_${code}`) === '1';
+  const candidate = localStorage.getItem(`candidate_${code}`) === '1';
+  const memo = localStorage.getItem(`memo_${code}`) || '';
+  const buyYield = localStorage.getItem(`buy_yield_${code}`) || '';
+  const investVal = localStorage.getItem(`invest_${code}`) || '';
+
+  const yieldDisplay = s.yield_error ? '異常値' : (s.yield != null ? s.yield.toFixed(2) + '%' : '–');
+
+  document.getElementById('modal-content').innerHTML = `
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-title">${s.name_ja || s.code}</div>
+    <div class="modal-subtitle">${s.code} &nbsp;|&nbsp; ${s.sector_ja || '–'} &nbsp;|&nbsp; 利回り: ${yieldDisplay}</div>
+
+    <!-- タグ -->
+    <div class="tag-buttons">
+      <button class="tag-btn holding ${holding ? 'active' : ''}" onclick="toggleTag('${code}','holding',this)">保有中</button>
+      <button class="tag-btn watch ${watch ? 'active' : ''}" onclick="toggleTag('${code}','watch',this)">ウォッチ</button>
+      <button class="tag-btn candidate ${candidate ? 'active' : ''}" onclick="toggleTag('${code}','candidate',this)">候補</button>
+    </div>
+
+    ${s.error ? `<div style="color:var(--muted);padding:12px;background:var(--card2);border-radius:6px">エラー: ${s.error}</div>` : `
+
+    <!-- 財務スコア -->
+    <div class="modal-section">
+      <h3>財務スコア &nbsp; <span style="color:var(--text);font-size:16px">${score}</span><span style="color:var(--muted)">/8</span></h3>
+      <ul class="score-list">
+        ${checks.map(c => `<li>
+          <span class="score-check ${c.pass ? 'pass' : 'fail'}">${c.pass ? '✓' : '–'}</span>
+          ${c.label}
+        </li>`).join('')}
+      </ul>
+    </div>
+
+    <!-- レーダーチャート -->
+    <div id="radar-wrap"><canvas id="radar-canvas" width="260" height="260"></canvas></div>
+
+    <!-- 52週バー -->
+    ${render52wBar(s)}
+
+    <!-- バリュー指標 -->
+    <div class="modal-section">
+      <h3>バリュー指標</h3>
+      <div class="valuation-grid">
+        ${renderValItem('PER', s.per, v => v < 15 ? ['cheap','割安'] : v > 25 ? ['expensive','割高'] : ['','標準'], v => v.toFixed(1) + '倍')}
+        ${renderValItem('PBR', s.pbr, v => v < 1.0 ? ['cheap','割安'] : v > 2.0 ? ['expensive','割高'] : ['','標準'], v => v.toFixed(2) + '倍')}
+        ${renderValItem('営業利益率', s.op_margin, v => v > 15 ? ['cheap','高利益'] : v < 5 ? ['expensive','低利益'] : ['',''], v => v.toFixed(1) + '%')}
+        ${renderValItem('自己資本比率', s.equity_ratio, v => v > 50 ? ['cheap','安定'] : v < 30 ? ['expensive','低め'] : ['',''], v => v.toFixed(1) + '%')}
+      </div>
+    </div>
+
+    <!-- MA乖離率 -->
+    ${renderMASection(s)}
+
+    <!-- 買い増し判断 -->
+    <div class="modal-section">
+      <h3>買い増し判断</h3>
+      <div class="buyyield-row">
+        <label style="font-size:12px;color:var(--muted)">購入時利回り:</label>
+        <input type="number" id="buy-yield-input" value="${buyYield}" placeholder="例: 4.2" step="0.01" style="width:90px"
+          onchange="saveBuyYield('${code}', this.value); updateBuyYieldCompare('${code}')">
+        <span style="font-size:12px;color:var(--muted)">%</span>
+        <span id="buyyield-compare" class="buyyield-compare">${getBuyYieldCompare(code, s)}</span>
+      </div>
+    </div>
+
+    <!-- 手動入力 -->
+    <div class="modal-section">
+      <h3>手動データ・メモ</h3>
+      <div class="manual-form">
+        <div class="manual-field"><label>投資額(円)</label>
+          <input type="number" value="${investVal}" placeholder="0"
+            onchange="try{localStorage.setItem('invest_${code}',this.value)}catch(e){}"></div>
+        <div class="manual-field"><label>配当利回り(手動上書き%)</label>
+          <input type="number" value="${getManual(code,'yield')}" placeholder="自動取得値"
+            step="0.01" onchange="saveManual('${code}','yield',this.value)"></div>
+        <div class="manual-field"><label>PER(手動)</label>
+          <input type="number" value="${getManual(code,'per')}" placeholder="自動取得値"
+            onchange="saveManual('${code}','per',this.value)"></div>
+        <div class="manual-field"><label>PBR(手動)</label>
+          <input type="number" value="${getManual(code,'pbr')}" placeholder="自動取得値"
+            step="0.01" onchange="saveManual('${code}','pbr',this.value)"></div>
+        <div class="manual-field memo-area"><label>メモ</label>
+          <textarea onchange="try{localStorage.setItem('memo_${code}',this.value)}catch(e){}">${memo}</textarea></div>
+      </div>
+    </div>
+    `}
+
+    <div class="modal-footer">
+      <a href="https://finance.yahoo.co.jp/quote/${code}.T" target="_blank" rel="noopener">Yahoo Finance で見る →</a>
+    </div>
+  `;
+
+  document.getElementById('modal').classList.add('open');
+  if (!s.error) {
+    renderRadarChart(checks);
+  }
+}
+
+function renderValItem(label, val, classifyFn, fmtFn) {
+  if (val == null) return `<div class="val-item"><div class="val-label">${label}</div><div class="val-value" style="color:var(--muted)">–</div></div>`;
+  const [cls, comment] = classifyFn(val);
+  return `<div class="val-item">
+    <div class="val-label">${label}</div>
+    <div class="val-value ${cls}">${fmtFn(val)}</div>
+    <div class="val-comment">${comment}</div>
+  </div>`;
+}
+
+function render52wBar(s) {
+  if (s.high_52w == null || s.low_52w == null || s.price == null) return '';
+  const range = s.high_52w - s.low_52w;
+  if (range <= 0) return '';
+  const pct = Math.max(0, Math.min(100, (s.price - s.low_52w) / range * 100));
+  return `<div class="modal-section">
+    <h3>52週レンジ内ポジション</h3>
+    <div class="fw52-bar-container">
+      <div class="fw52-labels">
+        <span>安値 ¥${Math.round(s.low_52w).toLocaleString()}</span>
+        <span>高値 ¥${Math.round(s.high_52w).toLocaleString()}</span>
+      </div>
+      <div class="fw52-track">
+        <div class="fw52-fill" style="width:${pct.toFixed(1)}%"></div>
+        <div class="fw52-marker" style="left:${pct.toFixed(1)}%"></div>
+      </div>
+      <div class="fw52-current">現在値 ¥${Math.round(s.price).toLocaleString()} (レンジ内 ${pct.toFixed(1)}%)</div>
+    </div>
+  </div>`;
+}
+
+function renderMASection(s) {
+  function deviationColor(pct) {
+    if (pct == null || isNaN(pct)) return 'var(--muted)';
+    if (pct > 5) return 'var(--red)';
+    if (pct < -5) return 'var(--blue)';
+    return 'var(--green)';
+  }
+  const ma25dev = s.ma25 && s.price ? (s.price - s.ma25) / s.ma25 * 100 : null;
+  const ma75dev = s.ma75 && s.price ? (s.price - s.ma75) / s.ma75 * 100 : null;
+  return `<div class="modal-section">
+    <h3>移動平均乖離率</h3>
+    <div class="ma-grid">
+      <div class="ma-item">
+        <div class="ma-label">25日MA (¥${s.ma25 != null ? Math.round(s.ma25).toLocaleString() : '–'})</div>
+        <div class="ma-value" style="color:${deviationColor(ma25dev)}">${ma25dev != null ? (ma25dev >= 0 ? '+' : '') + ma25dev.toFixed(2) + '%' : '–'}</div>
+      </div>
+      <div class="ma-item">
+        <div class="ma-label">75日MA (¥${s.ma75 != null ? Math.round(s.ma75).toLocaleString() : '–'})</div>
+        <div class="ma-value" style="color:${deviationColor(ma75dev)}">${ma75dev != null ? (ma75dev >= 0 ? '+' : '') + ma75dev.toFixed(2) + '%' : '–'}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function getBuyYieldCompare(code, s) {
+  const buyYield = parseFloat(localStorage.getItem(`buy_yield_${code}`) || '');
+  if (isNaN(buyYield) || s.yield == null || s.yield_error) return '購入時利回りを入力してください';
+  const diff = s.yield - buyYield;
+  if (diff > 0.2) return `<span style="color:var(--green)">現在の方が ${diff.toFixed(2)}% 高い → 買い増し有利</span>`;
+  if (diff < -0.2) return `<span style="color:var(--red)">現在の方が ${Math.abs(diff).toFixed(2)}% 低い → 様子見</span>`;
+  return `<span style="color:var(--muted)">ほぼ同水準 (差: ${diff >= 0 ? '+' : ''}${diff.toFixed(2)}%)</span>`;
+}
+
+function updateBuyYieldCompare(code) {
+  const s = ALL_STOCKS.find(x => x.code === code);
+  const el = document.getElementById('buyyield-compare');
+  if (el && s) el.innerHTML = getBuyYieldCompare(code, s);
+}
+
+function saveBuyYield(code, val) {
+  try { localStorage.setItem(`buy_yield_${code}`, val); } catch (e) {}
+}
+
+function getManual(code, field) {
+  try {
+    const d = JSON.parse(localStorage.getItem(`manual_${code}`) || '{}');
+    return d[field] != null ? d[field] : '';
+  } catch (e) { return ''; }
+}
+
+function saveManual(code, field, val) {
+  try {
+    const d = JSON.parse(localStorage.getItem(`manual_${code}`) || '{}');
+    if (val === '' || val == null) delete d[field];
+    else d[field] = parseFloat(val);
+    localStorage.setItem(`manual_${code}`, JSON.stringify(d));
+  } catch (e) {}
+}
+
+function toggleTag(code, type, btn) {
+  const key = `${type}_${code}`;
+  const active = localStorage.getItem(key) === '1';
+  try {
+    if (active) localStorage.removeItem(key);
+    else localStorage.setItem(key, '1');
+  } catch (e) {}
+  btn.classList.toggle('active', !active);
+}
+
+function renderRadarChart(checks) {
+  if (radarChart) { radarChart.destroy(); radarChart = null; }
+  const canvas = document.getElementById('radar-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  radarChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: checks.map(c => c.shortLabel),
+      datasets: [{
+        data: checks.map(c => c.pass ? 1 : 0),
+        backgroundColor: 'rgba(59,130,246,0.25)',
+        borderColor: '#3b82f6',
+        pointBackgroundColor: checks.map(c => c.pass ? '#3b82f6' : '#374151'),
+        pointRadius: 4,
+      }]
+    },
+    options: {
+      responsive: false,
+      scales: {
+        r: {
+          min: 0, max: 1,
+          ticks: { display: false, stepSize: 1 },
+          grid: { color: '#374151' },
+          pointLabels: { color: '#9ca3af', font: { size: 11 } },
+          angleLines: { color: '#374151' },
+        }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+  if (radarChart) { radarChart.destroy(); radarChart = null; }
+}
+
+function handleModalBg(e) {
+  if (e.target === document.getElementById('modal')) closeModal();
+}
+
+// ── 11. イベントリスナー ──
+function setupEventListeners() {
+  // タブ
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      STATE.activeTab = btn.dataset.tab;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderCards();
+    });
+  });
+  // ソート
+  document.getElementById('sort-select').addEventListener('change', e => {
+    STATE.sort = e.target.value;
+    renderCards();
+  });
+  // セクター
+  document.getElementById('sector-select').addEventListener('change', e => {
+    STATE.sectorFilter = e.target.value;
+    renderCards();
+  });
+  // スコア下限
+  document.getElementById('score-select').addEventListener('change', e => {
+    STATE.scoreFilter = parseInt(e.target.value) || 0;
+    renderCards();
+  });
+  // 検索
+  let searchTimer;
+  document.getElementById('search-input').addEventListener('input', e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      STATE.searchText = e.target.value.trim();
+      renderCards();
+    }, 200);
+  });
+  // Escape でモーダルを閉じる
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeModal();
+  });
+}
+
+// ── 12. 初期化 ──
+function initPage() {
+  populateSectors();
+  initMarketPanel();
+  setupEventListeners();
+  renderCards();
+}
+
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
+</body>
+</html>
