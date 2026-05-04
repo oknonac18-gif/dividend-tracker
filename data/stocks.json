@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-05-03T19:56:31+09:00",
-    "vix": 16.99,
-    "vix_updated": "2026-05-03T19:53:51+09:00"
+    "updated": "2026-05-04T19:33:05+09:00",
+    "vix": 18.8,
+    "vix_updated": "2026-05-04T19:30:21+09:00"
   },
   "stocks": [
     {
@@ -673,7 +673,7 @@
       ],
       "eps_trend": [
         100,
-        178,
+        533,
         1024
       ],
       "cash_trend": [
@@ -949,33 +949,6 @@
       "low_52w": 1973.0,
       "ma25": 2540.0,
       "ma75": 2492.5,
-      "error": null
-    },
-    {
-      "code": "7817",
-      "name_ja": "パラマウントベッドホールディングス",
-      "sector_ja": null,
-      "price": null,
-      "prev_close": null,
-      "day_change_pct": null,
-      "yield": null,
-      "yield_error": false,
-      "annual_dividend": null,
-      "market_cap": null,
-      "per": null,
-      "pbr": null,
-      "op_margin": null,
-      "payout_ratio": null,
-      "equity_ratio": null,
-      "revenue_trend": [],
-      "eps_trend": [],
-      "cash_trend": [],
-      "op_cashflow": null,
-      "dividend_history": [],
-      "high_52w": null,
-      "low_52w": null,
-      "ma25": null,
-      "ma75": null,
       "error": null
     },
     {
@@ -3601,7 +3574,7 @@
       "market_cap": 16338440421376,
       "per": 18.281275,
       "pbr": 1.9546733,
-      "op_margin": 4.03,
+      "op_margin": 3.89,
       "payout_ratio": 33.31,
       "equity_ratio": 44.89,
       "revenue_trend": [
@@ -3611,7 +3584,7 @@
       ],
       "eps_trend": [
         100,
-        100,
+        98,
         85
       ],
       "cash_trend": [
@@ -4025,8 +3998,8 @@
       ],
       "eps_trend": [
         100,
-        95,
-        109
+        101,
+        114
       ],
       "cash_trend": [
         100,
