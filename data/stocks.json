@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-05-27T19:42:50+09:00",
-    "vix": 16.91,
-    "vix_updated": "2026-05-27T19:39:53+09:00"
+    "updated": "2026-05-27T21:29:36+09:00",
+    "vix": 16.93,
+    "vix_updated": "2026-05-27T21:26:57+09:00"
   },
   "stocks": [
     {
@@ -103,7 +103,7 @@
       "annual_dividend": 52.0,
       "market_cap": 3693594804224,
       "per": 8.410209,
-      "pbr": 1.0921066,
+      "pbr": 1.1181573,
       "op_margin": 10.91,
       "payout_ratio": 20.21,
       "equity_ratio": 49.56,
@@ -114,7 +114,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -490,7 +490,7 @@
       "annual_dividend": 140.0,
       "market_cap": 49267662848,
       "per": 15.214152,
-      "pbr": 0.86919177,
+      "pbr": 0.86919546,
       "op_margin": 13.78,
       "payout_ratio": 43.43,
       "equity_ratio": 83.2,
@@ -501,8 +501,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -1431,8 +1431,8 @@
       ],
       "eps_trend": [
         100,
-        107,
-        117
+        94,
+        110
       ],
       "cash_trend": [
         100,
@@ -2697,8 +2697,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -2729,7 +2729,7 @@
       "annual_dividend": 42.0,
       "market_cap": 41352519680,
       "per": 18.438576,
-      "pbr": 3.6095648,
+      "pbr": 3.9851017,
       "op_margin": 33.2,
       "payout_ratio": 40.15,
       "equity_ratio": 78.16,
@@ -3256,8 +3256,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3783,8 +3783,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
@@ -3892,45 +3892,29 @@
     {
       "code": "8898",
       "name_ja": "センチュリー21・ジャパン",
-      "sector_ja": "不動産",
-      "price": 1120.0,
-      "prev_close": 1121.0,
-      "day_change_pct": -0.09,
-      "yield": 500.0,
-      "yield_error": true,
-      "annual_dividend": 56.0,
-      "market_cap": 11493157888,
-      "per": 13.482605,
-      "pbr": 1.6508605,
-      "op_margin": 17.72,
-      "payout_ratio": 63.79,
-      "equity_ratio": 83.45,
-      "revenue_trend": [
-        100,
-        101,
-        107
-      ],
-      "eps_trend": [
-        100,
-        104,
-        125
-      ],
-      "cash_trend": [
-        100,
-        113,
-        40
-      ],
-      "op_cashflow": 1038930000.0,
-      "dividend_history": [
-        45.0,
-        55.0,
-        28.0
-      ],
-      "high_52w": 1190.0,
-      "low_52w": 1092.0,
-      "ma25": 1123.5,
-      "ma75": 1120.0,
-      "error": null
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     {
       "code": "9432",
