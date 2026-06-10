@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-06-10T15:53:26+09:00",
-    "vix": 19.87,
-    "vix_updated": "2026-06-10T15:50:27+09:00"
+    "updated": "2026-06-10T19:45:30+09:00",
+    "vix": 21.16,
+    "vix_updated": "2026-06-10T19:42:52+09:00"
   },
   "stocks": [
     {
@@ -114,7 +114,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -501,8 +501,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -748,7 +748,7 @@
       "annual_dividend": 240.0,
       "market_cap": 77388152832,
       "per": 12.733269,
-      "pbr": 0.8158746,
+      "pbr": 0.815871,
       "op_margin": 6.84,
       "payout_ratio": 45.72,
       "equity_ratio": 76.97,
@@ -1431,8 +1431,8 @@
       ],
       "eps_trend": [
         100,
-        107,
-        117
+        94,
+        110
       ],
       "cash_trend": [
         100,
@@ -2472,7 +2472,7 @@
       "market_cap": 136859074560,
       "per": 16.251415,
       "pbr": 6.8454485,
-      "op_margin": 32.42,
+      "op_margin": 32.46,
       "payout_ratio": 67.95,
       "equity_ratio": 72.32,
       "revenue_trend": [
@@ -2598,7 +2598,7 @@
       "yield": 285.0,
       "yield_error": true,
       "annual_dividend": 190.0,
-      "market_cap": 5921203290112,
+      "market_cap": 5870514077696,
       "per": 15.864735,
       "pbr": 1.6857883,
       "op_margin": 12.18,
@@ -2697,8 +2697,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -3256,8 +3256,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3783,8 +3783,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
@@ -4033,11 +4033,11 @@
       "pbr": 3.448902,
       "op_margin": 19.75,
       "payout_ratio": 47.17,
-      "equity_ratio": 81.63,
+      "equity_ratio": 82.16,
       "revenue_trend": [
         100,
-        101,
-        109
+        108,
+        111
       ],
       "eps_trend": [
         100,
@@ -4046,10 +4046,10 @@
       ],
       "cash_trend": [
         100,
-        97,
-        107
+        111,
+        108
       ],
-      "op_cashflow": 15092000000.0,
+      "op_cashflow": 16329000000.0,
       "dividend_history": [
         60.0,
         64.0,
