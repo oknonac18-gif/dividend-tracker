@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-06-24T19:03:01+09:00",
-    "vix": 19.36,
-    "vix_updated": "2026-06-24T18:59:24+09:00"
+    "updated": "2026-06-24T20:53:46+09:00",
+    "vix": 19.08,
+    "vix_updated": "2026-06-24T20:50:11+09:00"
   },
   "stocks": [
     {
@@ -405,7 +405,7 @@
       "market_cap": 32656568320,
       "per": 14.400551,
       "pbr": 0.81320214,
-      "op_margin": -1.86,
+      "op_margin": 11.15,
       "payout_ratio": 57.39,
       "equity_ratio": 71.61,
       "revenue_trend": [
