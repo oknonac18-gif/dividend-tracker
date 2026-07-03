@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-07-03T18:46:30+09:00",
-    "vix": 15.92,
-    "vix_updated": "2026-07-03T18:43:58+09:00"
+    "updated": "2026-07-03T20:40:13+09:00",
+    "vix": 15.98,
+    "vix_updated": "2026-07-03T20:37:28+09:00"
   },
   "stocks": [
     {
@@ -61,7 +61,7 @@
       "market_cap": 61607002112,
       "per": 13.216485,
       "pbr": 0.73197895,
-      "op_margin": 6.21,
+      "op_margin": 5.99,
       "payout_ratio": 47.38,
       "equity_ratio": 68.22,
       "revenue_trend": [
@@ -104,7 +104,7 @@
       "market_cap": 4070767853568,
       "per": 9.266579,
       "pbr": 1.2036275,
-      "op_margin": 10.91,
+      "op_margin": 9.88,
       "payout_ratio": 20.21,
       "equity_ratio": 50.96,
       "revenue_trend": [
@@ -114,7 +114,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -501,8 +501,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -920,7 +920,7 @@
       "annual_dividend": 105.0,
       "market_cap": 212163444736,
       "per": 9.4652815,
-      "pbr": 1.0393646,
+      "pbr": 1.03937,
       "op_margin": 13.34,
       "payout_ratio": 40.96,
       "equity_ratio": 67.62,
@@ -1431,8 +1431,8 @@
       ],
       "eps_trend": [
         100,
-        107,
-        117
+        94,
+        110
       ],
       "cash_trend": [
         100,
@@ -2598,7 +2598,7 @@
       "yield": 297.0,
       "yield_error": true,
       "annual_dividend": 190.0,
-      "market_cap": 5974392832000,
+      "market_cap": 5923248537600,
       "per": 16.00454,
       "pbr": 1.7009317,
       "op_margin": 12.45,
@@ -2697,8 +2697,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -3256,8 +3256,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3783,8 +3783,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
