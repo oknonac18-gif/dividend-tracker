@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-07-08T18:11:44+09:00",
-    "vix": 18.09,
-    "vix_updated": "2026-07-08T18:09:06+09:00"
+    "updated": "2026-07-08T20:12:20+09:00",
+    "vix": 18.11,
+    "vix_updated": "2026-07-08T20:09:25+09:00"
   },
   "stocks": [
     {
@@ -663,7 +663,7 @@
       "market_cap": 6554234912768,
       "per": 8.328421,
       "pbr": 1.4472502,
-      "op_margin": 14.75,
+      "op_margin": -16.15,
       "payout_ratio": 23.04,
       "equity_ratio": 16.65,
       "revenue_trend": [
@@ -878,7 +878,7 @@
       "market_cap": 4562493636608,
       "per": 14.566912,
       "pbr": 1.2887027,
-      "op_margin": 13.59,
+      "op_margin": 14.47,
       "payout_ratio": 40.97,
       "equity_ratio": 4.33,
       "revenue_trend": [
@@ -3031,7 +3031,7 @@
       "market_cap": 6712172478464,
       "per": 15.374464,
       "pbr": 1.5777718,
-      "op_margin": 1.03,
+      "op_margin": 22.89,
       "payout_ratio": 44.95,
       "equity_ratio": 5.74,
       "revenue_trend": [
