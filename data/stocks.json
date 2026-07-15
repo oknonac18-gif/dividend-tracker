@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-07-15T18:00:25+09:00",
-    "vix": 16.26,
-    "vix_updated": "2026-07-15T17:56:39+09:00"
+    "updated": "2026-07-15T19:59:23+09:00",
+    "vix": 16.35,
+    "vix_updated": "2026-07-15T19:56:16+09:00"
   },
   "stocks": [
     {
@@ -98,7 +98,7 @@
       "price": 2025.5,
       "prev_close": 2017.0,
       "day_change_pct": 0.42,
-      "yield": 256.0,
+      "yield": 258.0,
       "yield_error": true,
       "annual_dividend": 52.0,
       "market_cap": 3907744169984,
@@ -114,7 +114,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -184,7 +184,7 @@
       "price": 3345.0,
       "prev_close": 3315.0,
       "day_change_pct": 0.9,
-      "yield": 422.0,
+      "yield": 420.0,
       "yield_error": true,
       "annual_dividend": 140.0,
       "market_cap": 46959263744,
@@ -501,8 +501,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -528,7 +528,7 @@
       "price": 864.0,
       "prev_close": 865.0,
       "day_change_pct": -0.12,
-      "yield": 347.0,
+      "yield": 350.0,
       "yield_error": true,
       "annual_dividend": 30.0,
       "market_cap": 35610607616,
@@ -614,7 +614,7 @@
       "price": 1792.5,
       "prev_close": 1788.0,
       "day_change_pct": 0.25,
-      "yield": 379.0,
+      "yield": 375.0,
       "yield_error": true,
       "annual_dividend": 67.0,
       "market_cap": 1361080614912,
@@ -872,7 +872,7 @@
       "price": 6757.0,
       "prev_close": 6654.0,
       "day_change_pct": 1.55,
-      "yield": 72.0,
+      "yield": 71.0,
       "yield_error": true,
       "annual_dividend": 47.5,
       "market_cap": 4685935673344,
@@ -915,7 +915,7 @@
       "price": 2275.0,
       "prev_close": 2287.0,
       "day_change_pct": -0.52,
-      "yield": 464.0,
+      "yield": 459.0,
       "yield_error": true,
       "annual_dividend": 105.0,
       "market_cap": 215382343680,
@@ -1329,7 +1329,7 @@
       "price": 951.6,
       "prev_close": 944.4,
       "day_change_pct": 0.76,
-      "yield": 473.0,
+      "yield": 466.0,
       "yield_error": true,
       "annual_dividend": 44.0,
       "market_cap": 812865552384,
@@ -1415,7 +1415,7 @@
       "price": 2243.0,
       "prev_close": 2246.0,
       "day_change_pct": -0.13,
-      "yield": 392.0,
+      "yield": 393.0,
       "yield_error": true,
       "annual_dividend": 88.0,
       "market_cap": 34753552384,
@@ -1431,8 +1431,8 @@
       ],
       "eps_trend": [
         100,
-        107,
-        117
+        94,
+        110
       ],
       "cash_trend": [
         100,
@@ -1778,7 +1778,7 @@
       "price": 633.0,
       "prev_close": 633.0,
       "day_change_pct": 0.0,
-      "yield": 395.0,
+      "yield": 397.0,
       "yield_error": true,
       "annual_dividend": 25.0,
       "market_cap": 16401661952,
@@ -2040,7 +2040,7 @@
       "yield_error": true,
       "annual_dividend": 56.0,
       "market_cap": 356936482816,
-      "per": 18.81564,
+      "per": 18.838915,
       "pbr": 1.5998523,
       "op_margin": 3.64,
       "payout_ratio": 44.15,
@@ -2079,7 +2079,7 @@
       "price": 3960.0,
       "prev_close": 3895.0,
       "day_change_pct": 1.67,
-      "yield": 264.0,
+      "yield": 265.0,
       "yield_error": true,
       "annual_dividend": 103.0,
       "market_cap": 301185138688,
@@ -2509,7 +2509,7 @@
       "price": 6810.0,
       "prev_close": 6690.0,
       "day_change_pct": 1.79,
-      "yield": 254.0,
+      "yield": 255.0,
       "yield_error": true,
       "annual_dividend": 170.0,
       "market_cap": 119994703872,
@@ -2552,7 +2552,7 @@
       "price": 7772.0,
       "prev_close": 7720.0,
       "day_change_pct": 0.67,
-      "yield": 317.0,
+      "yield": 322.0,
       "yield_error": true,
       "annual_dividend": 245.0,
       "market_cap": 14857675997184,
@@ -2697,8 +2697,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -3025,10 +3025,10 @@
       "price": 1884.0,
       "prev_close": 1856.0,
       "day_change_pct": 1.51,
-      "yield": 394.0,
+      "yield": 388.0,
       "yield_error": true,
       "annual_dividend": 72.0,
-      "market_cap": 6784191823872,
+      "market_cap": 6785591148544,
       "per": 15.544555,
       "pbr": 1.5947006,
       "op_margin": 22.89,
@@ -3111,7 +3111,7 @@
       "price": 4370.0,
       "prev_close": 4390.0,
       "day_change_pct": -0.46,
-      "yield": 169.0,
+      "yield": 171.0,
       "yield_error": true,
       "annual_dividend": 74.0,
       "market_cap": 67912957952,
@@ -3256,8 +3256,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3396,7 +3396,7 @@
       "price": 2941.5,
       "prev_close": 2866.0,
       "day_change_pct": 2.63,
-      "yield": 217.0,
+      "yield": 223.0,
       "yield_error": true,
       "annual_dividend": 64.0,
       "market_cap": 912813719552,
@@ -3439,7 +3439,7 @@
       "price": 4419.0,
       "prev_close": 4388.0,
       "day_change_pct": 0.71,
-      "yield": 365.0,
+      "yield": 371.0,
       "yield_error": true,
       "annual_dividend": 160.0,
       "market_cap": 3775007817728,
@@ -3724,7 +3724,7 @@
       "price": 3697.0,
       "prev_close": 3600.0,
       "day_change_pct": 2.69,
-      "yield": 267.0,
+      "yield": 271.0,
       "yield_error": true,
       "annual_dividend": 96.0,
       "market_cap": 41690597425152,
@@ -3783,8 +3783,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
@@ -4025,7 +4025,7 @@
       "price": 3800.0,
       "prev_close": 3775.0,
       "day_change_pct": 0.66,
-      "yield": 185.0,
+      "yield": 187.0,
       "yield_error": true,
       "annual_dividend": 70.0,
       "market_cap": 349802954752,
