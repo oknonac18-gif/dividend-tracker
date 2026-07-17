@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-07-17T17:41:20+09:00",
-    "vix": 18.55,
-    "vix_updated": "2026-07-17T17:38:04+09:00"
+    "updated": "2026-07-17T19:55:45+09:00",
+    "vix": 18.08,
+    "vix_updated": "2026-07-17T19:52:42+09:00"
   },
   "stocks": [
     {
@@ -102,7 +102,7 @@
       "yield_error": true,
       "annual_dividend": 52.0,
       "market_cap": 3955976044544,
-      "per": 8.890479,
+      "per": 9.010414,
       "pbr": 1.1696863,
       "op_margin": 9.88,
       "payout_ratio": 20.21,
@@ -2247,45 +2247,29 @@
     {
       "code": "9513",
       "name_ja": "電源開発",
-      "sector_ja": "公益事業",
-      "price": 3655.0,
-      "prev_close": 3668.0,
-      "day_change_pct": -0.35,
-      "yield": 300.0,
-      "yield_error": true,
-      "annual_dividend": 110.0,
-      "market_cap": 643310288896,
-      "per": 11.2340555,
-      "pbr": 0.45771995,
-      "op_margin": 4.01,
-      "payout_ratio": 30.72,
-      "equity_ratio": 37.58,
-      "revenue_trend": [
-        100,
-        105,
-        94
-      ],
-      "eps_trend": [
-        100,
-        163,
-        112
-      ],
-      "cash_trend": [
-        100,
-        111,
-        142
-      ],
-      "op_cashflow": 224265000000.0,
-      "dividend_history": [
-        105.0,
-        100.0,
-        50.0
-      ],
-      "high_52w": 4514.0,
-      "low_52w": 2495.5,
-      "ma25": 3714.0,
-      "ma75": 3932.5,
-      "error": null
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": "object of type 'NoneType' has no len()"
     },
     {
       "code": "3817",
@@ -2634,45 +2618,29 @@
     {
       "code": "8439",
       "name_ja": "東京センチュリー",
-      "sector_ja": "産業・機械",
-      "price": 2609.5,
-      "prev_close": 2654.0,
-      "day_change_pct": -1.68,
-      "yield": 339.0,
-      "yield_error": true,
-      "annual_dividend": 90.0,
-      "market_cap": 1275424014336,
-      "per": 11.486486,
-      "pbr": 1.1364601,
-      "op_margin": 11.23,
-      "payout_ratio": 35.23,
-      "equity_ratio": 15.56,
-      "revenue_trend": [
-        100,
-        102,
-        108
-      ],
-      "eps_trend": [
-        100,
-        118,
-        155
-      ],
-      "cash_trend": [
-        100,
-        91,
-        114
-      ],
-      "op_cashflow": -76934000000.0,
-      "dividend_history": [
-        56.0,
-        69.0,
-        44.0
-      ],
-      "high_52w": 2682.0,
-      "low_52w": 1717.0,
-      "ma25": 2513.4,
-      "ma75": 2331.6,
-      "error": null
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": "object of type 'NoneType' has no len()"
     },
     {
       "code": "2391",
@@ -2697,8 +2665,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -2892,29 +2860,45 @@
     {
       "code": "7921",
       "name_ja": "TAKARA&COMPANY",
-      "sector_ja": null,
-      "price": null,
-      "prev_close": null,
-      "day_change_pct": null,
-      "yield": null,
-      "yield_error": false,
-      "annual_dividend": null,
-      "market_cap": null,
-      "per": null,
-      "pbr": null,
-      "op_margin": null,
-      "payout_ratio": null,
-      "equity_ratio": null,
-      "revenue_trend": [],
-      "eps_trend": [],
-      "cash_trend": [],
-      "op_cashflow": null,
-      "dividend_history": [],
-      "high_52w": null,
-      "low_52w": null,
-      "ma25": null,
-      "ma75": null,
-      "error": "object of type 'NoneType' has no len()"
+      "sector_ja": "産業・機械",
+      "price": 4450.0,
+      "prev_close": 4490.0,
+      "day_change_pct": -0.89,
+      "yield": 401.0,
+      "yield_error": true,
+      "annual_dividend": 180.0,
+      "market_cap": 57439223808,
+      "per": 16.999657,
+      "pbr": 1.7714094,
+      "op_margin": 21.39,
+      "payout_ratio": 45.82,
+      "equity_ratio": 75.73,
+      "revenue_trend": [
+        100,
+        106,
+        108
+      ],
+      "eps_trend": [
+        100,
+        117,
+        159
+      ],
+      "cash_trend": [
+        100,
+        111,
+        146
+      ],
+      "op_cashflow": 4366622000.0,
+      "dividend_history": [
+        85.0,
+        135.0,
+        60.0
+      ],
+      "high_52w": 4795.0,
+      "low_52w": 2783.0,
+      "ma25": 3523.0,
+      "ma75": 3393.0,
+      "error": null
     },
     {
       "code": "4326",
@@ -3220,29 +3204,45 @@
     {
       "code": "3597",
       "name_ja": "自重堂",
-      "sector_ja": null,
-      "price": null,
-      "prev_close": null,
-      "day_change_pct": null,
-      "yield": null,
-      "yield_error": false,
-      "annual_dividend": null,
-      "market_cap": null,
-      "per": null,
-      "pbr": null,
-      "op_margin": null,
-      "payout_ratio": null,
-      "equity_ratio": null,
-      "revenue_trend": [],
-      "eps_trend": [],
-      "cash_trend": [],
-      "op_cashflow": null,
-      "dividend_history": [],
-      "high_52w": null,
-      "low_52w": null,
-      "ma25": null,
-      "ma75": null,
-      "error": "object of type 'NoneType' has no len()"
+      "sector_ja": "消費財（景気敏感）",
+      "price": 8990.0,
+      "prev_close": 8930.0,
+      "day_change_pct": 0.67,
+      "yield": 560.0,
+      "yield_error": true,
+      "annual_dividend": 500.0,
+      "market_cap": 25908074496,
+      "per": 20.629675,
+      "pbr": 0.67880034,
+      "op_margin": 11.49,
+      "payout_ratio": 114.7,
+      "equity_ratio": 92.1,
+      "revenue_trend": [
+        100,
+        104,
+        99
+      ],
+      "eps_trend": [
+        100,
+        87,
+        40
+      ],
+      "cash_trend": [
+        100,
+        95,
+        121
+      ],
+      "op_cashflow": 3817643000.0,
+      "dividend_history": [
+        500.0,
+        600.0,
+        500.0
+      ],
+      "high_52w": 10440.0,
+      "low_52w": 8720.0,
+      "ma25": 9196.4,
+      "ma75": 9497.7,
+      "error": null
     },
     {
       "code": "4327",
@@ -3317,29 +3317,45 @@
     {
       "code": "6087",
       "name_ja": "アビスト",
-      "sector_ja": null,
-      "price": null,
-      "prev_close": null,
-      "day_change_pct": null,
-      "yield": null,
-      "yield_error": false,
-      "annual_dividend": null,
-      "market_cap": null,
-      "per": null,
-      "pbr": null,
-      "op_margin": null,
-      "payout_ratio": null,
-      "equity_ratio": null,
-      "revenue_trend": [],
-      "eps_trend": [],
-      "cash_trend": [],
-      "op_cashflow": null,
-      "dividend_history": [],
-      "high_52w": null,
-      "low_52w": null,
-      "ma25": null,
-      "ma75": null,
-      "error": "object of type 'NoneType' has no len()"
+      "sector_ja": "産業・機械",
+      "price": 3440.0,
+      "prev_close": 3465.0,
+      "day_change_pct": -0.72,
+      "yield": 294.0,
+      "yield_error": true,
+      "annual_dividend": 102.0,
+      "market_cap": 13687625728,
+      "per": 18.249336,
+      "pbr": 1.9419569,
+      "op_margin": 8.25,
+      "payout_ratio": 54.11,
+      "equity_ratio": 75.8,
+      "revenue_trend": [
+        100,
+        105,
+        112
+      ],
+      "eps_trend": [
+        100,
+        84,
+        89
+      ],
+      "cash_trend": [
+        100,
+        104,
+        96
+      ],
+      "op_cashflow": 445244000.0,
+      "dividend_history": [
+        102.0,
+        102.0,
+        102.0
+      ],
+      "high_52w": 3485.0,
+      "low_52w": 3075.0,
+      "ma25": 3378.0,
+      "ma75": 3386.3,
+      "error": null
     },
     {
       "code": "6113",
