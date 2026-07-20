@@ -1,52 +1,36 @@
 {
   "meta": {
-    "updated": "2026-07-20T18:46:33+09:00",
-    "vix": 18.45,
-    "vix_updated": "2026-07-20T18:43:11+09:00"
+    "updated": "2026-07-20T20:56:14+09:00",
+    "vix": 17.88,
+    "vix_updated": "2026-07-20T20:51:03+09:00"
   },
   "stocks": [
     {
       "code": "9364",
       "name_ja": "上組",
-      "sector_ja": "産業・機械",
-      "price": 5145.0,
-      "prev_close": 5107.0,
-      "day_change_pct": 0.74,
-      "yield": 408.0,
-      "yield_error": true,
-      "annual_dividend": 210.0,
-      "market_cap": 507981496320,
-      "per": 16.529058,
-      "pbr": 1.2841744,
-      "op_margin": 10.72,
-      "payout_ratio": 65.86,
-      "equity_ratio": 73.46,
-      "revenue_trend": [
-        100,
-        105,
-        110
-      ],
-      "eps_trend": [
-        100,
-        111,
-        134
-      ],
-      "cash_trend": [
-        100,
-        94,
-        96
-      ],
-      "op_cashflow": 35717000000.0,
-      "dividend_history": [
-        105.0,
-        170.0,
-        115.0
-      ],
-      "high_52w": 5818.0,
-      "low_52w": 4100.0,
-      "ma25": 4999.1,
-      "ma75": 5084.5,
-      "error": null
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "code": "4097",
@@ -114,7 +98,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -501,8 +485,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -1431,8 +1415,8 @@
       ],
       "eps_trend": [
         100,
-        107,
-        117
+        94,
+        110
       ],
       "cash_trend": [
         100,
@@ -2697,8 +2681,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -2905,16 +2889,8 @@
       "op_margin": 21.39,
       "payout_ratio": 45.82,
       "equity_ratio": 75.73,
-      "revenue_trend": [
-        100,
-        106,
-        108
-      ],
-      "eps_trend": [
-        100,
-        117,
-        159
-      ],
+      "revenue_trend": [],
+      "eps_trend": [],
       "cash_trend": [
         100,
         111,
@@ -3028,7 +3004,7 @@
       "yield": 400.0,
       "yield_error": true,
       "annual_dividend": 72.0,
-      "market_cap": 6478110916608,
+      "market_cap": 6479446802432,
       "per": 14.837113,
       "pbr": 1.5227529,
       "op_margin": 22.89,
@@ -3256,8 +3232,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3478,45 +3454,29 @@
     {
       "code": "8001",
       "name_ja": "伊藤忠商事",
-      "sector_ja": "産業・機械",
-      "price": 1902.5,
-      "prev_close": 1919.5,
-      "day_change_pct": -0.89,
-      "yield": 231.0,
-      "yield_error": true,
-      "annual_dividend": 44.0,
-      "market_cap": 13298308218880,
-      "per": 14.858639,
-      "pbr": 2.017964,
-      "op_margin": 4.57,
-      "payout_ratio": 32.81,
-      "equity_ratio": 39.38,
-      "revenue_trend": [
-        100,
-        105,
-        106
-      ],
-      "eps_trend": [
-        100,
-        111,
-        116
-      ],
-      "cash_trend": [
-        100,
-        92,
-        99
-      ],
-      "op_cashflow": 1131837000000.0,
-      "dividend_history": [
-        36.0,
-        40.0,
-        22.0
-      ],
-      "high_52w": 2286.5,
-      "low_52w": 1503.8,
-      "ma25": 1872.4,
-      "ma75": 1933.3,
-      "error": null
+      "sector_ja": null,
+      "price": null,
+      "prev_close": null,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
+      "annual_dividend": null,
+      "market_cap": null,
+      "per": null,
+      "pbr": null,
+      "op_margin": null,
+      "payout_ratio": null,
+      "equity_ratio": null,
+      "revenue_trend": [],
+      "eps_trend": [],
+      "cash_trend": [],
+      "op_cashflow": null,
+      "dividend_history": [],
+      "high_52w": null,
+      "low_52w": null,
+      "ma25": null,
+      "ma75": null,
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "code": "8002",
@@ -3783,8 +3743,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
