@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-08-03T19:27:05+09:00",
-    "vix": 16.04,
-    "vix_updated": "2026-08-03T19:24:57+09:00"
+    "updated": "2026-08-03T21:34:31+09:00",
+    "vix": 16.07,
+    "vix_updated": "2026-08-03T21:31:04+09:00"
   },
   "stocks": [
     {
@@ -114,7 +114,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -501,8 +501,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -533,7 +533,7 @@
       "annual_dividend": 30.0,
       "market_cap": 34734129152,
       "per": 12.970647,
-      "pbr": 2.1138103,
+      "pbr": 2.217621,
       "op_margin": 23.06,
       "payout_ratio": 44.57,
       "equity_ratio": 76.22,
@@ -875,7 +875,7 @@
       "yield": 287.0,
       "yield_error": true,
       "annual_dividend": 47.5,
-      "market_cap": 1119582420992,
+      "market_cap": 4478329683968,
       "per": 12.322903,
       "pbr": 0.31860092,
       "op_margin": 39.5,
@@ -963,7 +963,7 @@
       "annual_dividend": 18.0,
       "market_cap": 151561273344,
       "per": 13.388064,
-      "pbr": 3.8262312,
+      "pbr": 3.8192005,
       "op_margin": 16.11,
       "payout_ratio": 44.23,
       "equity_ratio": 64.85,
@@ -1431,8 +1431,8 @@
       ],
       "eps_trend": [
         100,
-        107,
-        117
+        94,
+        110
       ],
       "cash_trend": [
         100,
@@ -2697,8 +2697,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        91
+        84,
+        76
       ],
       "cash_trend": [
         100,
@@ -3028,7 +3028,7 @@
       "yield": 375.0,
       "yield_error": true,
       "annual_dividend": 72.0,
-      "market_cap": 6800395993088,
+      "market_cap": 6801798463488,
       "per": 15.575257,
       "pbr": 1.5985097,
       "op_margin": 22.89,
@@ -3116,7 +3116,7 @@
       "annual_dividend": 74.0,
       "market_cap": 59909488640,
       "per": 26.496666,
-      "pbr": 3.332993,
+      "pbr": 3.333077,
       "op_margin": 8.85,
       "payout_ratio": 49.55,
       "equity_ratio": 67.07,
@@ -3256,8 +3256,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3783,8 +3783,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
