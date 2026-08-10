@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-08-10T17:17:21+09:00",
-    "vix": 15.46,
-    "vix_updated": "2026-08-10T17:14:48+09:00"
+    "updated": "2026-08-10T19:26:39+09:00",
+    "vix": 15.45,
+    "vix_updated": "2026-08-10T19:22:53+09:00"
   },
   "stocks": [
     {
@@ -114,7 +114,7 @@
       ],
       "eps_trend": [
         100,
-        122,
+        144,
         190
       ],
       "cash_trend": [
@@ -501,8 +501,8 @@
       ],
       "eps_trend": [
         100,
-        104,
-        113
+        110,
+        124
       ],
       "cash_trend": [
         100,
@@ -617,7 +617,7 @@
       "yield": 385.0,
       "yield_error": true,
       "annual_dividend": 67.0,
-      "market_cap": 1317265080320,
+      "market_cap": 1317040160768,
       "per": 11.033012,
       "pbr": 1.3902459,
       "op_margin": 25.9,
@@ -875,7 +875,7 @@
       "yield": 283.0,
       "yield_error": true,
       "annual_dividend": 47.5,
-      "market_cap": 1155376087040,
+      "market_cap": 4621504348160,
       "per": 12.707246,
       "pbr": 1.2610193,
       "op_margin": 39.5,
@@ -1996,7 +1996,7 @@
       "yield": 107.0,
       "yield_error": true,
       "annual_dividend": 105.0,
-      "market_cap": 1888517619712,
+      "market_cap": 1885185900544,
       "per": 16.97485,
       "pbr": 2.2310793,
       "op_margin": 20.13,
@@ -3256,8 +3256,8 @@
       ],
       "eps_trend": [
         100,
-        82,
-        46
+        87,
+        40
       ],
       "cash_trend": [
         100,
@@ -3528,7 +3528,7 @@
       "yield": 229.0,
       "yield_error": true,
       "annual_dividend": 115.0,
-      "market_cap": 8052967735296,
+      "market_cap": 8053229355008,
       "per": 14.996366,
       "pbr": 1.8048054,
       "op_margin": 5.06,
@@ -3659,7 +3659,7 @@
       "annual_dividend": 125.0,
       "market_cap": 17754606272512,
       "per": 23.111387,
-      "pbr": 1.8806717,
+      "pbr": 1.8432798,
       "op_margin": 2.9,
       "payout_ratio": 52.44,
       "equity_ratio": 39.09,
@@ -3783,8 +3783,8 @@
       ],
       "eps_trend": [
         100,
-        123,
-        153
+        115,
+        141
       ],
       "cash_trend": [
         100,
@@ -3813,7 +3813,7 @@
       "yield": 268.0,
       "yield_error": true,
       "annual_dividend": 169.61,
-      "market_cap": 6850483322880,
+      "market_cap": 6812621340672,
       "per": 11.147448,
       "pbr": 1.5371637,
       "op_margin": 21.52,
