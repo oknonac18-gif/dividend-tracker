@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-08-12T17:03:55+09:00",
-    "vix": 15.34,
-    "vix_updated": "2026-08-12T17:01:20+09:00"
+    "updated": "2026-08-12T19:15:29+09:00",
+    "vix": 15.41,
+    "vix_updated": "2026-08-12T19:12:56+09:00"
   },
   "stocks": [
     {
@@ -43,7 +43,7 @@
         115.0
       ],
       "high_52w": 5818.0,
-      "low_52w": 4352.0,
+      "low_52w": 4335.0,
       "ma25": 5154.2,
       "ma75": 5016.1,
       "error": null
@@ -233,7 +233,7 @@
       "market_cap": 259742908416,
       "per": 16.990929,
       "pbr": 2.5023086,
-      "op_margin": 27.23,
+      "op_margin": 18.88,
       "payout_ratio": 60.13,
       "equity_ratio": 81.38,
       "revenue_trend": [
@@ -617,7 +617,7 @@
       "yield": 386.0,
       "yield_error": true,
       "annual_dividend": 67.0,
-      "market_cap": 1327137947648,
+      "market_cap": 1326911193088,
       "per": 11.107932,
       "pbr": 1.4006658,
       "op_margin": 25.9,
@@ -875,7 +875,7 @@
       "yield": 283.0,
       "yield_error": true,
       "annual_dividend": 47.5,
-      "market_cap": 1173616984064,
+      "market_cap": 4694467936256,
       "per": 12.906888,
       "pbr": 1.2809281,
       "op_margin": 39.5,
@@ -1049,7 +1049,7 @@
       "annual_dividend": 100.0,
       "market_cap": 842542546944,
       "per": 20.673115,
-      "pbr": 1.0015695,
+      "pbr": 1.0129247,
       "op_margin": 11.37,
       "payout_ratio": 75.54,
       "equity_ratio": 59.04,
@@ -1221,7 +1221,7 @@
       "annual_dividend": 56.0,
       "market_cap": 24480251904,
       "per": 23.65514,
-      "pbr": 2.8615088,
+      "pbr": 2.5719962,
       "op_margin": 39.36,
       "payout_ratio": 134.49,
       "equity_ratio": 88.07,
@@ -1996,7 +1996,7 @@
       "yield": 108.0,
       "yield_error": true,
       "annual_dividend": 105.0,
-      "market_cap": 1878378020864,
+      "market_cap": 1875064127488,
       "per": 16.886667,
       "pbr": 2.2191005,
       "op_margin": 20.13,
@@ -2024,7 +2024,7 @@
         112.0
       ],
       "high_52w": 11265.0,
-      "low_52w": 5188.0,
+      "low_52w": 5088.0,
       "ma25": 9791.7,
       "ma75": 9832.1,
       "error": null
@@ -2669,7 +2669,7 @@
         44.0
       ],
       "high_52w": 2726.0,
-      "low_52w": 1778.0,
+      "low_52w": 1762.0,
       "ma25": 2595.4,
       "ma75": 2440.0,
       "error": null
@@ -3528,7 +3528,7 @@
       "yield": 232.0,
       "yield_error": true,
       "annual_dividend": 115.0,
-      "market_cap": 8160340869120,
+      "market_cap": 8160606158848,
       "per": 15.192634,
       "pbr": 1.8288695,
       "op_margin": 5.06,
@@ -3813,7 +3813,7 @@
       "yield": 270.0,
       "yield_error": true,
       "annual_dividend": 169.61,
-      "market_cap": 6936770117632,
+      "market_cap": 6898430509056,
       "per": 11.28866,
       "pbr": 1.5565253,
       "op_margin": 21.52,
