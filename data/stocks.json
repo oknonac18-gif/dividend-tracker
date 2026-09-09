@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-09-09T20:49:19+09:00",
-    "vix": 16.34,
-    "vix_updated": "2026-09-09T20:46:29+09:00"
+    "updated": "2026-09-09T22:40:44+09:00",
+    "vix": 16.19,
+    "vix_updated": "2026-09-09T22:37:43+09:00"
   },
   "stocks": [
     {
@@ -1541,11 +1541,11 @@
       "code": "1343",
       "name_ja": "NF・J-REIT ETF",
       "sector_ja": null,
-      "price": 1901.0,
+      "price": null,
       "prev_close": 1899.0,
-      "day_change_pct": 0.11,
-      "yield": 459.0,
-      "yield_error": true,
+      "day_change_pct": null,
+      "yield": null,
+      "yield_error": false,
       "annual_dividend": null,
       "market_cap": null,
       "per": 19.322512,
