@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-09-28T17:58:05+09:00",
-    "vix": 16.22,
-    "vix_updated": "2026-09-28T17:55:59+09:00"
+    "updated": "2026-09-28T23:26:38+09:00",
+    "vix": 15.87,
+    "vix_updated": "2026-09-28T23:23:31+09:00"
   },
   "stocks": [
     {
@@ -3115,7 +3115,7 @@
       "yield_error": true,
       "annual_dividend": 74.0,
       "market_cap": 68379181056,
-      "per": 30.630005,
+      "per": 30.267593,
       "pbr": 3.80429,
       "op_margin": 8.85,
       "payout_ratio": 49.55,
