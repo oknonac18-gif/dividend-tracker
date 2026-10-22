@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-10-22T21:20:19+09:00",
-    "vix": 18.18,
-    "vix_updated": "2026-10-22T21:17:40+09:00"
+    "updated": "2026-10-22T23:29:47+09:00",
+    "vix": 18.15,
+    "vix_updated": "2026-10-22T23:26:54+09:00"
   },
   "stocks": [
     {
@@ -274,7 +274,7 @@
       "yield_error": true,
       "annual_dividend": 60.33,
       "market_cap": 27631005696,
-      "per": 12.884892,
+      "per": 12.91008,
       "pbr": 1.5203409,
       "op_margin": 13.82,
       "payout_ratio": 51.28,
@@ -1739,7 +1739,7 @@
       "yield_error": true,
       "annual_dividend": 150.0,
       "market_cap": 280064065536,
-      "per": 14.19327,
+      "per": 14.0226755,
       "pbr": 0.9529853,
       "op_margin": 3.23,
       "payout_ratio": 41.2,
@@ -3771,7 +3771,7 @@
       "yield_error": true,
       "annual_dividend": 90.0,
       "market_cap": 23867087126528,
-      "per": 14.219093,
+      "per": 14.218455,
       "pbr": 1.496224,
       "op_margin": 40.9,
       "payout_ratio": 35.2,
