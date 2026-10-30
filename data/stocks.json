@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-10-30T17:58:33+09:00",
-    "vix": 18.42,
-    "vix_updated": "2026-10-30T17:56:31+09:00"
+    "updated": "2026-10-30T22:29:28+09:00",
+    "vix": 18.76,
+    "vix_updated": "2026-10-30T22:26:32+09:00"
   },
   "stocks": [
     {
@@ -43,7 +43,7 @@
         215.0
       ],
       "high_52w": 5818.0,
-      "low_52w": 4559.0,
+      "low_52w": 4589.0,
       "ma25": 4779.3,
       "ma75": 4853.9,
       "error": null
@@ -101,7 +101,7 @@
       "yield": 249.0,
       "yield_error": true,
       "annual_dividend": 52.0,
-      "market_cap": 4041828990976,
+      "market_cap": 4041828728832,
       "per": 7.760984,
       "pbr": 1.1419963,
       "op_margin": 9.26,
@@ -473,7 +473,7 @@
         158.0
       ],
       "high_52w": 4403.0,
-      "low_52w": 3509.0,
+      "low_52w": 3513.0,
       "ma25": 3769.7,
       "ma75": 3736.1,
       "error": null
@@ -490,7 +490,7 @@
       "annual_dividend": 140.0,
       "market_cap": 51759919104,
       "per": 15.780121,
-      "pbr": 0.897348,
+      "pbr": 0.9185203,
       "op_margin": 9.13,
       "payout_ratio": 61.28,
       "equity_ratio": 83.2,
@@ -516,7 +516,7 @@
         50.0
       ],
       "high_52w": 2743.0,
-      "low_52w": 1883.0,
+      "low_52w": 1885.0,
       "ma25": 2624.0,
       "ma75": 2631.0,
       "error": null
@@ -617,10 +617,10 @@
       "yield": 413.0,
       "yield_error": true,
       "annual_dividend": 73.0,
-      "market_cap": 1370426572800,
+      "market_cap": 1370192478208,
       "per": 11.12584,
       "pbr": 1.4412006,
-      "op_margin": 0.0,
+      "op_margin": 25.42,
       "payout_ratio": 41.31,
       "equity_ratio": 26.05,
       "revenue_trend": [
@@ -645,7 +645,7 @@
         33.5
       ],
       "high_52w": 2094.0,
-      "low_52w": 1549.0,
+      "low_52w": 1565.5,
       "ma25": 1719.5,
       "ma75": 1751.9,
       "error": null
@@ -1134,7 +1134,7 @@
       "yield_error": true,
       "annual_dividend": 63.0,
       "market_cap": 84572725248,
-      "per": 12.975436,
+      "per": 13.891834,
       "pbr": 1.1346226,
       "op_margin": 3.28,
       "payout_ratio": 59.44,
@@ -1403,7 +1403,7 @@
         36.0
       ],
       "high_52w": 983.0,
-      "low_52w": 825.0,
+      "low_52w": 828.0,
       "ma25": 922.7,
       "ma75": 915.4,
       "error": null
@@ -1680,7 +1680,7 @@
         75.0
       ],
       "high_52w": 3058.0,
-      "low_52w": 2164.0,
+      "low_52w": 2201.5,
       "ma25": 2556.4,
       "ma75": 2567.9,
       "error": null
@@ -1782,7 +1782,7 @@
       "yield_error": true,
       "annual_dividend": 25.0,
       "market_cap": 14510158848,
-      "per": 11.414594,
+      "per": 11.393692,
       "pbr": 1.1234242,
       "op_margin": 8.38,
       "payout_ratio": 50.87,
@@ -1825,7 +1825,7 @@
       "yield_error": true,
       "annual_dividend": 59.0,
       "market_cap": 93267419136,
-      "per": 9.611074,
+      "per": 9.61044,
       "pbr": 0.8911518,
       "op_margin": 8.55,
       "payout_ratio": 29.0,
@@ -1907,13 +1907,13 @@
       "price": 1870.0,
       "prev_close": 1885.0,
       "day_change_pct": -0.8,
-      "yield": 326.0,
+      "yield": 340.0,
       "yield_error": true,
       "annual_dividend": 64.0,
       "market_cap": 58736095232,
       "per": 14.580896,
-      "pbr": 1.6561234,
-      "op_margin": 6.3,
+      "pbr": 1.6345553,
+      "op_margin": 10.88,
       "payout_ratio": 57.91,
       "equity_ratio": 67.27,
       "revenue_trend": [
@@ -1953,7 +1953,7 @@
       "yield": 428.0,
       "yield_error": true,
       "annual_dividend": 90.0,
-      "market_cap": 60809248768,
+      "market_cap": 60809236480,
       "per": 13.605398,
       "pbr": 0.7689584,
       "op_margin": 1.01,
@@ -2024,7 +2024,7 @@
         161.0
       ],
       "high_52w": 5632.5,
-      "low_52w": 3120.0,
+      "low_52w": 3132.5,
       "ma25": 3682.1,
       "ma75": 4098.6,
       "error": null
@@ -2039,7 +2039,7 @@
       "yield": 238.0,
       "yield_error": true,
       "annual_dividend": 56.0,
-      "market_cap": 406098083840,
+      "market_cap": 406492381184,
       "per": 19.870693,
       "pbr": 1.7596716,
       "op_margin": 4.29,
@@ -2110,7 +2110,7 @@
         103.0
       ],
       "high_52w": 4340.0,
-      "low_52w": 3185.0,
+      "low_52w": 3220.0,
       "ma25": 4184.1,
       "ma75": 4091.2,
       "error": null
@@ -2513,7 +2513,7 @@
       "yield_error": true,
       "annual_dividend": 170.0,
       "market_cap": 109507559424,
-      "per": 15.3110285,
+      "per": 15.311406,
       "pbr": 1.9516089,
       "op_margin": 16.89,
       "payout_ratio": 36.98,
@@ -2669,7 +2669,7 @@
         89.0
       ],
       "high_52w": 2794.0,
-      "low_52w": 1789.0,
+      "low_52w": 1801.5,
       "ma25": 2579.1,
       "ma75": 2576.9,
       "error": null
@@ -2770,7 +2770,7 @@
       "yield": 315.0,
       "yield_error": true,
       "annual_dividend": 204.0,
-      "market_cap": 10623550226432,
+      "market_cap": 10624633405440,
       "per": 297.9839,
       "pbr": 1.3906736,
       "op_margin": 16.45,
@@ -3115,7 +3115,7 @@
       "yield_error": true,
       "annual_dividend": 74.0,
       "market_cap": 67993559040,
-      "per": 28.546263,
+      "per": 29.069767,
       "pbr": 3.7826748,
       "op_margin": 8.85,
       "payout_ratio": 47.84,
@@ -3185,7 +3185,7 @@
         136.0
       ],
       "high_52w": 7705.0,
-      "low_52w": 4886.0,
+      "low_52w": 5260.0,
       "ma25": 7225.9,
       "ma75": 6918.0,
       "error": null
@@ -3771,7 +3771,7 @@
       "yield_error": true,
       "annual_dividend": 90.0,
       "market_cap": 24311161159680,
-      "per": 14.099262,
+      "per": 14.483006,
       "pbr": 1.524063,
       "op_margin": 40.9,
       "payout_ratio": 35.2,
@@ -3841,7 +3841,7 @@
         169.6
       ],
       "high_52w": 6680.0,
-      "low_52w": 3672.0,
+      "low_52w": 3701.0,
       "ma25": 5832.7,
       "ma75": 6077.9,
       "error": null
@@ -3884,7 +3884,7 @@
         49.0
       ],
       "high_52w": 1541.5,
-      "low_52w": 1181.5,
+      "low_52w": 1191.5,
       "ma25": 1315.1,
       "ma75": 1360.7,
       "error": null
@@ -4013,7 +4013,7 @@
         82.0
       ],
       "high_52w": 3121.0,
-      "low_52w": 2418.5,
+      "low_52w": 2423.5,
       "ma25": 2892.7,
       "ma75": 2890.4,
       "error": null
