@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-11-11T18:50:56+09:00",
-    "vix": 18.82,
-    "vix_updated": "2026-11-11T18:48:17+09:00"
+    "updated": "2026-11-11T23:43:31+09:00",
+    "vix": 18.32,
+    "vix_updated": "2026-11-11T23:40:17+09:00"
   },
   "stocks": [
     {
@@ -18,7 +18,7 @@
       "market_cap": 443719221248,
       "per": 15.144088,
       "pbr": 1.1587327,
-      "op_margin": 11.63,
+      "op_margin": 12.0,
       "payout_ratio": 67.9,
       "equity_ratio": 73.46,
       "revenue_trend": [
@@ -61,7 +61,7 @@
       "market_cap": 67182493696,
       "per": 13.101518,
       "pbr": 0.7807653,
-      "op_margin": 7.82,
+      "op_margin": 6.33,
       "payout_ratio": 43.06,
       "equity_ratio": 68.22,
       "revenue_trend": [
@@ -104,7 +104,7 @@
       "market_cap": 4221251092480,
       "per": 8.440706,
       "pbr": 1.1970452,
-      "op_margin": 7.8,
+      "op_margin": 9.05,
       "payout_ratio": 17.04,
       "equity_ratio": 50.96,
       "revenue_trend": [
@@ -147,7 +147,7 @@
       "market_cap": 192687357952,
       "per": 18.242352,
       "pbr": 1.3365799,
-      "op_margin": 7.87,
+      "op_margin": 7.19,
       "payout_ratio": 55.03,
       "equity_ratio": 71.99,
       "revenue_trend": [
@@ -172,7 +172,7 @@
         125.0
       ],
       "high_52w": 3485.0,
-      "low_52w": 2730.0,
+      "low_52w": 2756.0,
       "ma25": 3177.8,
       "ma75": 3272.5,
       "error": null
@@ -190,7 +190,7 @@
       "market_cap": 42958249984,
       "per": 11.18421,
       "pbr": 0.9321672,
-      "op_margin": 12.43,
+      "op_margin": 12.19,
       "payout_ratio": 50.18,
       "equity_ratio": 85.15,
       "revenue_trend": [
@@ -232,9 +232,9 @@
       "annual_dividend": 45.75,
       "market_cap": 245652389888,
       "per": 16.829235,
-      "pbr": 2.297514,
-      "op_margin": 18.88,
-      "payout_ratio": 60.52,
+      "pbr": 2.33997,
+      "op_margin": 22.62,
+      "payout_ratio": 62.86,
       "equity_ratio": 82.34,
       "revenue_trend": [
         100,
@@ -276,7 +276,7 @@
       "market_cap": 27358150656,
       "per": 13.569109,
       "pbr": 1.4508902,
-      "op_margin": 12.39,
+      "op_margin": 9.99,
       "payout_ratio": 51.28,
       "equity_ratio": 71.27,
       "revenue_trend": [
@@ -300,7 +300,7 @@
         41.3,
         60.3
       ],
-      "high_52w": 1890.0,
+      "high_52w": 1866.6666,
       "low_52w": 1391.6666,
       "ma25": 1542.6,
       "ma75": 1523.8,
@@ -319,7 +319,7 @@
       "market_cap": 52978049024,
       "per": 16.898981,
       "pbr": 2.5048738,
-      "op_margin": 7.29,
+      "op_margin": 7.28,
       "payout_ratio": 82.41,
       "equity_ratio": 74.26,
       "revenue_trend": [
@@ -344,7 +344,7 @@
         110.0
       ],
       "high_52w": 2445.0,
-      "low_52w": 2026.0,
+      "low_52w": 2040.0,
       "ma25": 2225.5,
       "ma75": 2277.7,
       "error": null
@@ -362,7 +362,7 @@
       "market_cap": 41591222272,
       "per": null,
       "pbr": 0.7965353,
-      "op_margin": 6.11,
+      "op_margin": 5.4,
       "payout_ratio": 29.9,
       "equity_ratio": 74.82,
       "revenue_trend": [
@@ -405,7 +405,7 @@
       "market_cap": 32866709504,
       "per": 17.943977,
       "pbr": 0.78923047,
-      "op_margin": 0.84,
+      "op_margin": 4.18,
       "payout_ratio": 71.09,
       "equity_ratio": 71.61,
       "revenue_trend": [
@@ -445,11 +445,11 @@
       "yield": 405.0,
       "yield_error": true,
       "annual_dividend": 158.0,
-      "market_cap": 286105468928,
+      "market_cap": 286130700288,
       "per": 9.016798,
       "pbr": 0.841389,
-      "op_margin": 20.41,
-      "payout_ratio": 36.49,
+      "op_margin": 17.92,
+      "payout_ratio": 37.12,
       "equity_ratio": 54.28,
       "revenue_trend": [
         100,
@@ -491,7 +491,7 @@
       "market_cap": 51176992768,
       "per": 15.656132,
       "pbr": 0.88532996,
-      "op_margin": 8.36,
+      "op_margin": 10.57,
       "payout_ratio": 61.49,
       "equity_ratio": 83.2,
       "revenue_trend": [
@@ -534,7 +534,7 @@
       "market_cap": 32542748672,
       "per": 12.148533,
       "pbr": 1.8312275,
-      "op_margin": 26.58,
+      "op_margin": 26.56,
       "payout_ratio": 44.4,
       "equity_ratio": 76.22,
       "revenue_trend": [
@@ -577,7 +577,7 @@
       "market_cap": 352608976896,
       "per": 12.013667,
       "pbr": 1.7744545,
-      "op_margin": 18.82,
+      "op_margin": 15.8,
       "payout_ratio": 50.39,
       "equity_ratio": 83.03,
       "revenue_trend": [
@@ -620,7 +620,7 @@
       "market_cap": 1450300669952,
       "per": 11.776312,
       "pbr": 1.5254604,
-      "op_margin": 25.42,
+      "op_margin": 22.89,
       "payout_ratio": 41.31,
       "equity_ratio": 26.05,
       "revenue_trend": [
@@ -663,7 +663,7 @@
       "market_cap": 7407149776896,
       "per": 8.576924,
       "pbr": 1.1271499,
-      "op_margin": 23.01,
+      "op_margin": 16.38,
       "payout_ratio": 21.09,
       "equity_ratio": 16.65,
       "revenue_trend": [
@@ -688,7 +688,7 @@
         167.5
       ],
       "high_52w": 5362.0,
-      "low_52w": 3211.0,
+      "low_52w": 3226.0,
       "ma25": 5111.0,
       "ma75": 4975.3,
       "error": null
@@ -706,7 +706,7 @@
       "market_cap": 6849835008,
       "per": 8.518341,
       "pbr": 1.1060609,
-      "op_margin": 14.26,
+      "op_margin": 11.92,
       "payout_ratio": 32.73,
       "equity_ratio": 63.0,
       "revenue_trend": [
@@ -749,7 +749,7 @@
       "market_cap": 79125913600,
       "per": 13.604765,
       "pbr": 0.82843953,
-      "op_margin": 6.53,
+      "op_margin": 7.35,
       "payout_ratio": 47.8,
       "equity_ratio": 77.63,
       "revenue_trend": [
@@ -792,7 +792,7 @@
       "market_cap": 45399515136,
       "per": 12.938339,
       "pbr": 1.1735083,
-      "op_margin": 5.46,
+      "op_margin": 5.76,
       "payout_ratio": 37.99,
       "equity_ratio": 55.66,
       "revenue_trend": [
@@ -835,7 +835,7 @@
       "market_cap": 64464945152,
       "per": 11.758914,
       "pbr": 1.3079237,
-      "op_margin": 9.02,
+      "op_margin": 10.2,
       "payout_ratio": 61.19,
       "equity_ratio": 67.99,
       "revenue_trend": [
@@ -878,7 +878,7 @@
       "market_cap": 4655547416576,
       "per": 12.802939,
       "pbr": 1.2700347,
-      "op_margin": 39.5,
+      "op_margin": 28.35,
       "payout_ratio": 35.03,
       "equity_ratio": 4.33,
       "revenue_trend": [
@@ -918,11 +918,11 @@
       "yield": 496.0,
       "yield_error": true,
       "annual_dividend": 105.0,
-      "market_cap": 199759986688,
+      "market_cap": 200245706752,
       "per": 9.204729,
       "pbr": 0.9812958,
-      "op_margin": 4.2,
-      "payout_ratio": 44.34,
+      "op_margin": 7.22,
+      "payout_ratio": 44.06,
       "equity_ratio": 67.62,
       "revenue_trend": [
         100,
@@ -964,8 +964,8 @@
       "market_cap": 160497664000,
       "per": 14.391026,
       "pbr": 3.772507,
-      "op_margin": 14.83,
-      "payout_ratio": 43.94,
+      "op_margin": 15.92,
+      "payout_ratio": 54.48,
       "equity_ratio": 64.85,
       "revenue_trend": [
         100,
@@ -1007,7 +1007,7 @@
       "market_cap": 2273950826496,
       "per": 8.898305,
       "pbr": 1.0108513,
-      "op_margin": 9.87,
+      "op_margin": 8.83,
       "payout_ratio": 36.54,
       "equity_ratio": 42.74,
       "revenue_trend": [
@@ -1050,7 +1050,7 @@
       "market_cap": 768802750464,
       "per": 12.733299,
       "pbr": 0.90067244,
-      "op_margin": 5.96,
+      "op_margin": 9.1,
       "payout_ratio": 57.12,
       "equity_ratio": 59.04,
       "revenue_trend": [
@@ -1093,7 +1093,7 @@
       "market_cap": 10413817856,
       "per": 13.061904,
       "pbr": 0.8485834,
-      "op_margin": 5.63,
+      "op_margin": 7.33,
       "payout_ratio": 52.06,
       "equity_ratio": 71.71,
       "revenue_trend": [
@@ -1136,8 +1136,8 @@
       "market_cap": 83539779584,
       "per": 13.722163,
       "pbr": 1.1171255,
-      "op_margin": 3.57,
-      "payout_ratio": 59.44,
+      "op_margin": 10.53,
+      "payout_ratio": 66.81,
       "equity_ratio": 81.24,
       "revenue_trend": [
         100,
@@ -1179,7 +1179,7 @@
       "market_cap": 15405603840,
       "per": 10.211495,
       "pbr": 0.6808206,
-      "op_margin": 9.23,
+      "op_margin": 10.63,
       "payout_ratio": 33.94,
       "equity_ratio": 82.96,
       "revenue_trend": [
@@ -1222,7 +1222,7 @@
       "market_cap": 24306241536,
       "per": 23.487032,
       "pbr": 2.8408513,
-      "op_margin": 21.66,
+      "op_margin": 21.56,
       "payout_ratio": 134.49,
       "equity_ratio": 88.07,
       "revenue_trend": [
@@ -1292,7 +1292,7 @@
       "market_cap": 183135485952,
       "per": 11.019917,
       "pbr": 1.5066929,
-      "op_margin": 9.83,
+      "op_margin": 9.85,
       "payout_ratio": 54.81,
       "equity_ratio": 64.35,
       "revenue_trend": [
@@ -1335,7 +1335,7 @@
       "market_cap": 768019529728,
       "per": 9.760095,
       "pbr": 0.9427552,
-      "op_margin": 11.18,
+      "op_margin": 13.82,
       "payout_ratio": 46.02,
       "equity_ratio": 28.5,
       "revenue_trend": [
@@ -1378,7 +1378,7 @@
       "market_cap": 38494011392,
       "per": 10.546479,
       "pbr": 0.83664286,
-      "op_margin": 8.77,
+      "op_margin": 8.05,
       "payout_ratio": 39.03,
       "equity_ratio": 62.07,
       "revenue_trend": [
@@ -1421,7 +1421,7 @@
       "market_cap": 35109920768,
       "per": 12.486225,
       "pbr": 1.245523,
-      "op_margin": 19.92,
+      "op_margin": 24.08,
       "payout_ratio": 51.3,
       "equity_ratio": 89.7,
       "revenue_trend": [
@@ -1464,7 +1464,7 @@
       "market_cap": 55035072512,
       "per": 10.679734,
       "pbr": 0.9695913,
-      "op_margin": 15.27,
+      "op_margin": 15.47,
       "payout_ratio": 45.54,
       "equity_ratio": 80.72,
       "revenue_trend": [
@@ -1507,7 +1507,7 @@
       "market_cap": 162672623616,
       "per": 13.611817,
       "pbr": 1.3810548,
-      "op_margin": 10.11,
+      "op_margin": 12.67,
       "payout_ratio": 55.79,
       "equity_ratio": 77.74,
       "revenue_trend": [
@@ -1594,7 +1594,7 @@
         104.0
       ],
       "high_52w": 3655.0,
-      "low_52w": 2619.0,
+      "low_52w": 2632.0,
       "ma25": 3500.5,
       "ma75": 3478.8,
       "error": null
@@ -1612,7 +1612,7 @@
       "market_cap": 111851085824,
       "per": 12.747875,
       "pbr": 2.28649,
-      "op_margin": 23.03,
+      "op_margin": 25.78,
       "payout_ratio": 28.94,
       "equity_ratio": 76.69,
       "revenue_trend": [
@@ -1654,8 +1654,8 @@
       "annual_dividend": 75.0,
       "market_cap": 486427361280,
       "per": 13.523965,
-      "pbr": 1.3839245,
-      "op_margin": 7.35,
+      "pbr": 1.3839206,
+      "op_margin": 7.42,
       "payout_ratio": 42.34,
       "equity_ratio": 49.5,
       "revenue_trend": [
@@ -1698,7 +1698,7 @@
       "market_cap": 74659250176,
       "per": 20.426464,
       "pbr": 1.4944066,
-      "op_margin": 5.32,
+      "op_margin": 5.64,
       "payout_ratio": 77.51,
       "equity_ratio": 78.49,
       "revenue_trend": [
@@ -1741,7 +1741,7 @@
       "market_cap": 262471401472,
       "per": 14.410344,
       "pbr": 0.8999774,
-      "op_margin": 0.95,
+      "op_margin": 2.51,
       "payout_ratio": 41.2,
       "equity_ratio": 56.18,
       "revenue_trend": [
@@ -1784,7 +1784,7 @@
       "market_cap": 14147404800,
       "per": 11.1088505,
       "pbr": 1.0953386,
-      "op_margin": 8.38,
+      "op_margin": 11.59,
       "payout_ratio": 50.87,
       "equity_ratio": 90.29,
       "revenue_trend": [
@@ -1827,7 +1827,7 @@
       "market_cap": 86678568960,
       "per": 8.931514,
       "pbr": 0.8281966,
-      "op_margin": 8.55,
+      "op_margin": 10.17,
       "payout_ratio": 29.0,
       "equity_ratio": 67.84,
       "revenue_trend": [
@@ -1852,7 +1852,7 @@
         59.0
       ],
       "high_52w": 1588.0,
-      "low_52w": 956.0,
+      "low_52w": 960.0,
       "ma25": 1462.2,
       "ma75": 1433.9,
       "error": null
@@ -1870,7 +1870,7 @@
       "market_cap": 52640722944,
       "per": 13.916563,
       "pbr": 2.499916,
-      "op_margin": 8.34,
+      "op_margin": 9.49,
       "payout_ratio": 59.6,
       "equity_ratio": 69.51,
       "revenue_trend": [
@@ -1913,7 +1913,7 @@
       "market_cap": 58924552192,
       "per": 14.627681,
       "pbr": 1.6397426,
-      "op_margin": 10.88,
+      "op_margin": 10.94,
       "payout_ratio": 57.91,
       "equity_ratio": 67.27,
       "revenue_trend": [
@@ -1956,7 +1956,7 @@
       "market_cap": 58874269696,
       "per": 13.17247,
       "pbr": 0.7444899,
-      "op_margin": 1.01,
+      "op_margin": 8.36,
       "payout_ratio": 51.33,
       "equity_ratio": 64.94,
       "revenue_trend": [
@@ -1998,8 +1998,8 @@
       "annual_dividend": 119.0,
       "market_cap": 1549659144192,
       "per": 9.235128,
-      "pbr": 1.8395433,
-      "op_margin": 22.23,
+      "pbr": 1.8363819,
+      "op_margin": 18.8,
       "payout_ratio": 26.69,
       "equity_ratio": 62.85,
       "revenue_trend": [
@@ -2042,7 +2042,7 @@
       "market_cap": 387657793536,
       "per": 18.949995,
       "pbr": 1.6781381,
-      "op_margin": 4.29,
+      "op_margin": 4.19,
       "payout_ratio": 40.92,
       "equity_ratio": 27.68,
       "revenue_trend": [
@@ -2084,8 +2084,8 @@
       "annual_dividend": 103.0,
       "market_cap": 300041207808,
       "per": 14.997362,
-      "pbr": 0.9441048,
-      "op_margin": 6.02,
+      "pbr": 0.9440958,
+      "op_margin": 6.25,
       "payout_ratio": 38.81,
       "equity_ratio": 61.18,
       "revenue_trend": [
@@ -2128,7 +2128,7 @@
       "market_cap": 26561863680,
       "per": 14.146793,
       "pbr": 3.5055912,
-      "op_margin": -1.14,
+      "op_margin": 22.42,
       "payout_ratio": 59.62,
       "equity_ratio": 65.03,
       "revenue_trend": [
@@ -2171,7 +2171,7 @@
       "market_cap": 137766731776,
       "per": 10.771509,
       "pbr": 1.0522549,
-      "op_margin": 7.17,
+      "op_margin": 10.64,
       "payout_ratio": 40.39,
       "equity_ratio": 65.08,
       "revenue_trend": [
@@ -2214,7 +2214,7 @@
       "market_cap": 153812647936,
       "per": 11.239079,
       "pbr": 0.5019813,
-      "op_margin": 30.93,
+      "op_margin": 11.79,
       "payout_ratio": 57.83,
       "equity_ratio": 7.91,
       "revenue_trend": [
@@ -2256,8 +2256,8 @@
       "annual_dividend": 110.0,
       "market_cap": 707166928896,
       "per": 13.915062,
-      "pbr": 0.48202148,
-      "op_margin": 11.81,
+      "pbr": 0.48202083,
+      "op_margin": 9.91,
       "payout_ratio": 34.64,
       "equity_ratio": 37.58,
       "revenue_trend": [
@@ -2300,7 +2300,7 @@
       "market_cap": 63292694528,
       "per": 10.398151,
       "pbr": 1.7135161,
-      "op_margin": 13.86,
+      "op_margin": 15.79,
       "payout_ratio": 44.43,
       "equity_ratio": 64.72,
       "revenue_trend": [
@@ -2343,7 +2343,7 @@
       "market_cap": 11825238016,
       "per": 105.492584,
       "pbr": 1.2255398,
-      "op_margin": 11.11,
+      "op_margin": 4.66,
       "payout_ratio": null,
       "equity_ratio": 68.74,
       "revenue_trend": [
@@ -2386,7 +2386,7 @@
       "market_cap": 558403289088,
       "per": 12.532403,
       "pbr": 1.1036029,
-      "op_margin": 12.79,
+      "op_margin": 13.63,
       "payout_ratio": 40.78,
       "equity_ratio": 40.41,
       "revenue_trend": [
@@ -2429,7 +2429,7 @@
       "market_cap": 789897019392,
       "per": 16.476421,
       "pbr": 1.9104645,
-      "op_margin": 16.33,
+      "op_margin": 16.83,
       "payout_ratio": 41.32,
       "equity_ratio": 87.45,
       "revenue_trend": [
@@ -2472,7 +2472,7 @@
       "market_cap": 183339270144,
       "per": 20.524555,
       "pbr": 8.493466,
-      "op_margin": 22.1,
+      "op_margin": 25.79,
       "payout_ratio": 96.81,
       "equity_ratio": 72.32,
       "revenue_trend": [
@@ -2515,7 +2515,7 @@
       "market_cap": 110389264384,
       "per": 13.606033,
       "pbr": 1.8857205,
-      "op_margin": 17.17,
+      "op_margin": 15.08,
       "payout_ratio": 34.77,
       "equity_ratio": 64.12,
       "revenue_trend": [
@@ -2558,7 +2558,7 @@
       "market_cap": 16701270786048,
       "per": 51.06989,
       "pbr": 2.0578806,
-      "op_margin": 13.24,
+      "op_margin": 9.72,
       "payout_ratio": 76.78,
       "equity_ratio": 24.11,
       "revenue_trend": [
@@ -2598,10 +2598,10 @@
       "yield": 310.0,
       "yield_error": true,
       "annual_dividend": 190.0,
-      "market_cap": 5525565603840,
+      "market_cap": 5705255354368,
       "per": 15.064025,
       "pbr": 1.5947878,
-      "op_margin": 12.11,
+      "op_margin": 13.18,
       "payout_ratio": 45.9,
       "equity_ratio": 54.65,
       "revenue_trend": [
@@ -2643,8 +2643,8 @@
       "annual_dividend": 96.0,
       "market_cap": 1274014072832,
       "per": 14.6790285,
-      "pbr": 1.038147,
-      "op_margin": 11.24,
+      "pbr": 1.0381436,
+      "op_margin": 10.75,
       "payout_ratio": 50.16,
       "equity_ratio": 15.56,
       "revenue_trend": [
@@ -2687,7 +2687,7 @@
       "market_cap": 7541547520,
       "per": 18.510775,
       "pbr": 1.384024,
-      "op_margin": 16.77,
+      "op_margin": 17.69,
       "payout_ratio": 70.76,
       "equity_ratio": 85.46,
       "revenue_trend": [
@@ -2730,7 +2730,7 @@
       "market_cap": 54615617536,
       "per": 22.138365,
       "pbr": 4.9584446,
-      "op_margin": 36.62,
+      "op_margin": 36.19,
       "payout_ratio": 36.69,
       "equity_ratio": 80.08,
       "revenue_trend": [
@@ -2773,7 +2773,7 @@
       "market_cap": 10659776430080,
       "per": 298.96954,
       "pbr": 1.4373665,
-      "op_margin": 24.55,
+      "op_margin": 16.56,
       "payout_ratio": null,
       "equity_ratio": 47.9,
       "revenue_trend": [
@@ -2798,7 +2798,7 @@
         202.0
       ],
       "high_52w": 6989.0,
-      "low_52w": 4191.0,
+      "low_52w": 4309.0,
       "ma25": 6316.7,
       "ma75": 5852.3,
       "error": null
@@ -2859,7 +2859,7 @@
       "market_cap": 14632595456,
       "per": 12.066053,
       "pbr": 0.45747086,
-      "op_margin": -5.13,
+      "op_margin": 6.83,
       "payout_ratio": 67.56,
       "equity_ratio": 71.75,
       "revenue_trend": [
@@ -2902,7 +2902,7 @@
       "market_cap": 53825130496,
       "per": 14.824558,
       "pbr": 1.6151241,
-      "op_margin": 22.35,
+      "op_margin": 15.32,
       "payout_ratio": 42.66,
       "equity_ratio": 76.25,
       "revenue_trend": [
@@ -2945,7 +2945,7 @@
       "market_cap": 70912475136,
       "per": 41.745174,
       "pbr": 2.1258368,
-      "op_margin": 4.46,
+      "op_margin": 8.64,
       "payout_ratio": 107.67,
       "equity_ratio": 70.9,
       "revenue_trend": [
@@ -2987,8 +2987,8 @@
       "annual_dividend": 464.0,
       "market_cap": 153702940672,
       "per": 18.959343,
-      "pbr": 3.0128367,
-      "op_margin": 15.29,
+      "pbr": 2.8382034,
+      "op_margin": 15.04,
       "payout_ratio": 96.9,
       "equity_ratio": 70.29,
       "revenue_trend": [
@@ -3031,7 +3031,7 @@
       "market_cap": 6611822706688,
       "per": 12.035276,
       "pbr": 1.4455227,
-      "op_margin": 16.67,
+      "op_margin": 11.36,
       "payout_ratio": 35.73,
       "equity_ratio": 5.74,
       "revenue_trend": [
@@ -3056,7 +3056,7 @@
         66.5
       ],
       "high_52w": 1959.0,
-      "low_52w": 1084.0,
+      "low_52w": 1094.0,
       "ma25": 1810.5,
       "ma75": 1828.0,
       "error": null
@@ -3074,7 +3074,7 @@
       "market_cap": 11709215744,
       "per": 38.471878,
       "pbr": 1.320092,
-      "op_margin": 3.33,
+      "op_margin": 5.59,
       "payout_ratio": 165.82,
       "equity_ratio": 83.89,
       "revenue_trend": [
@@ -3117,7 +3117,7 @@
       "market_cap": 61942415360,
       "per": 25.351484,
       "pbr": 3.319052,
-      "op_margin": 10.84,
+      "op_margin": 9.28,
       "payout_ratio": 45.8,
       "equity_ratio": 67.07,
       "revenue_trend": [
@@ -3160,7 +3160,7 @@
       "market_cap": 9874940362752,
       "per": 16.281248,
       "pbr": 2.3962798,
-      "op_margin": 29.84,
+      "op_margin": 27.2,
       "payout_ratio": 77.86,
       "equity_ratio": 48.54,
       "revenue_trend": [
@@ -3203,7 +3203,7 @@
       "market_cap": 2131723812864,
       "per": 11.096071,
       "pbr": 1.0224516,
-      "op_margin": 9.74,
+      "op_margin": 8.82,
       "payout_ratio": 29.55,
       "equity_ratio": 50.47,
       "revenue_trend": [
@@ -3246,7 +3246,7 @@
       "market_cap": 24553072640,
       "per": 17.199265,
       "pbr": 0.6349191,
-      "op_margin": 6.61,
+      "op_margin": 11.76,
       "payout_ratio": 100.93,
       "equity_ratio": 89.93,
       "revenue_trend": [
@@ -3316,7 +3316,7 @@
       "market_cap": 5126559367168,
       "per": 21.052097,
       "pbr": 1.3672345,
-      "op_margin": 12.78,
+      "op_margin": 12.88,
       "payout_ratio": 59.55,
       "equity_ratio": 63.71,
       "revenue_trend": [
@@ -3359,7 +3359,7 @@
       "market_cap": 13170361344,
       "per": 17.48732,
       "pbr": 1.8440461,
-      "op_margin": 6.86,
+      "op_margin": 9.12,
       "payout_ratio": 53.89,
       "equity_ratio": 75.8,
       "revenue_trend": [
@@ -3402,7 +3402,7 @@
       "market_cap": 703847333888,
       "per": 22.220625,
       "pbr": 1.345319,
-      "op_margin": 7.41,
+      "op_margin": 10.47,
       "payout_ratio": 59.44,
       "equity_ratio": 69.35,
       "revenue_trend": [
@@ -3445,7 +3445,7 @@
       "market_cap": 3908289167360,
       "per": 11.857207,
       "pbr": 1.1747338,
-      "op_margin": 8.38,
+      "op_margin": 10.32,
       "payout_ratio": 40.45,
       "equity_ratio": 56.92,
       "revenue_trend": [
@@ -3488,7 +3488,7 @@
       "market_cap": 16379884339200,
       "per": 16.99957,
       "pbr": 2.406353,
-      "op_margin": 5.12,
+      "op_margin": 4.91,
       "payout_ratio": 32.95,
       "equity_ratio": 39.38,
       "revenue_trend": [
@@ -3531,8 +3531,8 @@
       "market_cap": 8452677042176,
       "per": 14.793906,
       "pbr": 1.920623,
-      "op_margin": 2.82,
-      "payout_ratio": 30.64,
+      "op_margin": 3.62,
+      "payout_ratio": 34.04,
       "equity_ratio": 41.43,
       "revenue_trend": [
         100,
@@ -3571,10 +3571,10 @@
       "yield": 261.0,
       "yield_error": true,
       "annual_dividend": 130.0,
-      "market_cap": 14254397718528,
+      "market_cap": 14210772762624,
       "per": 14.514686,
       "pbr": 1.5805031,
-      "op_margin": 2.71,
+      "op_margin": 3.46,
       "payout_ratio": 35.07,
       "equity_ratio": 42.11,
       "revenue_trend": [
@@ -3617,7 +3617,7 @@
       "market_cap": 8257897234432,
       "per": 12.8748255,
       "pbr": 1.7430882,
-      "op_margin": 4.74,
+      "op_margin": 5.36,
       "payout_ratio": 30.94,
       "equity_ratio": 33.94,
       "revenue_trend": [
@@ -3660,7 +3660,7 @@
       "market_cap": 19280254992384,
       "per": 25.088188,
       "pbr": 1.9682478,
-      "op_margin": 3.37,
+      "op_margin": 3.08,
       "payout_ratio": 45.93,
       "equity_ratio": 39.09,
       "revenue_trend": [
@@ -3730,7 +3730,7 @@
       "market_cap": 39417687310336,
       "per": 14.809489,
       "pbr": 1.7364761,
-      "op_margin": 45.6,
+      "op_margin": 47.71,
       "payout_ratio": 36.37,
       "equity_ratio": 5.16,
       "revenue_trend": [
@@ -3755,7 +3755,7 @@
         99.0
       ],
       "high_52w": 3813.0,
-      "low_52w": 2318.5,
+      "low_52w": 2321.5,
       "ma25": 3431.6,
       "ma75": 3535.5,
       "error": null
@@ -3773,7 +3773,7 @@
       "market_cap": 24777815228416,
       "per": 14.761007,
       "pbr": 1.5533174,
-      "op_margin": 40.9,
+      "op_margin": 34.91,
       "payout_ratio": 35.2,
       "equity_ratio": 4.81,
       "revenue_trend": [
@@ -3798,7 +3798,7 @@
         84.5
       ],
       "high_52w": 3630.0,
-      "low_52w": 2085.5,
+      "low_52w": 2105.5,
       "ma25": 3219.7,
       "ma75": 3329.0,
       "error": null
@@ -3816,7 +3816,7 @@
       "market_cap": 5738670850048,
       "per": 6.2098603,
       "pbr": 1.1333141,
-      "op_margin": 19.14,
+      "op_margin": 21.4,
       "payout_ratio": 19.53,
       "equity_ratio": 24.9,
       "revenue_trend": [
@@ -3841,7 +3841,7 @@
         175.9
       ],
       "high_52w": 6680.0,
-      "low_52w": 3846.0,
+      "low_52w": 3910.0,
       "ma25": 5727.5,
       "ma75": 6000.5,
       "error": null
@@ -3859,7 +3859,7 @@
       "market_cap": 1905519755264,
       "per": 13.998314,
       "pbr": 0.9483299,
-      "op_margin": 9.17,
+      "op_margin": 10.49,
       "payout_ratio": 48.45,
       "equity_ratio": 15.21,
       "revenue_trend": [
@@ -3902,7 +3902,7 @@
       "market_cap": 11400802304,
       "per": 12.833545,
       "pbr": 1.6187266,
-      "op_margin": 29.32,
+      "op_margin": 26.37,
       "payout_ratio": 62.08,
       "equity_ratio": 84.66,
       "revenue_trend": [
@@ -3945,7 +3945,7 @@
       "market_cap": 13100068634624,
       "per": 14.128921,
       "pbr": 1.3245142,
-      "op_margin": 11.56,
+      "op_margin": 10.61,
       "payout_ratio": 46.61,
       "equity_ratio": 20.82,
       "revenue_trend": [
@@ -3985,11 +3985,11 @@
       "yield": 296.0,
       "yield_error": true,
       "annual_dividend": 84.0,
-      "market_cap": 10320232841216,
+      "market_cap": 10319854305280,
       "per": 14.893617,
       "pbr": 2.0685656,
-      "op_margin": 14.91,
-      "payout_ratio": 41.1,
+      "op_margin": 17.11,
+      "payout_ratio": 43.62,
       "equity_ratio": 26.63,
       "revenue_trend": [
         100,
@@ -4031,7 +4031,7 @@
       "market_cap": 318962040832,
       "per": 21.71208,
       "pbr": 3.1615953,
-      "op_margin": 26.82,
+      "op_margin": 23.91,
       "payout_ratio": 43.55,
       "equity_ratio": 82.16,
       "revenue_trend": [
@@ -4056,7 +4056,7 @@
         70.0
       ],
       "high_52w": 4505.0,
-      "low_52w": 2654.0,
+      "low_52w": 2698.0,
       "ma25": 3470.8,
       "ma75": 3874.0,
       "error": null
@@ -4074,7 +4074,7 @@
       "market_cap": 13279771648,
       "per": 18.371954,
       "pbr": 1.1831155,
-      "op_margin": 12.17,
+      "op_margin": 14.72,
       "payout_ratio": 75.23,
       "equity_ratio": 85.95,
       "revenue_trend": [
